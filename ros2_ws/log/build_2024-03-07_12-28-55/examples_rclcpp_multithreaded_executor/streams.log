@@ -1,0 +1,67 @@
+[0.200s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake /home/labdoo/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor
+[0.332s] -- The C compiler identification is GNU 11.4.0
+[0.470s] -- The CXX compiler identification is GNU 11.4.0
+[0.494s] -- Detecting C compiler ABI info
+[0.719s] -- Detecting C compiler ABI info - done
+[0.743s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.744s] -- Detecting C compile features
+[0.744s] -- Detecting C compile features - done
+[0.760s] -- Detecting CXX compiler ABI info
+[0.950s] -- Detecting CXX compiler ABI info - done
+[0.977s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.979s] -- Detecting CXX compile features
+[0.981s] -- Detecting CXX compile features - done
+[0.991s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.431s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.601s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.665s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[1.767s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.803s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.850s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.917s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.398s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.405s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.658s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.739s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.848s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.343s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[3.438s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[3.637s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.639s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.639s] -- Configured cppcheck include dirs: 
+[3.640s] -- Configured cppcheck exclude dirs and/or files: 
+[3.641s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.642s] -- Configured cpplint exclude dirs and/or files: 
+[3.643s] -- Added test 'lint_cmake' to check CMake code style
+[3.645s] -- Added test 'uncrustify' to check C / C++ code style
+[3.646s] -- Configured uncrustify additional arguments: 
+[3.647s] -- Added test 'xmllint' to check XML markup files
+[3.651s] -- Configuring done
+[3.673s] -- Generating done
+[3.677s] -- Build files have been written to: /home/labdoo/ros2_ws/build/examples_rclcpp_multithreaded_executor
+[3.704s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake /home/labdoo/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor
+[3.705s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake --build /home/labdoo/ros2_ws/build/examples_rclcpp_multithreaded_executor -- -j4 -l4
+[3.799s] [ 50%] [32mBuilding CXX object CMakeFiles/multithreaded_executor.dir/multithreaded_executor.cpp.o[0m
+[23.435s] [100%] [32m[1mLinking CXX executable multithreaded_executor[0m
+[24.839s] [100%] Built target multithreaded_executor
+[24.892s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake --build /home/labdoo/ros2_ws/build/examples_rclcpp_multithreaded_executor -- -j4 -l4
+[25.176s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake --install /home/labdoo/ros2_ws/build/examples_rclcpp_multithreaded_executor
+[25.206s] -- Install configuration: ""
+[25.206s] -- Execute custom install script
+[25.214s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/lib/examples_rclcpp_multithreaded_executor/multithreaded_executor
+[25.244s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_multithreaded_executor
+[25.281s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_multithreaded_executor
+[25.328s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.sh
+[25.364s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.dsv
+[25.379s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.sh
+[25.394s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.dsv
+[25.411s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.bash
+[25.429s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.sh
+[25.447s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.zsh
+[25.464s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.dsv
+[25.481s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.dsv
+[25.497s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/packages/examples_rclcpp_multithreaded_executor
+[25.513s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig.cmake
+[25.528s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig-version.cmake
+[25.544s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.xml
+[25.580s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake --install /home/labdoo/ros2_ws/build/examples_rclcpp_multithreaded_executor

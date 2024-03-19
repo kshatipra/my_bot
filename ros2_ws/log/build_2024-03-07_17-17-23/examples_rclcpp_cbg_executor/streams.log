@@ -1,0 +1,30 @@
+[0.216s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/labdoo/ros2_ws/build/examples_rclcpp_cbg_executor -- -j4 -l4
+[0.656s] [ 30%] Built target pong
+[0.717s] [ 60%] Built target ping
+[0.722s] [100%] Built target ping_pong
+[0.747s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/labdoo/ros2_ws/build/examples_rclcpp_cbg_executor -- -j4 -l4
+[1.329s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/labdoo/ros2_ws/build/examples_rclcpp_cbg_executor
+[1.520s] -- Install configuration: ""
+[1.520s] -- Execute custom install script
+[1.521s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping
+[1.521s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong
+[1.521s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong
+[1.522s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+[1.522s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+[1.522s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_cbg_executor
+[1.523s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_cbg_executor
+[1.523s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.sh
+[1.523s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.dsv
+[1.524s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.sh
+[1.524s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.dsv
+[1.524s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.bash
+[1.525s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.sh
+[1.525s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.zsh
+[1.526s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.dsv
+[1.526s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.dsv
+[1.526s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/packages/examples_rclcpp_cbg_executor
+[1.527s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.527s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig.cmake
+[1.528s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig-version.cmake
+[1.528s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.xml
+[1.904s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/labdoo/ros2_ws/build/examples_rclcpp_cbg_executor

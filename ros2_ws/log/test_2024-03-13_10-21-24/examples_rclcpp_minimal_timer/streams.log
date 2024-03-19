@@ -1,0 +1,109 @@
+[0.151s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/home/labdoo/ros2_ws/install/examples_rclcpp_minimal_timer:/home/labdoo/ros2_ws/install/turtlesim:/home/labdoo/ros2_ws/install/my_package:/home/labdoo/ros2_ws/install/examples_rclcpp_wait_set:/home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/labdoo/ros2_ws/install/examples_rclcpp_minimal_service:/home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/labdoo/ros2_ws/install/examples_rclcpp_minimal_composition:/home/labdoo/ros2_ws/install/examples_rclcpp_minimal_client:/home/labdoo/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/labdoo/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/labdoo/ros2_ws/install/examples_rclcpp_cbg_executor:/home/labdoo/ros2_ws/install/examples_rclcpp_async_client:/home/labdoo/ros2_ws/install/cpp_srvcli:/home/labdoo/ros2_ws/install/cpp_pubsub:/home/labdoo/ros2_ws/install/ament_cmake_auto:/home/labdoo/ros2_ws/install/ament_cmake:/home/labdoo/ros2_ws/install/ament_cmake_version:/home/labdoo/ros2_ws/install/ament_cmake_vendor_package:/home/labdoo/ros2_ws/install/ament_cmake_pytest:/home/labdoo/ros2_ws/install/ament_cmake_gmock:/home/labdoo/ros2_ws/install/ament_cmake_gtest:/home/labdoo/ros2_ws/install/ament_cmake_google_benchmark:/home/labdoo/ros2_ws/install/ament_cmake_test:/home/labdoo/ros2_ws/install/ament_cmake_target_dependencies:/home/labdoo/ros2_ws/install/ament_cmake_python:/home/labdoo/ros2_ws/install/ament_cmake_export_dependencies:/home/labdoo/ros2_ws/install/ament_cmake_libraries:/home/labdoo/ros2_ws/install/ament_cmake_include_directories:/home/labdoo/ros2_ws/install/ament_cmake_gen_version_h:/home/labdoo/ros2_ws/install/ament_cmake_export_targets:/home/labdoo/ros2_ws/install/ament_cmake_export_link_flags:/home/labdoo/ros2_ws/install/ament_cmake_export_interfaces:/home/labdoo/ros2_ws/install/ament_cmake_export_libraries:/home/labdoo/ros2_ws/install/ament_cmake_export_include_directories:/home/labdoo/ros2_ws/install/ament_cmake_export_definitions:/home/labdoo/ros2_ws/install/ament_cmake_core /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.160s] UpdateCTestConfiguration  from :/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/CTestConfiguration.ini
+[0.160s] Parse Config file:/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/CTestConfiguration.ini
+[0.161s]    Site: labdoo-00046524
+[0.161s]    Build name: (empty)
+[0.161s]  Add coverage exclude regular expressions.
+[0.161s] Create new tag: 20240313-0921 - Experimental
+[0.161s] UpdateCTestConfiguration  from :/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/CTestConfiguration.ini
+[0.161s] Parse Config file:/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/CTestConfiguration.ini
+[0.162s] Test project /home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer
+[0.162s] Constructing a list of tests
+[0.162s] Done constructing a list of tests
+[0.162s] Updating test list for fixtures
+[0.162s] Added 0 tests to meet fixture requirements
+[0.163s] Checking test dependency graph...
+[0.163s] Checking test dependency graph end
+[0.163s] test 1
+[0.163s]     Start 1: copyright
+[0.164s] 
+[0.164s] 1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/copyright.xunit.xml" "--package-name" "examples_rclcpp_minimal_timer" "--output-file" "/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/ament_copyright/copyright.txt" "--command" "/opt/ros/iron/bin/ament_copyright" "--xunit-file" "/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/copyright.xunit.xml"
+[0.164s] 1: Test timeout computed to be: 200
+[0.266s] 1: -- run_test.py: invoking following command in '/home/labdoo/ros2_ws/src/examples/rclcpp/timers/minimal_timer':
+[0.266s] 1:  - /opt/ros/iron/bin/ament_copyright --xunit-file /home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/copyright.xunit.xml
+[0.789s] 1: No problems found, checked 2 files
+[0.819s] 1: -- run_test.py: return code 0
+[0.820s] 1: -- run_test.py: verify result file '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/copyright.xunit.xml'
+[0.840s] 1/6 Test #1: copyright ........................   Passed    0.68 sec
+[0.841s] test 2
+[0.842s]     Start 2: cppcheck
+[0.842s] 
+[0.842s] 2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_minimal_timer" "--output-file" "/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/iron/bin/ament_cppcheck" "--xunit-file" "/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/cppcheck.xunit.xml"
+[0.842s] 2: Test timeout computed to be: 300
+[0.997s] 2: -- run_test.py: invoking following command in '/home/labdoo/ros2_ws/src/examples/rclcpp/timers/minimal_timer':
+[0.998s] 2:  - /opt/ros/iron/bin/ament_cppcheck --xunit-file /home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/cppcheck.xunit.xml
+[1.203s] 2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[1.223s] 2: -- run_test.py: return code 0
+[1.224s] 2: -- run_test.py: verify result file '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/cppcheck.xunit.xml'
+[1.249s] 2/6 Test #2: cppcheck .........................   Passed    0.41 sec
+[1.249s] test 3
+[1.250s]     Start 3: cpplint
+[1.251s] 
+[1.251s] 3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/cpplint.xunit.xml" "--package-name" "examples_rclcpp_minimal_timer" "--output-file" "/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/ament_cpplint/cpplint.txt" "--command" "/opt/ros/iron/bin/ament_cpplint" "--xunit-file" "/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/cpplint.xunit.xml"
+[1.251s] 3: Test timeout computed to be: 120
+[1.396s] 3: -- run_test.py: invoking following command in '/home/labdoo/ros2_ws/src/examples/rclcpp/timers/minimal_timer':
+[1.396s] 3:  - /opt/ros/iron/bin/ament_cpplint --xunit-file /home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/cpplint.xunit.xml
+[1.672s] 3: Using '--root=..' argument
+[1.672s] 3: 
+[1.673s] 3: Done processing /home/labdoo/ros2_ws/src/examples/rclcpp/timers/minimal_timer/lambda.cpp
+[1.673s] 3: 
+[1.673s] 3: Done processing /home/labdoo/ros2_ws/src/examples/rclcpp/timers/minimal_timer/member_function.cpp
+[1.673s] 3: 
+[1.673s] 3: No problems found
+[1.703s] 3: -- run_test.py: return code 0
+[1.704s] 3: -- run_test.py: verify result file '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/cpplint.xunit.xml'
+[1.721s] 3/6 Test #3: cpplint ..........................   Passed    0.47 sec
+[1.721s] test 4
+[1.722s]     Start 4: lint_cmake
+[1.722s] 
+[1.722s] 4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_minimal_timer" "--output-file" "/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/iron/bin/ament_lint_cmake" "--xunit-file" "/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/lint_cmake.xunit.xml"
+[1.722s] 4: Test timeout computed to be: 60
+[1.865s] 4: -- run_test.py: invoking following command in '/home/labdoo/ros2_ws/src/examples/rclcpp/timers/minimal_timer':
+[1.865s] 4:  - /opt/ros/iron/bin/ament_lint_cmake --xunit-file /home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/lint_cmake.xunit.xml
+[2.036s] 4: 
+[2.036s] 4: No problems found
+[2.057s] 4: -- run_test.py: return code 0
+[2.058s] 4: -- run_test.py: verify result file '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/lint_cmake.xunit.xml'
+[2.075s] 4/6 Test #4: lint_cmake .......................   Passed    0.35 sec
+[2.075s] test 5
+[2.076s]     Start 5: uncrustify
+[2.076s] 
+[2.076s] 5: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_minimal_timer" "--output-file" "/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/iron/bin/ament_uncrustify" "--xunit-file" "/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/uncrustify.xunit.xml"
+[2.076s] 5: Test timeout computed to be: 60
+[2.208s] 5: -- run_test.py: invoking following command in '/home/labdoo/ros2_ws/src/examples/rclcpp/timers/minimal_timer':
+[2.208s] 5:  - /opt/ros/iron/bin/ament_uncrustify --xunit-file /home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/uncrustify.xunit.xml
+[2.399s] 5: No code style divergence in file 'lambda.cpp'
+[2.400s] 5: 
+[2.400s] 5: No code style divergence in file 'member_function.cpp'
+[2.400s] 5: 
+[2.400s] 5: No problems found
+[2.440s] 5: -- run_test.py: return code 0
+[2.440s] 5: -- run_test.py: verify result file '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/uncrustify.xunit.xml'
+[2.457s] 5/6 Test #5: uncrustify .......................   Passed    0.38 sec
+[2.457s] test 6
+[2.458s]     Start 6: xmllint
+[2.458s] 
+[2.458s] 6: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/xmllint.xunit.xml" "--package-name" "examples_rclcpp_minimal_timer" "--output-file" "/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/ament_xmllint/xmllint.txt" "--command" "/opt/ros/iron/bin/ament_xmllint" "--xunit-file" "/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/xmllint.xunit.xml"
+[2.458s] 6: Test timeout computed to be: 60
+[2.603s] 6: -- run_test.py: invoking following command in '/home/labdoo/ros2_ws/src/examples/rclcpp/timers/minimal_timer':
+[2.603s] 6:  - /opt/ros/iron/bin/ament_xmllint --xunit-file /home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/xmllint.xunit.xml
+[3.158s] 6: File 'package.xml' is valid
+[3.159s] 6: 
+[3.159s] 6: No problems found
+[3.181s] 6: -- run_test.py: return code 0
+[3.182s] 6: -- run_test.py: verify result file '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/xmllint.xunit.xml'
+[3.196s] 6/6 Test #6: xmllint ..........................   Passed    0.74 sec
+[3.196s] 
+[3.196s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[3.196s] 
+[3.196s] Label Time Summary:
+[3.197s] copyright     =   0.68 sec*proc (1 test)
+[3.197s] cppcheck      =   0.41 sec*proc (1 test)
+[3.197s] cpplint       =   0.47 sec*proc (1 test)
+[3.197s] lint_cmake    =   0.35 sec*proc (1 test)
+[3.197s] linter        =   3.03 sec*proc (6 tests)
+[3.197s] uncrustify    =   0.38 sec*proc (1 test)
+[3.197s] xmllint       =   0.74 sec*proc (1 test)
+[3.197s] 
+[3.197s] Total Test time (real) =   3.04 sec
+[3.201s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/home/labdoo/ros2_ws/install/examples_rclcpp_minimal_timer:/home/labdoo/ros2_ws/install/turtlesim:/home/labdoo/ros2_ws/install/my_package:/home/labdoo/ros2_ws/install/examples_rclcpp_wait_set:/home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/labdoo/ros2_ws/install/examples_rclcpp_minimal_service:/home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/labdoo/ros2_ws/install/examples_rclcpp_minimal_composition:/home/labdoo/ros2_ws/install/examples_rclcpp_minimal_client:/home/labdoo/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/labdoo/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/labdoo/ros2_ws/install/examples_rclcpp_cbg_executor:/home/labdoo/ros2_ws/install/examples_rclcpp_async_client:/home/labdoo/ros2_ws/install/cpp_srvcli:/home/labdoo/ros2_ws/install/cpp_pubsub:/home/labdoo/ros2_ws/install/ament_cmake_auto:/home/labdoo/ros2_ws/install/ament_cmake:/home/labdoo/ros2_ws/install/ament_cmake_version:/home/labdoo/ros2_ws/install/ament_cmake_vendor_package:/home/labdoo/ros2_ws/install/ament_cmake_pytest:/home/labdoo/ros2_ws/install/ament_cmake_gmock:/home/labdoo/ros2_ws/install/ament_cmake_gtest:/home/labdoo/ros2_ws/install/ament_cmake_google_benchmark:/home/labdoo/ros2_ws/install/ament_cmake_test:/home/labdoo/ros2_ws/install/ament_cmake_target_dependencies:/home/labdoo/ros2_ws/install/ament_cmake_python:/home/labdoo/ros2_ws/install/ament_cmake_export_dependencies:/home/labdoo/ros2_ws/install/ament_cmake_libraries:/home/labdoo/ros2_ws/install/ament_cmake_include_directories:/home/labdoo/ros2_ws/install/ament_cmake_gen_version_h:/home/labdoo/ros2_ws/install/ament_cmake_export_targets:/home/labdoo/ros2_ws/install/ament_cmake_export_link_flags:/home/labdoo/ros2_ws/install/ament_cmake_export_interfaces:/home/labdoo/ros2_ws/install/ament_cmake_export_libraries:/home/labdoo/ros2_ws/install/ament_cmake_export_include_directories:/home/labdoo/ros2_ws/install/ament_cmake_export_definitions:/home/labdoo/ros2_ws/install/ament_cmake_core /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

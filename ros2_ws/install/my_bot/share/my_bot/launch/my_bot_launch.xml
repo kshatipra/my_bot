@@ -1,0 +1,5 @@
+<launch>
+    <arg name="urdf_file" default="$(find my_bot)/my_bot.urdf" />
+
+    <node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf" output="screen" args="-urdf -model my_bot -param robot_description -z 0.1" />
+</launch>

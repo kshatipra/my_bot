@@ -1,0 +1,11 @@
+[0.915s] Invoking command in '/home/labdoo/ros2_ws/build/urdf_tutorial': /usr/bin/cmake /home/labdoo/ros2_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/urdf_tutorial
+[0.937s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.520s] [31mCMake Error at /usr/share/roslaunch/cmake/roslaunch-extras.cmake:66 (catkin_run_tests_target):
+[1.520s]   Unknown CMake command "catkin_run_tests_target".
+[1.520s] Call Stack (most recent call first):
+[1.520s]   CMakeLists.txt:9 (roslaunch_add_file_check)
+[1.521s] 
+[1.521s] [0m
+[1.521s] -- Configuring incomplete, errors occurred!
+[1.521s] See also "/home/labdoo/ros2_ws/build/urdf_tutorial/CMakeFiles/CMakeOutput.log".
+[1.632s] Invoked command in '/home/labdoo/ros2_ws/build/urdf_tutorial' returned '1': /usr/bin/cmake /home/labdoo/ros2_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/urdf_tutorial

@@ -1,0 +1,177 @@
+[0.000000] (-) TimerEvent: {}
+[0.000385] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001011] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.001138] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.001303] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.001354] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.001431] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.001471] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.001638] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001680] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001717] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001786] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001824] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.001962] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.002082] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.002194] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.002236] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.002283] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.002345] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.002381] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.002629] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.002673] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.002722] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.002786] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.002823] (-) JobUnselected: {'identifier': 'my_package'}
+[0.002963] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.003004] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.003044] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.003117] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.095769] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.096570] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[0.097499] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/labdoo/ros2_ws/build/cpp_srvcli', '--', '-j4', '-l4'], 'cwd': '/home/labdoo/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en'), ('USER', 'labdoo'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/labdoo'), ('OLDPWD', '/home/labdoo'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '11214'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '11240'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d64b8b617702cb711fac62f65e9d18b'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'labdoo'), ('WINDOWID', '8390886'), ('JOURNAL_STREAM', '8:28379'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('SAL_USE_VCLPLUGIN', 'kf5'), ('PATH', '/opt/ros/iron/bin:/home/labdoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labdoo-00046524:@/tmp/.ICE-unix/11242,unix/labdoo-00046524:/tmp/.ICE-unix/11242'), ('GDM_LANG', 'en'), ('INVOCATION_ID', 'dc846cab87074080987f3aa544aedf97'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/labdoo/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/labdoo'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/labdoo/ros2_ws/build/cpp_srvcli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d64b8b617702cb711fac62f65e9d18b'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/share/gnome:/home/labdoo/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.101984] (-) TimerEvent: {}
+[0.130969] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.202110] (-) TimerEvent: {}
+[0.302649] (-) TimerEvent: {}
+[0.338913] (cpp_srvcli) StdoutLine: {'line': b'-- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.384166] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.397379] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.402739] (-) TimerEvent: {}
+[0.417152] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.455403] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.502874] (-) TimerEvent: {}
+[0.603297] (-) TimerEvent: {}
+[0.703713] (-) TimerEvent: {}
+[0.723742] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[0.725606] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.803807] (-) TimerEvent: {}
+[0.904157] (-) TimerEvent: {}
+[0.927702] (cpp_srvcli) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.004271] (-) TimerEvent: {}
+[1.104612] (-) TimerEvent: {}
+[1.204971] (-) TimerEvent: {}
+[1.238536] (cpp_srvcli) StdoutLine: {'line': b'-- Found example_interfaces: 0.10.2 (/opt/ros/iron/share/example_interfaces/cmake)\n'}
+[1.305103] (-) TimerEvent: {}
+[1.405530] (-) TimerEvent: {}
+[1.505936] (-) TimerEvent: {}
+[1.572385] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[1.606042] (-) TimerEvent: {}
+[1.677102] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.677475] (cpp_srvcli) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.677664] (cpp_srvcli) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.678319] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.679835] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.680733] (cpp_srvcli) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.680933] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.681685] (cpp_srvcli) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.700803] (cpp_srvcli) StdoutLine: {'line': b'-- Generating done\n'}
+[1.703001] (cpp_srvcli) StdoutLine: {'line': b'-- Build files have been written to: /home/labdoo/ros2_ws/build/cpp_srvcli\n'}
+[1.706153] (-) TimerEvent: {}
+[1.736480] (cpp_srvcli) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client\x1b[0m\n'}
+[1.738425] (cpp_srvcli) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server\x1b[0m\n'}
+[1.770230] (cpp_srvcli) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[1.773116] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[1.806276] (-) TimerEvent: {}
+[1.907087] (-) TimerEvent: {}
+[2.007756] (-) TimerEvent: {}
+[2.108169] (-) TimerEvent: {}
+[2.208588] (-) TimerEvent: {}
+[2.309131] (-) TimerEvent: {}
+[2.409517] (-) TimerEvent: {}
+[2.510307] (-) TimerEvent: {}
+[2.610766] (-) TimerEvent: {}
+[2.711434] (-) TimerEvent: {}
+[2.812147] (-) TimerEvent: {}
+[2.912616] (-) TimerEvent: {}
+[3.013445] (-) TimerEvent: {}
+[3.115785] (-) TimerEvent: {}
+[3.216218] (-) TimerEvent: {}
+[3.316640] (-) TimerEvent: {}
+[3.417097] (-) TimerEvent: {}
+[3.517487] (-) TimerEvent: {}
+[3.617872] (-) TimerEvent: {}
+[3.718255] (-) TimerEvent: {}
+[3.818704] (-) TimerEvent: {}
+[3.919224] (-) TimerEvent: {}
+[4.019654] (-) TimerEvent: {}
+[4.120236] (-) TimerEvent: {}
+[4.220797] (-) TimerEvent: {}
+[4.325250] (-) TimerEvent: {}
+[4.426529] (-) TimerEvent: {}
+[4.526948] (-) TimerEvent: {}
+[4.627362] (-) TimerEvent: {}
+[4.727777] (-) TimerEvent: {}
+[4.828201] (-) TimerEvent: {}
+[4.928625] (-) TimerEvent: {}
+[5.029030] (-) TimerEvent: {}
+[5.129422] (-) TimerEvent: {}
+[5.229829] (-) TimerEvent: {}
+[5.330237] (-) TimerEvent: {}
+[5.430656] (-) TimerEvent: {}
+[5.531225] (-) TimerEvent: {}
+[5.631839] (-) TimerEvent: {}
+[5.732264] (-) TimerEvent: {}
+[5.832749] (-) TimerEvent: {}
+[5.933289] (-) TimerEvent: {}
+[6.033896] (-) TimerEvent: {}
+[6.134413] (-) TimerEvent: {}
+[6.234969] (-) TimerEvent: {}
+[6.335426] (-) TimerEvent: {}
+[6.435995] (-) TimerEvent: {}
+[6.536527] (-) TimerEvent: {}
+[6.636996] (-) TimerEvent: {}
+[6.737559] (-) TimerEvent: {}
+[6.837983] (-) TimerEvent: {}
+[6.938458] (-) TimerEvent: {}
+[7.038904] (-) TimerEvent: {}
+[7.139343] (-) TimerEvent: {}
+[7.239778] (-) TimerEvent: {}
+[7.340372] (-) TimerEvent: {}
+[7.440761] (-) TimerEvent: {}
+[7.541160] (-) TimerEvent: {}
+[7.641575] (-) TimerEvent: {}
+[7.742002] (-) TimerEvent: {}
+[7.842447] (-) TimerEvent: {}
+[7.942855] (-) TimerEvent: {}
+[8.043261] (-) TimerEvent: {}
+[8.143657] (-) TimerEvent: {}
+[8.244059] (-) TimerEvent: {}
+[8.344464] (-) TimerEvent: {}
+[8.444865] (-) TimerEvent: {}
+[8.448797] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable server\x1b[0m\n'}
+[8.545004] (-) TimerEvent: {}
+[8.648758] (-) TimerEvent: {}
+[8.744993] (cpp_srvcli) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[8.745290] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target server\n'}
+[8.748879] (-) TimerEvent: {}
+[8.849299] (-) TimerEvent: {}
+[8.949731] (-) TimerEvent: {}
+[8.997757] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target client\n'}
+[9.009478] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[9.037451] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'install'}
+[9.047911] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/labdoo/ros2_ws/build/cpp_srvcli'], 'cwd': '/home/labdoo/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en'), ('USER', 'labdoo'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/labdoo'), ('OLDPWD', '/home/labdoo'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '11214'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '11240'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d64b8b617702cb711fac62f65e9d18b'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'labdoo'), ('WINDOWID', '8390886'), ('JOURNAL_STREAM', '8:28379'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('SAL_USE_VCLPLUGIN', 'kf5'), ('PATH', '/opt/ros/iron/bin:/home/labdoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labdoo-00046524:@/tmp/.ICE-unix/11242,unix/labdoo-00046524:/tmp/.ICE-unix/11242'), ('GDM_LANG', 'en'), ('INVOCATION_ID', 'dc846cab87074080987f3aa544aedf97'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/labdoo/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/labdoo'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/labdoo/ros2_ws/build/cpp_srvcli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5d64b8b617702cb711fac62f65e9d18b'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/share/gnome:/home/labdoo/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[9.049792] (-) TimerEvent: {}
+[9.056316] (cpp_srvcli) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.056643] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/labdoo/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server\n'}
+[9.058399] (cpp_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/home/labdoo/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""\n'}
+[9.058797] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/labdoo/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli\n'}
+[9.059078] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/labdoo/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli\n'}
+[9.059302] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/labdoo/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh\n'}
+[9.059484] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/labdoo/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv\n'}
+[9.059706] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/labdoo/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh\n'}
+[9.059852] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/labdoo/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv\n'}
+[9.059997] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/labdoo/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash\n'}
+[9.060140] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/labdoo/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh\n'}
+[9.060285] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/labdoo/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh\n'}
+[9.060427] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/labdoo/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv\n'}
+[9.060572] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/labdoo/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv\n'}
+[9.060807] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/labdoo/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli\n'}
+[9.060997] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/labdoo/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake\n'}
+[9.061151] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/labdoo/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake\n'}
+[9.061342] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/labdoo/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml\n'}
+[9.062258] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[9.149957] (-) TimerEvent: {}
+[9.250354] (-) TimerEvent: {}
+[9.309981] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 0}
+[9.310832] (-) EventReactorShutdown: {}

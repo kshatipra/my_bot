@@ -1,0 +1,6 @@
+[31mCMake Error at /usr/share/roslaunch/cmake/roslaunch-extras.cmake:66 (catkin_run_tests_target):
+  Unknown CMake command "catkin_run_tests_target".
+Call Stack (most recent call first):
+  CMakeLists.txt:9 (roslaunch_add_file_check)
+
+[0m

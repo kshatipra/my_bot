@@ -1,0 +1,28 @@
+[0.796s] Invoking command in '/home/labdoo/ros2_ws/build/urdf_tutorial': /usr/bin/cmake /home/labdoo/ros2_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/urdf_tutorial
+[1.040s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.367s] [33mCMake Warning (dev) at /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:41 (if):
+[1.367s]   Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake
+[1.367s]   --help-policy CMP0057" for policy details.  Use the cmake_policy command to
+[1.368s]   set the policy and suppress this warning.
+[1.368s] 
+[1.368s]   IN_LIST will be interpreted as an operator when the policy is set to NEW.
+[1.368s]   Since the policy is not set the OLD behavior will be used.
+[1.368s] Call Stack (most recent call first):
+[1.368s]   /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[1.368s]   CMakeLists.txt:5 (ament_package)
+[1.369s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.369s] [0m
+[1.369s] [31mCMake Error at /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:41 (if):
+[1.369s]   if given arguments:
+[1.369s] 
+[1.369s]     "ament_cmake_core" "IN_LIST" "_ARG_EXCLUDE"
+[1.369s] 
+[1.369s]   Unknown arguments specified
+[1.370s] Call Stack (most recent call first):
+[1.370s]   /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[1.370s]   CMakeLists.txt:5 (ament_package)
+[1.370s] 
+[1.370s] [0m
+[1.370s] -- Configuring incomplete, errors occurred!
+[1.370s] See also "/home/labdoo/ros2_ws/build/urdf_tutorial/CMakeFiles/CMakeOutput.log".
+[1.373s] Invoked command in '/home/labdoo/ros2_ws/build/urdf_tutorial' returned '1': /usr/bin/cmake /home/labdoo/ros2_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/urdf_tutorial

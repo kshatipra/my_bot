@@ -1,0 +1,26 @@
+[0.589s] Invoking command in '/home/labdoo/ros2_ws/build/ament_cmake_gtest': AMENT_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_test:/home/labdoo/ros2_ws/install/ament_cmake_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_test:/home/labdoo/ros2_ws/install/ament_cmake_core:/opt/ros/iron PYTHONPATH=/home/labdoo/ros2_ws/install/ament_cmake_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/labdoo/ros2_ws/build/ament_cmake_gtest -- -j4 -l4
+[1.352s] Invoked command in '/home/labdoo/ros2_ws/build/ament_cmake_gtest' returned '0': AMENT_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_test:/home/labdoo/ros2_ws/install/ament_cmake_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_test:/home/labdoo/ros2_ws/install/ament_cmake_core:/opt/ros/iron PYTHONPATH=/home/labdoo/ros2_ws/install/ament_cmake_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/labdoo/ros2_ws/build/ament_cmake_gtest -- -j4 -l4
+[2.421s] Invoking command in '/home/labdoo/ros2_ws/build/ament_cmake_gtest': AMENT_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_test:/home/labdoo/ros2_ws/install/ament_cmake_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_test:/home/labdoo/ros2_ws/install/ament_cmake_core:/opt/ros/iron PYTHONPATH=/home/labdoo/ros2_ws/install/ament_cmake_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/labdoo/ros2_ws/build/ament_cmake_gtest
+[2.431s] -- Install configuration: ""
+[2.432s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_gtest/share/ament_index/resource_index/package_run_dependencies/ament_cmake_gtest
+[2.432s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_gtest/share/ament_index/resource_index/parent_prefix_path/ament_cmake_gtest
+[2.432s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_gtest/share/ament_cmake_gtest/environment/ament_prefix_path.sh
+[2.433s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_gtest/share/ament_cmake_gtest/environment/ament_prefix_path.dsv
+[2.433s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_gtest/share/ament_cmake_gtest/environment/path.sh
+[2.433s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_gtest/share/ament_cmake_gtest/environment/path.dsv
+[2.433s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_gtest/share/ament_cmake_gtest/local_setup.bash
+[2.433s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_gtest/share/ament_cmake_gtest/local_setup.sh
+[2.434s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_gtest/share/ament_cmake_gtest/local_setup.zsh
+[2.434s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_gtest/share/ament_cmake_gtest/local_setup.dsv
+[2.434s] -- Installing: /home/labdoo/ros2_ws/install/ament_cmake_gtest/share/ament_cmake_gtest/package.dsv
+[2.434s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_gtest/share/ament_index/resource_index/packages/ament_cmake_gtest
+[2.434s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake/ament_cmake_gtest-extras.cmake
+[2.435s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake/ament_cmake_gtestConfig.cmake
+[2.435s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake/ament_cmake_gtestConfig-version.cmake
+[2.435s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_gtest/share/ament_cmake_gtest/package.xml
+[2.435s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake
+[2.436s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake/ament_find_gtest.cmake
+[2.436s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake
+[2.438s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake
+[2.439s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake/ament_add_gtest_test.cmake
+[2.446s] Invoked command in '/home/labdoo/ros2_ws/build/ament_cmake_gtest' returned '0': AMENT_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_test:/home/labdoo/ros2_ws/install/ament_cmake_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_test:/home/labdoo/ros2_ws/install/ament_cmake_core:/opt/ros/iron PYTHONPATH=/home/labdoo/ros2_ws/install/ament_cmake_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/labdoo/ros2_ws/build/ament_cmake_gtest

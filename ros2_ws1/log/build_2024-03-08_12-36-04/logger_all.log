@@ -1,0 +1,1061 @@
+[2.118s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.118s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f92a850cee0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f92a895ccd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f92a895ccd0>>)
+[2.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.215s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/labdoo/ros2_ws1'
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot) by extensions ['ignore', 'ignore_ament_install']
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot) by extension 'ignore'
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot) by extension 'ignore_ament_install'
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot) by extensions ['colcon_pkg']
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot) by extension 'colcon_pkg'
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot) by extensions ['colcon_meta']
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot) by extension 'colcon_meta'
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot) by extensions ['ros']
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot) by extension 'ros'
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot) by extensions ['cmake', 'python']
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot) by extension 'cmake'
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot) by extension 'python'
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot) by extensions ['python_setup_py']
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot) by extension 'python_setup_py'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src) by extensions ['ignore', 'ignore_ament_install']
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src) by extension 'ignore'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src) by extension 'ignore_ament_install'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src) by extensions ['colcon_pkg']
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src) by extension 'colcon_pkg'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src) by extensions ['colcon_meta']
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src) by extension 'colcon_meta'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src) by extensions ['ros']
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src) by extension 'ros'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src) by extensions ['cmake', 'python']
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src) by extension 'cmake'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src) by extension 'python'
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src) by extensions ['python_setup_py']
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src) by extension 'python_setup_py'
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/CollisionActorPlugin) by extensions ['ignore', 'ignore_ament_install']
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/CollisionActorPlugin) by extension 'ignore'
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/CollisionActorPlugin) by extension 'ignore_ament_install'
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/CollisionActorPlugin) by extensions ['colcon_pkg']
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/CollisionActorPlugin) by extension 'colcon_pkg'
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/CollisionActorPlugin) by extensions ['colcon_meta']
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/CollisionActorPlugin) by extension 'colcon_meta'
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/CollisionActorPlugin) by extensions ['ros']
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/CollisionActorPlugin) by extension 'ros'
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/CollisionActorPlugin) by extensions ['cmake', 'python']
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/CollisionActorPlugin) by extension 'cmake'
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/CollisionActorPlugin) by extension 'python'
+[2.238s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/CollisionActorPlugin' with type 'cmake' and name 'CollisionActorPlugin'
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/actor_move) by extensions ['ignore', 'ignore_ament_install']
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/actor_move) by extension 'ignore'
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/actor_move) by extension 'ignore_ament_install'
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/actor_move) by extensions ['colcon_pkg']
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/actor_move) by extension 'colcon_pkg'
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/actor_move) by extensions ['colcon_meta']
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/actor_move) by extension 'colcon_meta'
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/actor_move) by extensions ['ros']
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/actor_move) by extension 'ros'
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/actor_move) by extensions ['cmake', 'python']
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/actor_move) by extension 'cmake'
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/actor_move) by extension 'python'
+[2.240s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/actor_move' with type 'cmake' and name 'actor_move'
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/actor_pos_publish) by extensions ['ignore', 'ignore_ament_install']
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/actor_pos_publish) by extension 'ignore'
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/actor_pos_publish) by extension 'ignore_ament_install'
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/actor_pos_publish) by extensions ['colcon_pkg']
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/actor_pos_publish) by extension 'colcon_pkg'
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/actor_pos_publish) by extensions ['colcon_meta']
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/actor_pos_publish) by extension 'colcon_meta'
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/actor_pos_publish) by extensions ['ros']
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/actor_pos_publish) by extension 'ros'
+[2.245s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/actor_pos_publish' with type 'ros.catkin' and name 'actor_pos_publish'
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/darknet_ros_updated_files) by extensions ['ignore', 'ignore_ament_install']
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/darknet_ros_updated_files) by extension 'ignore'
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/darknet_ros_updated_files) by extension 'ignore_ament_install'
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/darknet_ros_updated_files) by extensions ['colcon_pkg']
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/darknet_ros_updated_files) by extension 'colcon_pkg'
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/darknet_ros_updated_files) by extensions ['colcon_meta']
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/darknet_ros_updated_files) by extension 'colcon_meta'
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/darknet_ros_updated_files) by extensions ['ros']
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/darknet_ros_updated_files) by extension 'ros'
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/darknet_ros_updated_files) by extensions ['cmake', 'python']
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/darknet_ros_updated_files) by extension 'cmake'
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/darknet_ros_updated_files) by extension 'python'
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/darknet_ros_updated_files) by extensions ['python_setup_py']
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/darknet_ros_updated_files) by extension 'python_setup_py'
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/leg_tracker) by extensions ['ignore', 'ignore_ament_install']
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/leg_tracker) by extension 'ignore'
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/leg_tracker) by extension 'ignore_ament_install'
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/leg_tracker) by extensions ['colcon_pkg']
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/leg_tracker) by extension 'colcon_pkg'
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/leg_tracker) by extensions ['colcon_meta']
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/leg_tracker) by extension 'colcon_meta'
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/leg_tracker) by extensions ['ros']
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/leg_tracker) by extension 'ros'
+[2.248s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/leg_tracker' with type 'ros.catkin' and name 'leg_tracker'
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark) by extensions ['ignore', 'ignore_ament_install']
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark) by extension 'ignore'
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark) by extension 'ignore_ament_install'
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark) by extensions ['colcon_pkg']
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark) by extension 'colcon_pkg'
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark) by extensions ['colcon_meta']
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark) by extension 'colcon_meta'
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark) by extensions ['ros']
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark) by extension 'ros'
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark) by extensions ['cmake', 'python']
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark) by extension 'cmake'
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark) by extension 'python'
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark) by extensions ['python_setup_py']
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark) by extension 'python_setup_py'
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark/gazebo_world) by extensions ['ignore', 'ignore_ament_install']
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark/gazebo_world) by extension 'ignore'
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark/gazebo_world) by extension 'ignore_ament_install'
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark/gazebo_world) by extensions ['colcon_pkg']
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark/gazebo_world) by extension 'colcon_pkg'
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark/gazebo_world) by extensions ['colcon_meta']
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark/gazebo_world) by extension 'colcon_meta'
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark/gazebo_world) by extensions ['ros']
+[2.250s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark/gazebo_world) by extension 'ros'
+[2.250s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/local-planning-benchmark/gazebo_world' with type 'ros.catkin' and name 'gazebo_world'
+[2.250s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark/move_base_benchmark) by extensions ['ignore', 'ignore_ament_install']
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark/move_base_benchmark) by extension 'ignore'
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark/move_base_benchmark) by extension 'ignore_ament_install'
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark/move_base_benchmark) by extensions ['colcon_pkg']
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark/move_base_benchmark) by extension 'colcon_pkg'
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark/move_base_benchmark) by extensions ['colcon_meta']
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark/move_base_benchmark) by extension 'colcon_meta'
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark/move_base_benchmark) by extensions ['ros']
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/local-planning-benchmark/move_base_benchmark) by extension 'ros'
+[2.253s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/local-planning-benchmark/move_base_benchmark' with type 'ros.catkin' and name 'move_base_benchmark'
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone) by extensions ['ignore', 'ignore_ament_install']
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone) by extension 'ignore'
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone) by extension 'ignore_ament_install'
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone) by extensions ['colcon_pkg']
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone) by extension 'colcon_pkg'
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone) by extensions ['colcon_meta']
+[2.253s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone) by extension 'colcon_meta'
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone) by extensions ['ros']
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone) by extension 'ros'
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone) by extensions ['cmake', 'python']
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone) by extension 'cmake'
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone) by extension 'python'
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone) by extensions ['python_setup_py']
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone) by extension 'python_setup_py'
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone/p3dx_control) by extensions ['ignore', 'ignore_ament_install']
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone/p3dx_control) by extension 'ignore'
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone/p3dx_control) by extension 'ignore_ament_install'
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone/p3dx_control) by extensions ['colcon_pkg']
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone/p3dx_control) by extension 'colcon_pkg'
+[2.254s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone/p3dx_control) by extensions ['colcon_meta']
+[2.255s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone/p3dx_control) by extension 'colcon_meta'
+[2.255s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone/p3dx_control) by extensions ['ros']
+[2.255s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone/p3dx_control) by extension 'ros'
+[2.256s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/p3dx_clone/p3dx_control' with type 'ros.catkin' and name 'p3dx_control'
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone/p3dx_description) by extensions ['ignore', 'ignore_ament_install']
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone/p3dx_description) by extension 'ignore'
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone/p3dx_description) by extension 'ignore_ament_install'
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone/p3dx_description) by extensions ['colcon_pkg']
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone/p3dx_description) by extension 'colcon_pkg'
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone/p3dx_description) by extensions ['colcon_meta']
+[2.257s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone/p3dx_description) by extension 'colcon_meta'
+[2.257s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone/p3dx_description) by extensions ['ros']
+[2.257s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone/p3dx_description) by extension 'ros'
+[2.257s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/p3dx_clone/p3dx_description' with type 'ros.catkin' and name 'p3dx_description'
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone/p3dx_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone/p3dx_gazebo) by extension 'ignore'
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone/p3dx_gazebo) by extension 'ignore_ament_install'
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone/p3dx_gazebo) by extensions ['colcon_pkg']
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone/p3dx_gazebo) by extension 'colcon_pkg'
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone/p3dx_gazebo) by extensions ['colcon_meta']
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone/p3dx_gazebo) by extension 'colcon_meta'
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone/p3dx_gazebo) by extensions ['ros']
+[2.258s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/p3dx_clone/p3dx_gazebo) by extension 'ros'
+[2.259s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/p3dx_clone/p3dx_gazebo' with type 'ros.catkin' and name 'p3dx_gazebo'
+[2.259s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway) by extensions ['ignore', 'ignore_ament_install']
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway) by extension 'ignore'
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway) by extension 'ignore_ament_install'
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway) by extensions ['colcon_pkg']
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway) by extension 'colcon_pkg'
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway) by extensions ['colcon_meta']
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway) by extension 'colcon_meta'
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway) by extensions ['ros']
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway) by extension 'ros'
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway) by extensions ['cmake', 'python']
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway) by extension 'cmake'
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway) by extension 'python'
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway) by extensions ['python_setup_py']
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway) by extension 'python_setup_py'
+[2.260s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo) by extensions ['ignore', 'ignore_ament_install']
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo) by extension 'ignore'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo) by extension 'ignore_ament_install'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo) by extensions ['colcon_pkg']
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo) by extension 'colcon_pkg'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo) by extensions ['colcon_meta']
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo) by extension 'colcon_meta'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo) by extensions ['ros']
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo) by extension 'ros'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo) by extensions ['cmake', 'python']
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo) by extension 'cmake'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo) by extension 'python'
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo) by extensions ['python_setup_py']
+[2.261s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo) by extension 'python_setup_py'
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret) by extensions ['ignore', 'ignore_ament_install']
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret) by extension 'ignore'
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret) by extension 'ignore_ament_install'
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret) by extensions ['colcon_pkg']
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret) by extension 'colcon_pkg'
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret) by extensions ['colcon_meta']
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret) by extension 'colcon_meta'
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret) by extensions ['ros']
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret) by extension 'ros'
+[2.263s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret' with type 'ros.catkin' and name 'widowx_turret'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_controller) by extensions ['ignore', 'ignore_ament_install']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_controller) by extension 'ignore'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_controller) by extension 'ignore_ament_install'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_controller) by extensions ['colcon_pkg']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_controller) by extension 'colcon_pkg'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_controller) by extensions ['colcon_meta']
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_controller) by extension 'colcon_meta'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_controller) by extensions ['ros']
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_controller) by extension 'ros'
+[2.264s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_controller' with type 'ros.catkin' and name 'widowx_turret_controller'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_description) by extensions ['ignore', 'ignore_ament_install']
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_description) by extension 'ignore'
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_description) by extension 'ignore_ament_install'
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_description) by extensions ['colcon_pkg']
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_description) by extension 'colcon_pkg'
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_description) by extensions ['colcon_meta']
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_description) by extension 'colcon_meta'
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_description) by extensions ['ros']
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_description) by extension 'ros'
+[2.266s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_description' with type 'ros.catkin' and name 'widowx_turret_description'
+[2.266s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[2.266s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_gazebo) by extension 'ignore'
+[2.266s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_gazebo) by extension 'ignore_ament_install'
+[2.266s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_gazebo) by extensions ['colcon_pkg']
+[2.266s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_gazebo) by extension 'colcon_pkg'
+[2.266s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_gazebo) by extensions ['colcon_meta']
+[2.266s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_gazebo) by extension 'colcon_meta'
+[2.266s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_gazebo) by extensions ['ros']
+[2.266s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_gazebo) by extension 'ros'
+[2.267s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_gazebo' with type 'ros.catkin' and name 'widowx_turret_gazebo'
+[2.267s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/obj_detection) by extensions ['ignore', 'ignore_ament_install']
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/obj_detection) by extension 'ignore'
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/obj_detection) by extension 'ignore_ament_install'
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/obj_detection) by extensions ['colcon_pkg']
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/obj_detection) by extension 'colcon_pkg'
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/obj_detection) by extensions ['colcon_meta']
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/obj_detection) by extension 'colcon_meta'
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/obj_detection) by extensions ['ros']
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/obj_detection) by extension 'ros'
+[2.269s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/segway/obj_detection' with type 'ros.catkin' and name 'obj_detection'
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/robot) by extensions ['ignore', 'ignore_ament_install']
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/robot) by extension 'ignore'
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/robot) by extension 'ignore_ament_install'
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/robot) by extensions ['colcon_pkg']
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/robot) by extension 'colcon_pkg'
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/robot) by extensions ['colcon_meta']
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/robot) by extension 'colcon_meta'
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/robot) by extensions ['ros']
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/robot) by extension 'ros'
+[2.271s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/segway/robot' with type 'ros.catkin' and name 'robot'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3) by extensions ['ignore', 'ignore_ament_install']
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3) by extension 'ignore'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3) by extension 'ignore_ament_install'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3) by extensions ['colcon_pkg']
+[2.272s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3) by extension 'colcon_pkg'
+[2.272s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3) by extensions ['colcon_meta']
+[2.272s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3) by extension 'colcon_meta'
+[2.272s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3) by extensions ['ros']
+[2.272s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3) by extension 'ros'
+[2.272s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3) by extensions ['cmake', 'python']
+[2.272s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3) by extension 'cmake'
+[2.272s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3) by extension 'python'
+[2.272s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3) by extensions ['python_setup_py']
+[2.272s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3) by extension 'python_setup_py'
+[2.272s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_description) by extensions ['ignore', 'ignore_ament_install']
+[2.272s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_description) by extension 'ignore'
+[2.272s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_description) by extension 'ignore_ament_install'
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_description) by extensions ['colcon_pkg']
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_description) by extension 'colcon_pkg'
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_description) by extensions ['colcon_meta']
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_description) by extension 'colcon_meta'
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_description) by extensions ['ros']
+[2.273s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_description) by extension 'ros'
+[2.273s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/segway/segway_v3/segway_description' with type 'ros.catkin' and name 'segway_description'
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_msgs) by extension 'ignore'
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_msgs) by extension 'ignore_ament_install'
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_msgs) by extensions ['colcon_pkg']
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_msgs) by extension 'colcon_pkg'
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_msgs) by extensions ['colcon_meta']
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_msgs) by extension 'colcon_meta'
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_msgs) by extensions ['ros']
+[2.274s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_msgs) by extension 'ros'
+[2.275s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/segway/segway_v3/segway_msgs' with type 'ros.catkin' and name 'segway_msgs'
+[2.275s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation) by extensions ['ignore', 'ignore_ament_install']
+[2.275s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation) by extension 'ignore'
+[2.275s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation) by extension 'ignore_ament_install'
+[2.275s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation) by extensions ['colcon_pkg']
+[2.275s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation) by extension 'colcon_pkg'
+[2.275s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation) by extensions ['colcon_meta']
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation) by extension 'colcon_meta'
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation) by extensions ['ros']
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation) by extension 'ros'
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation) by extensions ['cmake', 'python']
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation) by extension 'cmake'
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation) by extension 'python'
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation) by extensions ['python_setup_py']
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation) by extension 'python_setup_py'
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation/segway_navigation) by extensions ['ignore', 'ignore_ament_install']
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation/segway_navigation) by extension 'ignore'
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation/segway_navigation) by extension 'ignore_ament_install'
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation/segway_navigation) by extensions ['colcon_pkg']
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation/segway_navigation) by extension 'colcon_pkg'
+[2.277s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation/segway_navigation) by extensions ['colcon_meta']
+[2.277s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation/segway_navigation) by extension 'colcon_meta'
+[2.277s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation/segway_navigation) by extensions ['ros']
+[2.277s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation/segway_navigation) by extension 'ros'
+[2.277s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/segway/segway_v3/segway_navigation/segway_navigation' with type 'ros.catkin' and name 'segway_navigation'
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation/segway_navigation_apps) by extensions ['ignore', 'ignore_ament_install']
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation/segway_navigation_apps) by extension 'ignore'
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation/segway_navigation_apps) by extension 'ignore_ament_install'
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation/segway_navigation_apps) by extensions ['colcon_pkg']
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation/segway_navigation_apps) by extension 'colcon_pkg'
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation/segway_navigation_apps) by extensions ['colcon_meta']
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation/segway_navigation_apps) by extension 'colcon_meta'
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation/segway_navigation_apps) by extensions ['ros']
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_navigation/segway_navigation_apps) by extension 'ros'
+[2.279s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/segway/segway_v3/segway_navigation/segway_navigation_apps' with type 'ros.catkin' and name 'segway_navigation_apps'
+[2.279s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_ros) by extensions ['ignore', 'ignore_ament_install']
+[2.279s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_ros) by extension 'ignore'
+[2.279s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_ros) by extension 'ignore_ament_install'
+[2.279s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_ros) by extensions ['colcon_pkg']
+[2.280s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_ros) by extension 'colcon_pkg'
+[2.280s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_ros) by extensions ['colcon_meta']
+[2.280s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_ros) by extension 'colcon_meta'
+[2.280s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_ros) by extensions ['ros']
+[2.280s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_ros) by extension 'ros'
+[2.281s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/segway/segway_v3/segway_ros' with type 'ros.catkin' and name 'segway_ros'
+[2.281s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_v3) by extensions ['ignore', 'ignore_ament_install']
+[2.281s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_v3) by extension 'ignore'
+[2.281s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_v3) by extension 'ignore_ament_install'
+[2.282s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_v3) by extensions ['colcon_pkg']
+[2.282s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_v3) by extension 'colcon_pkg'
+[2.282s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_v3) by extensions ['colcon_meta']
+[2.282s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_v3) by extension 'colcon_meta'
+[2.282s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_v3) by extensions ['ros']
+[2.282s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_v3) by extension 'ros'
+[2.283s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/segway/segway_v3/segway_v3' with type 'ros.catkin' and name 'segway_v3'
+[2.283s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_v3_config) by extensions ['ignore', 'ignore_ament_install']
+[2.283s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_v3_config) by extension 'ignore'
+[2.283s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_v3_config) by extension 'ignore_ament_install'
+[2.283s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_v3_config) by extensions ['colcon_pkg']
+[2.283s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_v3_config) by extension 'colcon_pkg'
+[2.283s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_v3_config) by extensions ['colcon_meta']
+[2.283s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_v3_config) by extension 'colcon_meta'
+[2.283s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_v3_config) by extensions ['ros']
+[2.283s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/segway_v3_config) by extension 'ros'
+[2.284s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/segway/segway_v3/segway_v3_config' with type 'ros.catkin' and name 'segway_v3_config'
+[2.284s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/si_utils) by extensions ['ignore', 'ignore_ament_install']
+[2.284s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/si_utils) by extension 'ignore'
+[2.284s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/si_utils) by extension 'ignore_ament_install'
+[2.284s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/si_utils) by extensions ['colcon_pkg']
+[2.284s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/si_utils) by extension 'colcon_pkg'
+[2.285s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/si_utils) by extensions ['colcon_meta']
+[2.285s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/si_utils) by extension 'colcon_meta'
+[2.285s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/si_utils) by extensions ['ros']
+[2.285s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3/si_utils) by extension 'ros'
+[2.285s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/segway/segway_v3/si_utils' with type 'ros.catkin' and name 'si_utils'
+[2.286s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot) by extensions ['ignore', 'ignore_ament_install']
+[2.286s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot) by extension 'ignore'
+[2.286s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot) by extension 'ignore_ament_install'
+[2.286s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot) by extensions ['colcon_pkg']
+[2.286s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot) by extension 'colcon_pkg'
+[2.286s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot) by extensions ['colcon_meta']
+[2.286s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot) by extension 'colcon_meta'
+[2.286s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot) by extensions ['ros']
+[2.286s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot) by extension 'ros'
+[2.286s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot) by extensions ['cmake', 'python']
+[2.286s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot) by extension 'cmake'
+[2.286s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot) by extension 'python'
+[2.286s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot) by extensions ['python_setup_py']
+[2.286s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot) by extension 'python_setup_py'
+[2.287s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_bringup) by extensions ['ignore', 'ignore_ament_install']
+[2.287s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_bringup) by extension 'ignore'
+[2.287s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_bringup) by extension 'ignore_ament_install'
+[2.287s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_bringup) by extensions ['colcon_pkg']
+[2.287s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_bringup) by extension 'colcon_pkg'
+[2.287s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_bringup) by extensions ['colcon_meta']
+[2.287s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_bringup) by extension 'colcon_meta'
+[2.287s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_bringup) by extensions ['ros']
+[2.287s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_bringup) by extension 'ros'
+[2.288s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/segway/segway_v3_robot/segway_bringup' with type 'ros.catkin' and name 'segway_bringup'
+[2.289s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters) by extensions ['ignore', 'ignore_ament_install']
+[2.289s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters) by extension 'ignore'
+[2.289s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters) by extension 'ignore_ament_install'
+[2.289s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters) by extensions ['colcon_pkg']
+[2.289s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters) by extension 'colcon_pkg'
+[2.289s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters) by extensions ['colcon_meta']
+[2.289s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters) by extension 'colcon_meta'
+[2.289s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters) by extensions ['ros']
+[2.289s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters) by extension 'ros'
+[2.289s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters) by extensions ['cmake', 'python']
+[2.289s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters) by extension 'cmake'
+[2.289s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters) by extension 'python'
+[2.290s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters) by extensions ['python_setup_py']
+[2.290s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters) by extension 'python_setup_py'
+[2.290s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters/ira_laser_tools) by extensions ['ignore', 'ignore_ament_install']
+[2.290s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters/ira_laser_tools) by extension 'ignore'
+[2.290s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters/ira_laser_tools) by extension 'ignore_ament_install'
+[2.290s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters/ira_laser_tools) by extensions ['colcon_pkg']
+[2.290s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters/ira_laser_tools) by extension 'colcon_pkg'
+[2.290s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters/ira_laser_tools) by extensions ['colcon_meta']
+[2.290s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters/ira_laser_tools) by extension 'colcon_meta'
+[2.290s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters/ira_laser_tools) by extensions ['ros']
+[2.290s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters/ira_laser_tools) by extension 'ros'
+[2.291s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters/ira_laser_tools' with type 'ros.catkin' and name 'ira_laser_tools'
+[2.291s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters/segway_sensor_filters) by extensions ['ignore', 'ignore_ament_install']
+[2.292s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters/segway_sensor_filters) by extension 'ignore'
+[2.292s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters/segway_sensor_filters) by extension 'ignore_ament_install'
+[2.292s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters/segway_sensor_filters) by extensions ['colcon_pkg']
+[2.292s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters/segway_sensor_filters) by extension 'colcon_pkg'
+[2.292s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters/segway_sensor_filters) by extensions ['colcon_meta']
+[2.292s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters/segway_sensor_filters) by extension 'colcon_meta'
+[2.292s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters/segway_sensor_filters) by extensions ['ros']
+[2.292s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters/segway_sensor_filters) by extension 'ros'
+[2.293s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters/segway_sensor_filters' with type 'ros.catkin' and name 'segway_sensor_filters'
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_upstart) by extensions ['ignore', 'ignore_ament_install']
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_upstart) by extension 'ignore'
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_upstart) by extension 'ignore_ament_install'
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_upstart) by extensions ['colcon_pkg']
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_upstart) by extension 'colcon_pkg'
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_upstart) by extensions ['colcon_meta']
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_upstart) by extension 'colcon_meta'
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_upstart) by extensions ['ros']
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_upstart) by extension 'ros'
+[2.294s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/segway/segway_v3_robot/segway_upstart' with type 'ros.catkin' and name 'segway_upstart'
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_v3_robot) by extensions ['ignore', 'ignore_ament_install']
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_v3_robot) by extension 'ignore'
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_v3_robot) by extension 'ignore_ament_install'
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_v3_robot) by extensions ['colcon_pkg']
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_v3_robot) by extension 'colcon_pkg'
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_v3_robot) by extensions ['colcon_meta']
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_v3_robot) by extension 'colcon_meta'
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_v3_robot) by extensions ['ros']
+[2.295s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/segway_v3_robot) by extension 'ros'
+[2.296s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/segway/segway_v3_robot/segway_v3_robot' with type 'ros.catkin' and name 'segway_v3_robot'
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors) by extensions ['ignore', 'ignore_ament_install']
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors) by extension 'ignore'
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors) by extension 'ignore_ament_install'
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors) by extensions ['colcon_pkg']
+[2.297s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors) by extension 'colcon_pkg'
+[2.297s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors) by extensions ['colcon_meta']
+[2.297s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors) by extension 'colcon_meta'
+[2.297s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors) by extensions ['ros']
+[2.297s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors) by extension 'ros'
+[2.297s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors) by extensions ['cmake', 'python']
+[2.297s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors) by extension 'cmake'
+[2.297s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors) by extension 'python'
+[2.297s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors) by extensions ['python_setup_py']
+[2.297s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors) by extension 'python_setup_py'
+[2.297s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/nmea_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.297s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/nmea_msgs) by extension 'ignore'
+[2.297s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/nmea_msgs) by extension 'ignore_ament_install'
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/nmea_msgs) by extensions ['colcon_pkg']
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/nmea_msgs) by extension 'colcon_pkg'
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/nmea_msgs) by extensions ['colcon_meta']
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/nmea_msgs) by extension 'colcon_meta'
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/nmea_msgs) by extensions ['ros']
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/nmea_msgs) by extension 'ros'
+[2.298s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/nmea_msgs' with type 'ros.catkin' and name 'nmea_msgs'
+[2.299s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/nmea_navsat_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.299s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/nmea_navsat_driver) by extension 'ignore'
+[2.299s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/nmea_navsat_driver) by extension 'ignore_ament_install'
+[2.299s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/nmea_navsat_driver) by extensions ['colcon_pkg']
+[2.299s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/nmea_navsat_driver) by extension 'colcon_pkg'
+[2.299s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/nmea_navsat_driver) by extensions ['colcon_meta']
+[2.299s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/nmea_navsat_driver) by extension 'colcon_meta'
+[2.299s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/nmea_navsat_driver) by extensions ['ros']
+[2.299s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/nmea_navsat_driver) by extension 'ros'
+[2.300s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/nmea_navsat_driver' with type 'ros.catkin' and name 'nmea_navsat_driver'
+[2.300s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/third_party_sensors) by extensions ['ignore', 'ignore_ament_install']
+[2.300s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/third_party_sensors) by extension 'ignore'
+[2.301s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/third_party_sensors) by extension 'ignore_ament_install'
+[2.301s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/third_party_sensors) by extensions ['colcon_pkg']
+[2.301s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/third_party_sensors) by extension 'colcon_pkg'
+[2.301s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/third_party_sensors) by extensions ['colcon_meta']
+[2.301s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/third_party_sensors) by extension 'colcon_meta'
+[2.301s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/third_party_sensors) by extensions ['ros']
+[2.301s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/third_party_sensors) by extension 'ros'
+[2.302s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/third_party_sensors' with type 'ros.catkin' and name 'third_party_sensors'
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator) by extensions ['ignore', 'ignore_ament_install']
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator) by extension 'ignore'
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator) by extension 'ignore_ament_install'
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator) by extensions ['colcon_pkg']
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator) by extension 'colcon_pkg'
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator) by extensions ['colcon_meta']
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator) by extension 'colcon_meta'
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator) by extensions ['ros']
+[2.302s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator) by extension 'ros'
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator) by extensions ['cmake', 'python']
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator) by extension 'cmake'
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator) by extension 'python'
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator) by extensions ['python_setup_py']
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator) by extension 'python_setup_py'
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/point_cloud_converter) by extensions ['ignore', 'ignore_ament_install']
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/point_cloud_converter) by extension 'ignore'
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/point_cloud_converter) by extension 'ignore_ament_install'
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/point_cloud_converter) by extensions ['colcon_pkg']
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/point_cloud_converter) by extension 'colcon_pkg'
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/point_cloud_converter) by extensions ['colcon_meta']
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/point_cloud_converter) by extension 'colcon_meta'
+[2.303s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/point_cloud_converter) by extensions ['ros']
+[2.304s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/point_cloud_converter) by extension 'ros'
+[2.304s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/segway/segway_v3_simulator/point_cloud_converter' with type 'ros.catkin' and name 'point_cloud_converter'
+[2.304s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/segway_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[2.304s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/segway_gazebo) by extension 'ignore'
+[2.305s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/segway_gazebo) by extension 'ignore_ament_install'
+[2.305s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/segway_gazebo) by extensions ['colcon_pkg']
+[2.305s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/segway_gazebo) by extension 'colcon_pkg'
+[2.305s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/segway_gazebo) by extensions ['colcon_meta']
+[2.305s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/segway_gazebo) by extension 'colcon_meta'
+[2.305s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/segway_gazebo) by extensions ['ros']
+[2.305s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/segway_gazebo) by extension 'ros'
+[2.306s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/segway/segway_v3_simulator/segway_gazebo' with type 'ros.catkin' and name 'segway_gazebo'
+[2.306s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/segway_sim_control) by extensions ['ignore', 'ignore_ament_install']
+[2.306s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/segway_sim_control) by extension 'ignore'
+[2.307s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/segway_sim_control) by extension 'ignore_ament_install'
+[2.307s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/segway_sim_control) by extensions ['colcon_pkg']
+[2.307s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/segway_sim_control) by extension 'colcon_pkg'
+[2.307s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/segway_sim_control) by extensions ['colcon_meta']
+[2.307s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/segway_sim_control) by extension 'colcon_meta'
+[2.307s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/segway_sim_control) by extensions ['ros']
+[2.307s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/segway_sim_control) by extension 'ros'
+[2.308s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/segway/segway_v3_simulator/segway_sim_control' with type 'ros.catkin' and name 'segway_sim_control'
+[2.308s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/segway_v3_simulator) by extensions ['ignore', 'ignore_ament_install']
+[2.308s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/segway_v3_simulator) by extension 'ignore'
+[2.308s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/segway_v3_simulator) by extension 'ignore_ament_install'
+[2.308s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/segway_v3_simulator) by extensions ['colcon_pkg']
+[2.308s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/segway_v3_simulator) by extension 'colcon_pkg'
+[2.308s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/segway_v3_simulator) by extensions ['colcon_meta']
+[2.308s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/segway_v3_simulator) by extension 'colcon_meta'
+[2.308s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/segway_v3_simulator) by extensions ['ros']
+[2.309s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/segway_v3_simulator/segway_v3_simulator) by extension 'ros'
+[2.309s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/segway/segway_v3_simulator/segway_v3_simulator' with type 'ros.catkin' and name 'segway_v3_simulator'
+[2.309s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/zed_description) by extensions ['ignore', 'ignore_ament_install']
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/zed_description) by extension 'ignore'
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/zed_description) by extension 'ignore_ament_install'
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/zed_description) by extensions ['colcon_pkg']
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/zed_description) by extension 'colcon_pkg'
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/zed_description) by extensions ['colcon_meta']
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/zed_description) by extension 'colcon_meta'
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/zed_description) by extensions ['ros']
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/segway/zed_description) by extension 'ros'
+[2.311s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/segway/zed_description' with type 'ros.catkin' and name 'zed_description'
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/target_generation) by extensions ['ignore', 'ignore_ament_install']
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/target_generation) by extension 'ignore'
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/target_generation) by extension 'ignore_ament_install'
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/target_generation) by extensions ['colcon_pkg']
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/target_generation) by extension 'colcon_pkg'
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/target_generation) by extensions ['colcon_meta']
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/target_generation) by extension 'colcon_meta'
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/target_generation) by extensions ['ros']
+[2.312s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/target_generation) by extension 'ros'
+[2.313s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/target_generation' with type 'ros.catkin' and name 'target_generation'
+[2.313s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/yolo_pp) by extensions ['ignore', 'ignore_ament_install']
+[2.313s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/yolo_pp) by extension 'ignore'
+[2.313s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/yolo_pp) by extension 'ignore_ament_install'
+[2.313s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/yolo_pp) by extensions ['colcon_pkg']
+[2.313s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/yolo_pp) by extension 'colcon_pkg'
+[2.313s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/yolo_pp) by extensions ['colcon_meta']
+[2.313s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/yolo_pp) by extension 'colcon_meta'
+[2.314s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/yolo_pp) by extensions ['ros']
+[2.314s] Level 1:colcon.colcon_core.package_identification:_identify(Person-following-robot/src/yolo_pp) by extension 'ros'
+[2.315s] DEBUG:colcon.colcon_core.package_identification:Package 'Person-following-robot/src/yolo_pp' with type 'ros.catkin' and name 'yolo_pp'
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.317s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.579s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 299 installed packages in /opt/ros/iron
+[2.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.722s] Level 5:colcon.colcon_core.verb:set package 'CollisionActorPlugin' build argument 'cmake_args' from command line to 'None'
+[2.722s] Level 5:colcon.colcon_core.verb:set package 'CollisionActorPlugin' build argument 'cmake_target' from command line to 'None'
+[2.722s] Level 5:colcon.colcon_core.verb:set package 'CollisionActorPlugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.722s] Level 5:colcon.colcon_core.verb:set package 'CollisionActorPlugin' build argument 'cmake_clean_cache' from command line to 'False'
+[2.722s] Level 5:colcon.colcon_core.verb:set package 'CollisionActorPlugin' build argument 'cmake_clean_first' from command line to 'False'
+[2.722s] Level 5:colcon.colcon_core.verb:set package 'CollisionActorPlugin' build argument 'cmake_force_configure' from command line to 'False'
+[2.722s] Level 5:colcon.colcon_core.verb:set package 'CollisionActorPlugin' build argument 'ament_cmake_args' from command line to 'None'
+[2.722s] Level 5:colcon.colcon_core.verb:set package 'CollisionActorPlugin' build argument 'catkin_cmake_args' from command line to 'None'
+[2.722s] Level 5:colcon.colcon_core.verb:set package 'CollisionActorPlugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.722s] DEBUG:colcon.colcon_core.verb:Building package 'CollisionActorPlugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/CollisionActorPlugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/CollisionActorPlugin', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/CollisionActorPlugin', 'symlink_install': False, 'test_result_base': None}
+[2.750s] Level 5:colcon.colcon_core.verb:set package 'actor_move' build argument 'cmake_args' from command line to 'None'
+[2.750s] Level 5:colcon.colcon_core.verb:set package 'actor_move' build argument 'cmake_target' from command line to 'None'
+[2.750s] Level 5:colcon.colcon_core.verb:set package 'actor_move' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.750s] Level 5:colcon.colcon_core.verb:set package 'actor_move' build argument 'cmake_clean_cache' from command line to 'False'
+[2.750s] Level 5:colcon.colcon_core.verb:set package 'actor_move' build argument 'cmake_clean_first' from command line to 'False'
+[2.750s] Level 5:colcon.colcon_core.verb:set package 'actor_move' build argument 'cmake_force_configure' from command line to 'False'
+[2.750s] Level 5:colcon.colcon_core.verb:set package 'actor_move' build argument 'ament_cmake_args' from command line to 'None'
+[2.750s] Level 5:colcon.colcon_core.verb:set package 'actor_move' build argument 'catkin_cmake_args' from command line to 'None'
+[2.750s] Level 5:colcon.colcon_core.verb:set package 'actor_move' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.750s] DEBUG:colcon.colcon_core.verb:Building package 'actor_move' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/actor_move', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/actor_move', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/actor_move', 'symlink_install': False, 'test_result_base': None}
+[2.778s] Level 5:colcon.colcon_core.verb:set package 'actor_pos_publish' build argument 'cmake_args' from command line to 'None'
+[2.778s] Level 5:colcon.colcon_core.verb:set package 'actor_pos_publish' build argument 'cmake_target' from command line to 'None'
+[2.778s] Level 5:colcon.colcon_core.verb:set package 'actor_pos_publish' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.778s] Level 5:colcon.colcon_core.verb:set package 'actor_pos_publish' build argument 'cmake_clean_cache' from command line to 'False'
+[2.778s] Level 5:colcon.colcon_core.verb:set package 'actor_pos_publish' build argument 'cmake_clean_first' from command line to 'False'
+[2.778s] Level 5:colcon.colcon_core.verb:set package 'actor_pos_publish' build argument 'cmake_force_configure' from command line to 'False'
+[2.778s] Level 5:colcon.colcon_core.verb:set package 'actor_pos_publish' build argument 'ament_cmake_args' from command line to 'None'
+[2.778s] Level 5:colcon.colcon_core.verb:set package 'actor_pos_publish' build argument 'catkin_cmake_args' from command line to 'None'
+[2.778s] Level 5:colcon.colcon_core.verb:set package 'actor_pos_publish' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.778s] DEBUG:colcon.colcon_core.verb:Building package 'actor_pos_publish' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/actor_pos_publish', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/actor_pos_publish', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/actor_pos_publish', 'symlink_install': False, 'test_result_base': None}
+[2.806s] Level 5:colcon.colcon_core.verb:set package 'gazebo_world' build argument 'cmake_args' from command line to 'None'
+[2.806s] Level 5:colcon.colcon_core.verb:set package 'gazebo_world' build argument 'cmake_target' from command line to 'None'
+[2.806s] Level 5:colcon.colcon_core.verb:set package 'gazebo_world' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.806s] Level 5:colcon.colcon_core.verb:set package 'gazebo_world' build argument 'cmake_clean_cache' from command line to 'False'
+[2.806s] Level 5:colcon.colcon_core.verb:set package 'gazebo_world' build argument 'cmake_clean_first' from command line to 'False'
+[2.806s] Level 5:colcon.colcon_core.verb:set package 'gazebo_world' build argument 'cmake_force_configure' from command line to 'False'
+[2.806s] Level 5:colcon.colcon_core.verb:set package 'gazebo_world' build argument 'ament_cmake_args' from command line to 'None'
+[2.806s] Level 5:colcon.colcon_core.verb:set package 'gazebo_world' build argument 'catkin_cmake_args' from command line to 'None'
+[2.807s] Level 5:colcon.colcon_core.verb:set package 'gazebo_world' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.807s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_world' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/gazebo_world', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/gazebo_world', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/local-planning-benchmark/gazebo_world', 'symlink_install': False, 'test_result_base': None}
+[2.834s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'cmake_args' from command line to 'None'
+[2.834s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'cmake_target' from command line to 'None'
+[2.834s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.835s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[2.835s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'cmake_clean_first' from command line to 'False'
+[2.835s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'cmake_force_configure' from command line to 'False'
+[2.835s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'ament_cmake_args' from command line to 'None'
+[2.835s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[2.835s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.835s] DEBUG:colcon.colcon_core.verb:Building package 'ira_laser_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/ira_laser_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/ira_laser_tools', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters/ira_laser_tools', 'symlink_install': False, 'test_result_base': None}
+[2.863s] Level 5:colcon.colcon_core.verb:set package 'leg_tracker' build argument 'cmake_args' from command line to 'None'
+[2.863s] Level 5:colcon.colcon_core.verb:set package 'leg_tracker' build argument 'cmake_target' from command line to 'None'
+[2.863s] Level 5:colcon.colcon_core.verb:set package 'leg_tracker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.864s] Level 5:colcon.colcon_core.verb:set package 'leg_tracker' build argument 'cmake_clean_cache' from command line to 'False'
+[2.864s] Level 5:colcon.colcon_core.verb:set package 'leg_tracker' build argument 'cmake_clean_first' from command line to 'False'
+[2.864s] Level 5:colcon.colcon_core.verb:set package 'leg_tracker' build argument 'cmake_force_configure' from command line to 'False'
+[2.864s] Level 5:colcon.colcon_core.verb:set package 'leg_tracker' build argument 'ament_cmake_args' from command line to 'None'
+[2.864s] Level 5:colcon.colcon_core.verb:set package 'leg_tracker' build argument 'catkin_cmake_args' from command line to 'None'
+[2.864s] Level 5:colcon.colcon_core.verb:set package 'leg_tracker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.864s] DEBUG:colcon.colcon_core.verb:Building package 'leg_tracker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/leg_tracker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/leg_tracker', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/leg_tracker', 'symlink_install': False, 'test_result_base': None}
+[2.892s] Level 5:colcon.colcon_core.verb:set package 'move_base_benchmark' build argument 'cmake_args' from command line to 'None'
+[2.892s] Level 5:colcon.colcon_core.verb:set package 'move_base_benchmark' build argument 'cmake_target' from command line to 'None'
+[2.892s] Level 5:colcon.colcon_core.verb:set package 'move_base_benchmark' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.892s] Level 5:colcon.colcon_core.verb:set package 'move_base_benchmark' build argument 'cmake_clean_cache' from command line to 'False'
+[2.892s] Level 5:colcon.colcon_core.verb:set package 'move_base_benchmark' build argument 'cmake_clean_first' from command line to 'False'
+[2.892s] Level 5:colcon.colcon_core.verb:set package 'move_base_benchmark' build argument 'cmake_force_configure' from command line to 'False'
+[2.892s] Level 5:colcon.colcon_core.verb:set package 'move_base_benchmark' build argument 'ament_cmake_args' from command line to 'None'
+[2.892s] Level 5:colcon.colcon_core.verb:set package 'move_base_benchmark' build argument 'catkin_cmake_args' from command line to 'None'
+[2.892s] Level 5:colcon.colcon_core.verb:set package 'move_base_benchmark' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.892s] DEBUG:colcon.colcon_core.verb:Building package 'move_base_benchmark' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/move_base_benchmark', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/move_base_benchmark', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/local-planning-benchmark/move_base_benchmark', 'symlink_install': False, 'test_result_base': None}
+[2.920s] Level 5:colcon.colcon_core.verb:set package 'nmea_msgs' build argument 'cmake_args' from command line to 'None'
+[2.920s] Level 5:colcon.colcon_core.verb:set package 'nmea_msgs' build argument 'cmake_target' from command line to 'None'
+[2.920s] Level 5:colcon.colcon_core.verb:set package 'nmea_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.920s] Level 5:colcon.colcon_core.verb:set package 'nmea_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.920s] Level 5:colcon.colcon_core.verb:set package 'nmea_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.920s] Level 5:colcon.colcon_core.verb:set package 'nmea_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.920s] Level 5:colcon.colcon_core.verb:set package 'nmea_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.921s] Level 5:colcon.colcon_core.verb:set package 'nmea_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.921s] Level 5:colcon.colcon_core.verb:set package 'nmea_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.921s] DEBUG:colcon.colcon_core.verb:Building package 'nmea_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/nmea_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/nmea_msgs', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/nmea_msgs', 'symlink_install': False, 'test_result_base': None}
+[2.948s] Level 5:colcon.colcon_core.verb:set package 'obj_detection' build argument 'cmake_args' from command line to 'None'
+[2.949s] Level 5:colcon.colcon_core.verb:set package 'obj_detection' build argument 'cmake_target' from command line to 'None'
+[2.949s] Level 5:colcon.colcon_core.verb:set package 'obj_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.949s] Level 5:colcon.colcon_core.verb:set package 'obj_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[2.949s] Level 5:colcon.colcon_core.verb:set package 'obj_detection' build argument 'cmake_clean_first' from command line to 'False'
+[2.949s] Level 5:colcon.colcon_core.verb:set package 'obj_detection' build argument 'cmake_force_configure' from command line to 'False'
+[2.949s] Level 5:colcon.colcon_core.verb:set package 'obj_detection' build argument 'ament_cmake_args' from command line to 'None'
+[2.949s] Level 5:colcon.colcon_core.verb:set package 'obj_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[2.949s] Level 5:colcon.colcon_core.verb:set package 'obj_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.949s] DEBUG:colcon.colcon_core.verb:Building package 'obj_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/obj_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/obj_detection', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/obj_detection', 'symlink_install': False, 'test_result_base': None}
+[2.977s] Level 5:colcon.colcon_core.verb:set package 'p3dx_description' build argument 'cmake_args' from command line to 'None'
+[2.977s] Level 5:colcon.colcon_core.verb:set package 'p3dx_description' build argument 'cmake_target' from command line to 'None'
+[2.977s] Level 5:colcon.colcon_core.verb:set package 'p3dx_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.977s] Level 5:colcon.colcon_core.verb:set package 'p3dx_description' build argument 'cmake_clean_cache' from command line to 'False'
+[2.977s] Level 5:colcon.colcon_core.verb:set package 'p3dx_description' build argument 'cmake_clean_first' from command line to 'False'
+[2.977s] Level 5:colcon.colcon_core.verb:set package 'p3dx_description' build argument 'cmake_force_configure' from command line to 'False'
+[2.977s] Level 5:colcon.colcon_core.verb:set package 'p3dx_description' build argument 'ament_cmake_args' from command line to 'None'
+[2.977s] Level 5:colcon.colcon_core.verb:set package 'p3dx_description' build argument 'catkin_cmake_args' from command line to 'None'
+[2.977s] Level 5:colcon.colcon_core.verb:set package 'p3dx_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.977s] DEBUG:colcon.colcon_core.verb:Building package 'p3dx_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/p3dx_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/p3dx_description', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/p3dx_clone/p3dx_description', 'symlink_install': False, 'test_result_base': None}
+[3.005s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_converter' build argument 'cmake_args' from command line to 'None'
+[3.005s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_converter' build argument 'cmake_target' from command line to 'None'
+[3.005s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_converter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.005s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_converter' build argument 'cmake_clean_cache' from command line to 'False'
+[3.005s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_converter' build argument 'cmake_clean_first' from command line to 'False'
+[3.005s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_converter' build argument 'cmake_force_configure' from command line to 'False'
+[3.005s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_converter' build argument 'ament_cmake_args' from command line to 'None'
+[3.005s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_converter' build argument 'catkin_cmake_args' from command line to 'None'
+[3.005s] Level 5:colcon.colcon_core.verb:set package 'point_cloud_converter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.005s] DEBUG:colcon.colcon_core.verb:Building package 'point_cloud_converter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/point_cloud_converter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/point_cloud_converter', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3_simulator/point_cloud_converter', 'symlink_install': False, 'test_result_base': None}
+[3.033s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_args' from command line to 'None'
+[3.033s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_target' from command line to 'None'
+[3.033s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.033s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_clean_cache' from command line to 'False'
+[3.033s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_clean_first' from command line to 'False'
+[3.033s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_force_configure' from command line to 'False'
+[3.033s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'ament_cmake_args' from command line to 'None'
+[3.033s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'catkin_cmake_args' from command line to 'None'
+[3.033s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.034s] DEBUG:colcon.colcon_core.verb:Building package 'robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/robot', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/robot', 'symlink_install': False, 'test_result_base': None}
+[3.061s] Level 5:colcon.colcon_core.verb:set package 'segway_description' build argument 'cmake_args' from command line to 'None'
+[3.061s] Level 5:colcon.colcon_core.verb:set package 'segway_description' build argument 'cmake_target' from command line to 'None'
+[3.061s] Level 5:colcon.colcon_core.verb:set package 'segway_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.062s] Level 5:colcon.colcon_core.verb:set package 'segway_description' build argument 'cmake_clean_cache' from command line to 'False'
+[3.062s] Level 5:colcon.colcon_core.verb:set package 'segway_description' build argument 'cmake_clean_first' from command line to 'False'
+[3.062s] Level 5:colcon.colcon_core.verb:set package 'segway_description' build argument 'cmake_force_configure' from command line to 'False'
+[3.062s] Level 5:colcon.colcon_core.verb:set package 'segway_description' build argument 'ament_cmake_args' from command line to 'None'
+[3.062s] Level 5:colcon.colcon_core.verb:set package 'segway_description' build argument 'catkin_cmake_args' from command line to 'None'
+[3.062s] Level 5:colcon.colcon_core.verb:set package 'segway_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.062s] DEBUG:colcon.colcon_core.verb:Building package 'segway_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/segway_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/segway_description', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/segway_description', 'symlink_install': False, 'test_result_base': None}
+[3.089s] Level 5:colcon.colcon_core.verb:set package 'segway_msgs' build argument 'cmake_args' from command line to 'None'
+[3.090s] Level 5:colcon.colcon_core.verb:set package 'segway_msgs' build argument 'cmake_target' from command line to 'None'
+[3.090s] Level 5:colcon.colcon_core.verb:set package 'segway_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.090s] Level 5:colcon.colcon_core.verb:set package 'segway_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[3.090s] Level 5:colcon.colcon_core.verb:set package 'segway_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[3.090s] Level 5:colcon.colcon_core.verb:set package 'segway_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[3.090s] Level 5:colcon.colcon_core.verb:set package 'segway_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[3.090s] Level 5:colcon.colcon_core.verb:set package 'segway_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[3.090s] Level 5:colcon.colcon_core.verb:set package 'segway_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.090s] DEBUG:colcon.colcon_core.verb:Building package 'segway_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/segway_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/segway_msgs', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/segway_msgs', 'symlink_install': False, 'test_result_base': None}
+[3.118s] Level 5:colcon.colcon_core.verb:set package 'segway_sensor_filters' build argument 'cmake_args' from command line to 'None'
+[3.118s] Level 5:colcon.colcon_core.verb:set package 'segway_sensor_filters' build argument 'cmake_target' from command line to 'None'
+[3.118s] Level 5:colcon.colcon_core.verb:set package 'segway_sensor_filters' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.118s] Level 5:colcon.colcon_core.verb:set package 'segway_sensor_filters' build argument 'cmake_clean_cache' from command line to 'False'
+[3.118s] Level 5:colcon.colcon_core.verb:set package 'segway_sensor_filters' build argument 'cmake_clean_first' from command line to 'False'
+[3.118s] Level 5:colcon.colcon_core.verb:set package 'segway_sensor_filters' build argument 'cmake_force_configure' from command line to 'False'
+[3.118s] Level 5:colcon.colcon_core.verb:set package 'segway_sensor_filters' build argument 'ament_cmake_args' from command line to 'None'
+[3.118s] Level 5:colcon.colcon_core.verb:set package 'segway_sensor_filters' build argument 'catkin_cmake_args' from command line to 'None'
+[3.118s] Level 5:colcon.colcon_core.verb:set package 'segway_sensor_filters' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.118s] DEBUG:colcon.colcon_core.verb:Building package 'segway_sensor_filters' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/segway_sensor_filters', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/segway_sensor_filters', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3_robot/segway_sensor_filters/segway_sensor_filters', 'symlink_install': False, 'test_result_base': None}
+[3.146s] Level 5:colcon.colcon_core.verb:set package 'segway_sim_control' build argument 'cmake_args' from command line to 'None'
+[3.146s] Level 5:colcon.colcon_core.verb:set package 'segway_sim_control' build argument 'cmake_target' from command line to 'None'
+[3.146s] Level 5:colcon.colcon_core.verb:set package 'segway_sim_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.146s] Level 5:colcon.colcon_core.verb:set package 'segway_sim_control' build argument 'cmake_clean_cache' from command line to 'False'
+[3.146s] Level 5:colcon.colcon_core.verb:set package 'segway_sim_control' build argument 'cmake_clean_first' from command line to 'False'
+[3.146s] Level 5:colcon.colcon_core.verb:set package 'segway_sim_control' build argument 'cmake_force_configure' from command line to 'False'
+[3.146s] Level 5:colcon.colcon_core.verb:set package 'segway_sim_control' build argument 'ament_cmake_args' from command line to 'None'
+[3.146s] Level 5:colcon.colcon_core.verb:set package 'segway_sim_control' build argument 'catkin_cmake_args' from command line to 'None'
+[3.146s] Level 5:colcon.colcon_core.verb:set package 'segway_sim_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.146s] DEBUG:colcon.colcon_core.verb:Building package 'segway_sim_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/segway_sim_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/segway_sim_control', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3_simulator/segway_sim_control', 'symlink_install': False, 'test_result_base': None}
+[3.174s] Level 5:colcon.colcon_core.verb:set package 'segway_upstart' build argument 'cmake_args' from command line to 'None'
+[3.174s] Level 5:colcon.colcon_core.verb:set package 'segway_upstart' build argument 'cmake_target' from command line to 'None'
+[3.174s] Level 5:colcon.colcon_core.verb:set package 'segway_upstart' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.174s] Level 5:colcon.colcon_core.verb:set package 'segway_upstart' build argument 'cmake_clean_cache' from command line to 'False'
+[3.174s] Level 5:colcon.colcon_core.verb:set package 'segway_upstart' build argument 'cmake_clean_first' from command line to 'False'
+[3.174s] Level 5:colcon.colcon_core.verb:set package 'segway_upstart' build argument 'cmake_force_configure' from command line to 'False'
+[3.175s] Level 5:colcon.colcon_core.verb:set package 'segway_upstart' build argument 'ament_cmake_args' from command line to 'None'
+[3.175s] Level 5:colcon.colcon_core.verb:set package 'segway_upstart' build argument 'catkin_cmake_args' from command line to 'None'
+[3.175s] Level 5:colcon.colcon_core.verb:set package 'segway_upstart' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.175s] DEBUG:colcon.colcon_core.verb:Building package 'segway_upstart' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/segway_upstart', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/segway_upstart', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3_robot/segway_upstart', 'symlink_install': False, 'test_result_base': None}
+[3.202s] Level 5:colcon.colcon_core.verb:set package 'segway_v3_config' build argument 'cmake_args' from command line to 'None'
+[3.202s] Level 5:colcon.colcon_core.verb:set package 'segway_v3_config' build argument 'cmake_target' from command line to 'None'
+[3.202s] Level 5:colcon.colcon_core.verb:set package 'segway_v3_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.202s] Level 5:colcon.colcon_core.verb:set package 'segway_v3_config' build argument 'cmake_clean_cache' from command line to 'False'
+[3.203s] Level 5:colcon.colcon_core.verb:set package 'segway_v3_config' build argument 'cmake_clean_first' from command line to 'False'
+[3.203s] Level 5:colcon.colcon_core.verb:set package 'segway_v3_config' build argument 'cmake_force_configure' from command line to 'False'
+[3.203s] Level 5:colcon.colcon_core.verb:set package 'segway_v3_config' build argument 'ament_cmake_args' from command line to 'None'
+[3.203s] Level 5:colcon.colcon_core.verb:set package 'segway_v3_config' build argument 'catkin_cmake_args' from command line to 'None'
+[3.203s] Level 5:colcon.colcon_core.verb:set package 'segway_v3_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.203s] DEBUG:colcon.colcon_core.verb:Building package 'segway_v3_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/segway_v3_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/segway_v3_config', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/segway_v3_config', 'symlink_install': False, 'test_result_base': None}
+[3.231s] Level 5:colcon.colcon_core.verb:set package 'si_utils' build argument 'cmake_args' from command line to 'None'
+[3.231s] Level 5:colcon.colcon_core.verb:set package 'si_utils' build argument 'cmake_target' from command line to 'None'
+[3.231s] Level 5:colcon.colcon_core.verb:set package 'si_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.231s] Level 5:colcon.colcon_core.verb:set package 'si_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[3.231s] Level 5:colcon.colcon_core.verb:set package 'si_utils' build argument 'cmake_clean_first' from command line to 'False'
+[3.231s] Level 5:colcon.colcon_core.verb:set package 'si_utils' build argument 'cmake_force_configure' from command line to 'False'
+[3.231s] Level 5:colcon.colcon_core.verb:set package 'si_utils' build argument 'ament_cmake_args' from command line to 'None'
+[3.231s] Level 5:colcon.colcon_core.verb:set package 'si_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[3.231s] Level 5:colcon.colcon_core.verb:set package 'si_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.231s] DEBUG:colcon.colcon_core.verb:Building package 'si_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/si_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/si_utils', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/si_utils', 'symlink_install': False, 'test_result_base': None}
+[3.259s] Level 5:colcon.colcon_core.verb:set package 'third_party_sensors' build argument 'cmake_args' from command line to 'None'
+[3.259s] Level 5:colcon.colcon_core.verb:set package 'third_party_sensors' build argument 'cmake_target' from command line to 'None'
+[3.259s] Level 5:colcon.colcon_core.verb:set package 'third_party_sensors' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.259s] Level 5:colcon.colcon_core.verb:set package 'third_party_sensors' build argument 'cmake_clean_cache' from command line to 'False'
+[3.259s] Level 5:colcon.colcon_core.verb:set package 'third_party_sensors' build argument 'cmake_clean_first' from command line to 'False'
+[3.259s] Level 5:colcon.colcon_core.verb:set package 'third_party_sensors' build argument 'cmake_force_configure' from command line to 'False'
+[3.259s] Level 5:colcon.colcon_core.verb:set package 'third_party_sensors' build argument 'ament_cmake_args' from command line to 'None'
+[3.259s] Level 5:colcon.colcon_core.verb:set package 'third_party_sensors' build argument 'catkin_cmake_args' from command line to 'None'
+[3.259s] Level 5:colcon.colcon_core.verb:set package 'third_party_sensors' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.259s] DEBUG:colcon.colcon_core.verb:Building package 'third_party_sensors' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/third_party_sensors', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/third_party_sensors', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/third_party_sensors', 'symlink_install': False, 'test_result_base': None}
+[3.287s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret_controller' build argument 'cmake_args' from command line to 'None'
+[3.287s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret_controller' build argument 'cmake_target' from command line to 'None'
+[3.287s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.287s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[3.287s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret_controller' build argument 'cmake_clean_first' from command line to 'False'
+[3.287s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret_controller' build argument 'cmake_force_configure' from command line to 'False'
+[3.287s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret_controller' build argument 'ament_cmake_args' from command line to 'None'
+[3.287s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[3.287s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.287s] DEBUG:colcon.colcon_core.verb:Building package 'widowx_turret_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/widowx_turret_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/widowx_turret_controller', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_controller', 'symlink_install': False, 'test_result_base': None}
+[3.315s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret_description' build argument 'cmake_args' from command line to 'None'
+[3.315s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret_description' build argument 'cmake_target' from command line to 'None'
+[3.315s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.315s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret_description' build argument 'cmake_clean_cache' from command line to 'False'
+[3.315s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret_description' build argument 'cmake_clean_first' from command line to 'False'
+[3.315s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret_description' build argument 'cmake_force_configure' from command line to 'False'
+[3.315s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret_description' build argument 'ament_cmake_args' from command line to 'None'
+[3.315s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret_description' build argument 'catkin_cmake_args' from command line to 'None'
+[3.316s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.316s] DEBUG:colcon.colcon_core.verb:Building package 'widowx_turret_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/widowx_turret_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/widowx_turret_description', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_description', 'symlink_install': False, 'test_result_base': None}
+[3.343s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret_gazebo' build argument 'cmake_args' from command line to 'None'
+[3.343s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret_gazebo' build argument 'cmake_target' from command line to 'None'
+[3.343s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.343s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[3.343s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[3.343s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[3.344s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[3.344s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[3.344s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.344s] DEBUG:colcon.colcon_core.verb:Building package 'widowx_turret_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/widowx_turret_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/widowx_turret_gazebo', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret_gazebo', 'symlink_install': False, 'test_result_base': None}
+[3.372s] Level 5:colcon.colcon_core.verb:set package 'yolo_pp' build argument 'cmake_args' from command line to 'None'
+[3.372s] Level 5:colcon.colcon_core.verb:set package 'yolo_pp' build argument 'cmake_target' from command line to 'None'
+[3.372s] Level 5:colcon.colcon_core.verb:set package 'yolo_pp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.372s] Level 5:colcon.colcon_core.verb:set package 'yolo_pp' build argument 'cmake_clean_cache' from command line to 'False'
+[3.372s] Level 5:colcon.colcon_core.verb:set package 'yolo_pp' build argument 'cmake_clean_first' from command line to 'False'
+[3.372s] Level 5:colcon.colcon_core.verb:set package 'yolo_pp' build argument 'cmake_force_configure' from command line to 'False'
+[3.373s] Level 5:colcon.colcon_core.verb:set package 'yolo_pp' build argument 'ament_cmake_args' from command line to 'None'
+[3.373s] Level 5:colcon.colcon_core.verb:set package 'yolo_pp' build argument 'catkin_cmake_args' from command line to 'None'
+[3.373s] Level 5:colcon.colcon_core.verb:set package 'yolo_pp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.373s] DEBUG:colcon.colcon_core.verb:Building package 'yolo_pp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/yolo_pp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/yolo_pp', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/yolo_pp', 'symlink_install': False, 'test_result_base': None}
+[3.401s] Level 5:colcon.colcon_core.verb:set package 'zed_description' build argument 'cmake_args' from command line to 'None'
+[3.401s] Level 5:colcon.colcon_core.verb:set package 'zed_description' build argument 'cmake_target' from command line to 'None'
+[3.401s] Level 5:colcon.colcon_core.verb:set package 'zed_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.401s] Level 5:colcon.colcon_core.verb:set package 'zed_description' build argument 'cmake_clean_cache' from command line to 'False'
+[3.401s] Level 5:colcon.colcon_core.verb:set package 'zed_description' build argument 'cmake_clean_first' from command line to 'False'
+[3.401s] Level 5:colcon.colcon_core.verb:set package 'zed_description' build argument 'cmake_force_configure' from command line to 'False'
+[3.401s] Level 5:colcon.colcon_core.verb:set package 'zed_description' build argument 'ament_cmake_args' from command line to 'None'
+[3.401s] Level 5:colcon.colcon_core.verb:set package 'zed_description' build argument 'catkin_cmake_args' from command line to 'None'
+[3.401s] Level 5:colcon.colcon_core.verb:set package 'zed_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.401s] DEBUG:colcon.colcon_core.verb:Building package 'zed_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/zed_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/zed_description', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/zed_description', 'symlink_install': False, 'test_result_base': None}
+[3.429s] Level 5:colcon.colcon_core.verb:set package 'nmea_navsat_driver' build argument 'cmake_args' from command line to 'None'
+[3.429s] Level 5:colcon.colcon_core.verb:set package 'nmea_navsat_driver' build argument 'cmake_target' from command line to 'None'
+[3.429s] Level 5:colcon.colcon_core.verb:set package 'nmea_navsat_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.429s] Level 5:colcon.colcon_core.verb:set package 'nmea_navsat_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[3.429s] Level 5:colcon.colcon_core.verb:set package 'nmea_navsat_driver' build argument 'cmake_clean_first' from command line to 'False'
+[3.429s] Level 5:colcon.colcon_core.verb:set package 'nmea_navsat_driver' build argument 'cmake_force_configure' from command line to 'False'
+[3.429s] Level 5:colcon.colcon_core.verb:set package 'nmea_navsat_driver' build argument 'ament_cmake_args' from command line to 'None'
+[3.429s] Level 5:colcon.colcon_core.verb:set package 'nmea_navsat_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[3.429s] Level 5:colcon.colcon_core.verb:set package 'nmea_navsat_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.429s] DEBUG:colcon.colcon_core.verb:Building package 'nmea_navsat_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/nmea_navsat_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/nmea_navsat_driver', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3_robot/third_party_sensors/nmea_navsat_driver', 'symlink_install': False, 'test_result_base': None}
+[3.457s] Level 5:colcon.colcon_core.verb:set package 'p3dx_control' build argument 'cmake_args' from command line to 'None'
+[3.457s] Level 5:colcon.colcon_core.verb:set package 'p3dx_control' build argument 'cmake_target' from command line to 'None'
+[3.457s] Level 5:colcon.colcon_core.verb:set package 'p3dx_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.457s] Level 5:colcon.colcon_core.verb:set package 'p3dx_control' build argument 'cmake_clean_cache' from command line to 'False'
+[3.457s] Level 5:colcon.colcon_core.verb:set package 'p3dx_control' build argument 'cmake_clean_first' from command line to 'False'
+[3.457s] Level 5:colcon.colcon_core.verb:set package 'p3dx_control' build argument 'cmake_force_configure' from command line to 'False'
+[3.457s] Level 5:colcon.colcon_core.verb:set package 'p3dx_control' build argument 'ament_cmake_args' from command line to 'None'
+[3.457s] Level 5:colcon.colcon_core.verb:set package 'p3dx_control' build argument 'catkin_cmake_args' from command line to 'None'
+[3.457s] Level 5:colcon.colcon_core.verb:set package 'p3dx_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.457s] DEBUG:colcon.colcon_core.verb:Building package 'p3dx_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/p3dx_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/p3dx_control', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/p3dx_clone/p3dx_control', 'symlink_install': False, 'test_result_base': None}
+[3.485s] Level 5:colcon.colcon_core.verb:set package 'segway_gazebo' build argument 'cmake_args' from command line to 'None'
+[3.485s] Level 5:colcon.colcon_core.verb:set package 'segway_gazebo' build argument 'cmake_target' from command line to 'None'
+[3.485s] Level 5:colcon.colcon_core.verb:set package 'segway_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.485s] Level 5:colcon.colcon_core.verb:set package 'segway_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[3.485s] Level 5:colcon.colcon_core.verb:set package 'segway_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[3.485s] Level 5:colcon.colcon_core.verb:set package 'segway_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[3.485s] Level 5:colcon.colcon_core.verb:set package 'segway_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[3.485s] Level 5:colcon.colcon_core.verb:set package 'segway_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[3.485s] Level 5:colcon.colcon_core.verb:set package 'segway_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.485s] DEBUG:colcon.colcon_core.verb:Building package 'segway_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/segway_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/segway_gazebo', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3_simulator/segway_gazebo', 'symlink_install': False, 'test_result_base': None}
+[3.514s] Level 5:colcon.colcon_core.verb:set package 'segway_ros' build argument 'cmake_args' from command line to 'None'
+[3.514s] Level 5:colcon.colcon_core.verb:set package 'segway_ros' build argument 'cmake_target' from command line to 'None'
+[3.514s] Level 5:colcon.colcon_core.verb:set package 'segway_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.514s] Level 5:colcon.colcon_core.verb:set package 'segway_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[3.514s] Level 5:colcon.colcon_core.verb:set package 'segway_ros' build argument 'cmake_clean_first' from command line to 'False'
+[3.514s] Level 5:colcon.colcon_core.verb:set package 'segway_ros' build argument 'cmake_force_configure' from command line to 'False'
+[3.514s] Level 5:colcon.colcon_core.verb:set package 'segway_ros' build argument 'ament_cmake_args' from command line to 'None'
+[3.514s] Level 5:colcon.colcon_core.verb:set package 'segway_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[3.514s] Level 5:colcon.colcon_core.verb:set package 'segway_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.514s] DEBUG:colcon.colcon_core.verb:Building package 'segway_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/segway_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/segway_ros', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/segway_ros', 'symlink_install': False, 'test_result_base': None}
+[3.542s] Level 5:colcon.colcon_core.verb:set package 'target_generation' build argument 'cmake_args' from command line to 'None'
+[3.542s] Level 5:colcon.colcon_core.verb:set package 'target_generation' build argument 'cmake_target' from command line to 'None'
+[3.542s] Level 5:colcon.colcon_core.verb:set package 'target_generation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.542s] Level 5:colcon.colcon_core.verb:set package 'target_generation' build argument 'cmake_clean_cache' from command line to 'False'
+[3.542s] Level 5:colcon.colcon_core.verb:set package 'target_generation' build argument 'cmake_clean_first' from command line to 'False'
+[3.542s] Level 5:colcon.colcon_core.verb:set package 'target_generation' build argument 'cmake_force_configure' from command line to 'False'
+[3.542s] Level 5:colcon.colcon_core.verb:set package 'target_generation' build argument 'ament_cmake_args' from command line to 'None'
+[3.542s] Level 5:colcon.colcon_core.verb:set package 'target_generation' build argument 'catkin_cmake_args' from command line to 'None'
+[3.542s] Level 5:colcon.colcon_core.verb:set package 'target_generation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.542s] DEBUG:colcon.colcon_core.verb:Building package 'target_generation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/target_generation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/target_generation', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/target_generation', 'symlink_install': False, 'test_result_base': None}
+[3.570s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret' build argument 'cmake_args' from command line to 'None'
+[3.570s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret' build argument 'cmake_target' from command line to 'None'
+[3.571s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.571s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret' build argument 'cmake_clean_cache' from command line to 'False'
+[3.571s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret' build argument 'cmake_clean_first' from command line to 'False'
+[3.571s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret' build argument 'cmake_force_configure' from command line to 'False'
+[3.571s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret' build argument 'ament_cmake_args' from command line to 'None'
+[3.571s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret' build argument 'catkin_cmake_args' from command line to 'None'
+[3.571s] Level 5:colcon.colcon_core.verb:set package 'widowx_turret' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.571s] DEBUG:colcon.colcon_core.verb:Building package 'widowx_turret' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/widowx_turret', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/widowx_turret', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/Widowx-Turret-gazebo/widowx_turret', 'symlink_install': False, 'test_result_base': None}
+[3.599s] Level 5:colcon.colcon_core.verb:set package 'p3dx_gazebo' build argument 'cmake_args' from command line to 'None'
+[3.599s] Level 5:colcon.colcon_core.verb:set package 'p3dx_gazebo' build argument 'cmake_target' from command line to 'None'
+[3.600s] Level 5:colcon.colcon_core.verb:set package 'p3dx_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.600s] Level 5:colcon.colcon_core.verb:set package 'p3dx_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[3.600s] Level 5:colcon.colcon_core.verb:set package 'p3dx_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[3.600s] Level 5:colcon.colcon_core.verb:set package 'p3dx_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[3.600s] Level 5:colcon.colcon_core.verb:set package 'p3dx_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[3.600s] Level 5:colcon.colcon_core.verb:set package 'p3dx_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[3.600s] Level 5:colcon.colcon_core.verb:set package 'p3dx_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.600s] DEBUG:colcon.colcon_core.verb:Building package 'p3dx_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/p3dx_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/p3dx_gazebo', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/p3dx_clone/p3dx_gazebo', 'symlink_install': False, 'test_result_base': None}
+[3.628s] Level 5:colcon.colcon_core.verb:set package 'segway_bringup' build argument 'cmake_args' from command line to 'None'
+[3.628s] Level 5:colcon.colcon_core.verb:set package 'segway_bringup' build argument 'cmake_target' from command line to 'None'
+[3.628s] Level 5:colcon.colcon_core.verb:set package 'segway_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.628s] Level 5:colcon.colcon_core.verb:set package 'segway_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[3.628s] Level 5:colcon.colcon_core.verb:set package 'segway_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[3.628s] Level 5:colcon.colcon_core.verb:set package 'segway_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[3.628s] Level 5:colcon.colcon_core.verb:set package 'segway_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[3.628s] Level 5:colcon.colcon_core.verb:set package 'segway_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[3.628s] Level 5:colcon.colcon_core.verb:set package 'segway_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.628s] DEBUG:colcon.colcon_core.verb:Building package 'segway_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/segway_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/segway_bringup', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3_robot/segway_bringup', 'symlink_install': False, 'test_result_base': None}
+[3.656s] Level 5:colcon.colcon_core.verb:set package 'segway_navigation_apps' build argument 'cmake_args' from command line to 'None'
+[3.656s] Level 5:colcon.colcon_core.verb:set package 'segway_navigation_apps' build argument 'cmake_target' from command line to 'None'
+[3.656s] Level 5:colcon.colcon_core.verb:set package 'segway_navigation_apps' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.656s] Level 5:colcon.colcon_core.verb:set package 'segway_navigation_apps' build argument 'cmake_clean_cache' from command line to 'False'
+[3.656s] Level 5:colcon.colcon_core.verb:set package 'segway_navigation_apps' build argument 'cmake_clean_first' from command line to 'False'
+[3.656s] Level 5:colcon.colcon_core.verb:set package 'segway_navigation_apps' build argument 'cmake_force_configure' from command line to 'False'
+[3.656s] Level 5:colcon.colcon_core.verb:set package 'segway_navigation_apps' build argument 'ament_cmake_args' from command line to 'None'
+[3.656s] Level 5:colcon.colcon_core.verb:set package 'segway_navigation_apps' build argument 'catkin_cmake_args' from command line to 'None'
+[3.656s] Level 5:colcon.colcon_core.verb:set package 'segway_navigation_apps' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.656s] DEBUG:colcon.colcon_core.verb:Building package 'segway_navigation_apps' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/segway_navigation_apps', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/segway_navigation_apps', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/segway_navigation/segway_navigation_apps', 'symlink_install': False, 'test_result_base': None}
+[3.684s] Level 5:colcon.colcon_core.verb:set package 'segway_v3_simulator' build argument 'cmake_args' from command line to 'None'
+[3.684s] Level 5:colcon.colcon_core.verb:set package 'segway_v3_simulator' build argument 'cmake_target' from command line to 'None'
+[3.684s] Level 5:colcon.colcon_core.verb:set package 'segway_v3_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.684s] Level 5:colcon.colcon_core.verb:set package 'segway_v3_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[3.684s] Level 5:colcon.colcon_core.verb:set package 'segway_v3_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[3.684s] Level 5:colcon.colcon_core.verb:set package 'segway_v3_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[3.684s] Level 5:colcon.colcon_core.verb:set package 'segway_v3_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[3.684s] Level 5:colcon.colcon_core.verb:set package 'segway_v3_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[3.685s] Level 5:colcon.colcon_core.verb:set package 'segway_v3_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.685s] DEBUG:colcon.colcon_core.verb:Building package 'segway_v3_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/segway_v3_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/segway_v3_simulator', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3_simulator/segway_v3_simulator', 'symlink_install': False, 'test_result_base': None}
+[3.712s] Level 5:colcon.colcon_core.verb:set package 'segway_navigation' build argument 'cmake_args' from command line to 'None'
+[3.712s] Level 5:colcon.colcon_core.verb:set package 'segway_navigation' build argument 'cmake_target' from command line to 'None'
+[3.712s] Level 5:colcon.colcon_core.verb:set package 'segway_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.713s] Level 5:colcon.colcon_core.verb:set package 'segway_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[3.713s] Level 5:colcon.colcon_core.verb:set package 'segway_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[3.713s] Level 5:colcon.colcon_core.verb:set package 'segway_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[3.713s] Level 5:colcon.colcon_core.verb:set package 'segway_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[3.713s] Level 5:colcon.colcon_core.verb:set package 'segway_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[3.713s] Level 5:colcon.colcon_core.verb:set package 'segway_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.713s] DEBUG:colcon.colcon_core.verb:Building package 'segway_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/segway_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/segway_navigation', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/segway_navigation/segway_navigation', 'symlink_install': False, 'test_result_base': None}
+[3.741s] Level 5:colcon.colcon_core.verb:set package 'segway_v3' build argument 'cmake_args' from command line to 'None'
+[3.741s] Level 5:colcon.colcon_core.verb:set package 'segway_v3' build argument 'cmake_target' from command line to 'None'
+[3.741s] Level 5:colcon.colcon_core.verb:set package 'segway_v3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.741s] Level 5:colcon.colcon_core.verb:set package 'segway_v3' build argument 'cmake_clean_cache' from command line to 'False'
+[3.741s] Level 5:colcon.colcon_core.verb:set package 'segway_v3' build argument 'cmake_clean_first' from command line to 'False'
+[3.741s] Level 5:colcon.colcon_core.verb:set package 'segway_v3' build argument 'cmake_force_configure' from command line to 'False'
+[3.741s] Level 5:colcon.colcon_core.verb:set package 'segway_v3' build argument 'ament_cmake_args' from command line to 'None'
+[3.741s] Level 5:colcon.colcon_core.verb:set package 'segway_v3' build argument 'catkin_cmake_args' from command line to 'None'
+[3.741s] Level 5:colcon.colcon_core.verb:set package 'segway_v3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.741s] DEBUG:colcon.colcon_core.verb:Building package 'segway_v3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/segway_v3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/segway_v3', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/segway_v3', 'symlink_install': False, 'test_result_base': None}
+[3.769s] Level 5:colcon.colcon_core.verb:set package 'segway_v3_robot' build argument 'cmake_args' from command line to 'None'
+[3.769s] Level 5:colcon.colcon_core.verb:set package 'segway_v3_robot' build argument 'cmake_target' from command line to 'None'
+[3.769s] Level 5:colcon.colcon_core.verb:set package 'segway_v3_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.769s] Level 5:colcon.colcon_core.verb:set package 'segway_v3_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[3.769s] Level 5:colcon.colcon_core.verb:set package 'segway_v3_robot' build argument 'cmake_clean_first' from command line to 'False'
+[3.769s] Level 5:colcon.colcon_core.verb:set package 'segway_v3_robot' build argument 'cmake_force_configure' from command line to 'False'
+[3.769s] Level 5:colcon.colcon_core.verb:set package 'segway_v3_robot' build argument 'ament_cmake_args' from command line to 'None'
+[3.769s] Level 5:colcon.colcon_core.verb:set package 'segway_v3_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[3.769s] Level 5:colcon.colcon_core.verb:set package 'segway_v3_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.769s] DEBUG:colcon.colcon_core.verb:Building package 'segway_v3_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/labdoo/ros2_ws1/build/segway_v3_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/labdoo/ros2_ws1/install/segway_v3_robot', 'merge_install': False, 'path': '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3_robot/segway_v3_robot', 'symlink_install': False, 'test_result_base': None}
+[3.797s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.826s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.826s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/segway_description' with build type 'catkin'
+[3.827s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/segway_description'
+[3.881s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.882s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.882s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.946s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/segway_msgs' with build type 'catkin'
+[3.947s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/segway_msgs'
+[3.976s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.976s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.036s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/segway_v3_config' with build type 'catkin'
+[4.036s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/segway_v3_config'
+[4.067s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.067s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.126s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/si_utils' with build type 'catkin'
+[4.127s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/si_utils'
+[4.158s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.158s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/labdoo/ros2_ws1/build/segway_description': /usr/bin/cmake /home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/segway_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws1/install/segway_description
+[4.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/labdoo/ros2_ws1/build/segway_msgs': /usr/bin/cmake /home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/segway_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws1/install/segway_msgs
+[4.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/labdoo/ros2_ws1/build/segway_v3_config': /usr/bin/cmake /home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/segway_v3_config -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws1/install/segway_v3_config
+[4.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/labdoo/ros2_ws1/build/si_utils': /usr/bin/cmake /home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/si_utils -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws1/install/si_utils
+[4.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/labdoo/ros2_ws1/build/segway_description' returned '1': /usr/bin/cmake /home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/segway_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws1/install/segway_description
+[5.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/labdoo/ros2_ws1/build/segway_v3_config' returned '1': /usr/bin/cmake /home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/segway_v3_config -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws1/install/segway_v3_config
+[5.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/labdoo/ros2_ws1/build/segway_msgs' returned '1': /usr/bin/cmake /home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/segway_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws1/install/segway_msgs
+[5.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/labdoo/ros2_ws1/build/si_utils' returned '1': /usr/bin/cmake /home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/si_utils -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws1/install/si_utils
+[5.011s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(segway_description)
+[5.053s] Level 1:colcon.colcon_core.environment:checking '/home/labdoo/ros2_ws1/install/segway_description' for CMake module files
+[5.053s] Level 1:colcon.colcon_core.environment:checking '/home/labdoo/ros2_ws1/install/segway_description' for CMake config files
+[5.053s] Level 1:colcon.colcon_core.environment:checking '/home/labdoo/ros2_ws1/install/segway_description/bin'
+[5.053s] Level 1:colcon.colcon_core.environment:checking '/home/labdoo/ros2_ws1/install/segway_description/lib/pkgconfig/segway_description.pc'
+[5.054s] Level 1:colcon.colcon_core.environment:checking '/home/labdoo/ros2_ws1/install/segway_description/lib/python3.10/site-packages'
+[5.054s] Level 1:colcon.colcon_core.environment:checking '/home/labdoo/ros2_ws1/install/segway_description/bin'
+[5.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/labdoo/ros2_ws1/install/segway_description/share/segway_description/package.ps1'
+[5.084s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/labdoo/ros2_ws1/install/segway_description/share/segway_description/package.dsv'
+[5.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/labdoo/ros2_ws1/install/segway_description/share/segway_description/package.sh'
+[5.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/labdoo/ros2_ws1/install/segway_description/share/segway_description/package.bash'
+[5.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/labdoo/ros2_ws1/install/segway_description/share/segway_description/package.zsh'
+[5.088s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/labdoo/ros2_ws1/install/segway_description/share/colcon-core/packages/segway_description)
+[5.100s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.100s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.100s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[5.100s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.141s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.141s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.141s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.443s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.474s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/labdoo/ros2_ws1/install/local_setup.ps1'
+[5.476s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/labdoo/ros2_ws1/install/_local_setup_util_ps1.py'
+[5.478s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/labdoo/ros2_ws1/install/setup.ps1'
+[5.508s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/labdoo/ros2_ws1/install/local_setup.sh'
+[5.509s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/labdoo/ros2_ws1/install/_local_setup_util_sh.py'
+[5.510s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/labdoo/ros2_ws1/install/setup.sh'
+[5.540s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/labdoo/ros2_ws1/install/local_setup.bash'
+[5.541s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/labdoo/ros2_ws1/install/setup.bash'
+[5.581s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/labdoo/ros2_ws1/install/local_setup.zsh'
+[5.582s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/labdoo/ros2_ws1/install/setup.zsh'

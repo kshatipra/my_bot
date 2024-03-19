@@ -1,0 +1,33 @@
+[0.414s] Invoking command in '/home/labdoo/ros2_ws/src/build/joint_state_publisher': /usr/bin/cmake /home/labdoo/ros2_ws/src/joint_state_publisher/joint_state_publisher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/src/install/joint_state_publisher
+[0.538s] -- The C compiler identification is GNU 11.4.0
+[0.683s] -- The CXX compiler identification is GNU 11.4.0
+[0.718s] -- Detecting C compiler ABI info
+[0.901s] -- Detecting C compiler ABI info - done
+[0.948s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.949s] -- Detecting C compile features
+[0.952s] -- Detecting C compile features - done
+[0.966s] -- Detecting CXX compiler ABI info
+[1.262s] -- Detecting CXX compiler ABI info - done
+[1.315s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.316s] -- Detecting CXX compile features
+[1.317s] -- Detecting CXX compile features - done
+[1.346s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[1.346s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.346s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.346s]   CMake did not find one.
+[1.347s] 
+[1.347s]   Could not find a package configuration file provided by "catkin" with any
+[1.347s]   of the following names:
+[1.347s] 
+[1.347s]     catkinConfig.cmake
+[1.347s]     catkin-config.cmake
+[1.348s] 
+[1.348s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.348s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.348s]   provides a separate development package or SDK, be sure it has been
+[1.348s]   installed.
+[1.348s] 
+[1.348s] [0m
+[1.349s] -- Configuring incomplete, errors occurred!
+[1.349s] See also "/home/labdoo/ros2_ws/src/build/joint_state_publisher/CMakeFiles/CMakeOutput.log".
+[1.378s] Invoked command in '/home/labdoo/ros2_ws/src/build/joint_state_publisher' returned '1': /usr/bin/cmake /home/labdoo/ros2_ws/src/joint_state_publisher/joint_state_publisher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/src/install/joint_state_publisher

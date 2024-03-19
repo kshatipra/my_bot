@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="cpp_pubsub.uncrustify"
+  tests="2"
+  failures="0"
+  errors="0"
+  time="0.022"
+>
+  <testcase
+    name="src/publisher_member_function.cpp"
+    classname="cpp_pubsub.uncrustify"/>
+  <testcase
+    name="src/subscriber_member_function.cpp"
+    classname="cpp_pubsub.uncrustify"/>
+  <system-out>Checked files:
+* src/publisher_member_function.cpp
+* src/subscriber_member_function.cpp</system-out>
+</testsuite>

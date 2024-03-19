@@ -1,0 +1,12 @@
+-- run_test.py: invoking following command in '/home/labdoo/ros2_ws/src/cpp_pubsub':
+ - /opt/ros/iron/bin/ament_uncrustify --xunit-file /home/labdoo/ros2_ws/build/cpp_pubsub/test_results/cpp_pubsub/uncrustify.xunit.xml
+
+No code style divergence in file 'src/publisher_member_function.cpp'
+
+No code style divergence in file 'src/subscriber_member_function.cpp'
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/labdoo/ros2_ws/build/cpp_pubsub/test_results/cpp_pubsub/uncrustify.xunit.xml'

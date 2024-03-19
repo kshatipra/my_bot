@@ -1,0 +1,66 @@
+[0.480s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/labdoo/ros2_ws/install/launch_testing_examples:/home/labdoo/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_service:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_publisher:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_client:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_server:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_client:/home/labdoo/ros2_ws/install/examples_rclpy_guard_conditions:/home/labdoo/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake /home/labdoo/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher
+[0.511s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.923s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.962s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[1.039s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.062s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.100s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.155s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.575s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.583s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.913s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.365s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[2.480s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[2.680s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.683s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.684s] -- Configured cppcheck include dirs: 
+[2.684s] -- Configured cppcheck exclude dirs and/or files: 
+[2.686s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.687s] -- Configured cpplint exclude dirs and/or files: 
+[2.689s] -- Added test 'lint_cmake' to check CMake code style
+[2.692s] -- Added test 'uncrustify' to check C / C++ code style
+[2.692s] -- Configured uncrustify additional arguments: 
+[2.693s] -- Added test 'xmllint' to check XML markup files
+[2.697s] -- Configuring done
+[2.769s] -- Generating done
+[2.774s] -- Build files have been written to: /home/labdoo/ros2_ws/build/examples_rclcpp_minimal_publisher
+[2.803s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/labdoo/ros2_ws/install/launch_testing_examples:/home/labdoo/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_service:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_publisher:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_client:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_server:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_client:/home/labdoo/ros2_ws/install/examples_rclpy_guard_conditions:/home/labdoo/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake /home/labdoo/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher
+[2.805s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/labdoo/ros2_ws/install/launch_testing_examples:/home/labdoo/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_service:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_publisher:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_client:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_server:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_client:/home/labdoo/ros2_ws/install/examples_rclpy_guard_conditions:/home/labdoo/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake --build /home/labdoo/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j4 -l4
+[2.969s] [35m[1mConsolidate compiler generated dependencies of target publisher_member_function_with_type_adapter[0m
+[2.969s] [35m[1mConsolidate compiler generated dependencies of target publisher_member_function[0m
+[2.979s] [35m[1mConsolidate compiler generated dependencies of target publisher_lambda[0m
+[2.995s] [35m[1mConsolidate compiler generated dependencies of target publisher_member_function_with_unique_network_flow_endpoints[0m
+[3.071s] [ 16%] Built target publisher_member_function
+[3.089s] [ 33%] Built target publisher_lambda
+[3.089s] [ 50%] Built target publisher_member_function_with_type_adapter
+[3.112s] [ 66%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[3.134s] [35m[1mConsolidate compiler generated dependencies of target publisher_wait_for_all_acked[0m
+[3.165s] [35m[1mConsolidate compiler generated dependencies of target publisher_not_composable[0m
+[3.191s] [ 83%] Built target publisher_wait_for_all_acked
+[3.226s] [100%] Built target publisher_not_composable
+[3.256s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/labdoo/ros2_ws/install/launch_testing_examples:/home/labdoo/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_service:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_publisher:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_client:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_server:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_client:/home/labdoo/ros2_ws/install/examples_rclpy_guard_conditions:/home/labdoo/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake --build /home/labdoo/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j4 -l4
+[3.458s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/labdoo/ros2_ws/install/launch_testing_examples:/home/labdoo/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_service:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_publisher:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_client:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_server:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_client:/home/labdoo/ros2_ws/install/examples_rclpy_guard_conditions:/home/labdoo/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake --install /home/labdoo/ros2_ws/build/examples_rclcpp_minimal_publisher
+[3.476s] -- Install configuration: ""
+[3.476s] -- Execute custom install script
+[3.476s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[3.477s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[3.477s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter
+[3.477s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints
+[3.478s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked
+[3.479s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[3.480s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[3.481s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[3.482s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[3.482s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[3.484s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[3.485s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[3.487s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[3.488s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[3.488s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[3.492s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[3.493s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[3.528s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[3.528s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[3.529s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[3.529s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[3.732s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/labdoo/ros2_ws/install/launch_testing_examples:/home/labdoo/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_service:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_publisher:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_client:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_server:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_client:/home/labdoo/ros2_ws/install/examples_rclpy_guard_conditions:/home/labdoo/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake --install /home/labdoo/ros2_ws/build/examples_rclcpp_minimal_publisher

@@ -1,0 +1,2 @@
+Invoking command in '/home/labdoo/ros2_ws1/build/segway_v3_config': /usr/bin/cmake /home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/segway_v3_config -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws1/install/segway_v3_config
+Invoked command in '/home/labdoo/ros2_ws1/build/segway_v3_config' returned '1': /usr/bin/cmake /home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/segway_v3_config -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws1/install/segway_v3_config

@@ -1,0 +1,29 @@
+[0.368s] Invoking command in '/home/labdoo/ros2_ws/build/turtlebot3_automatic_parking': /usr/bin/cmake /home/labdoo/ros2_ws/src/turtlebot3_applications/turtlebot3_automatic_parking -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/turtlebot3_automatic_parking
+[0.384s] [0mCMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+[0.384s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.384s]   CMake.
+[0.385s] 
+[0.385s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.385s]   CMake that the project does not need compatibility with older versions.
+[0.385s] 
+[0.385s] [0m
+[0.435s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.435s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.435s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.436s]   CMake did not find one.
+[0.436s] 
+[0.437s]   Could not find a package configuration file provided by "catkin" with any
+[0.438s]   of the following names:
+[0.438s] 
+[0.438s]     catkinConfig.cmake
+[0.438s]     catkin-config.cmake
+[0.439s] 
+[0.439s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.441s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.441s]   provides a separate development package or SDK, be sure it has been
+[0.441s]   installed.
+[0.442s] 
+[0.443s] [0m
+[0.443s] -- Configuring incomplete, errors occurred!
+[0.443s] See also "/home/labdoo/ros2_ws/build/turtlebot3_automatic_parking/CMakeFiles/CMakeOutput.log".
+[0.448s] Invoked command in '/home/labdoo/ros2_ws/build/turtlebot3_automatic_parking' returned '1': /usr/bin/cmake /home/labdoo/ros2_ws/src/turtlebot3_applications/turtlebot3_automatic_parking -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/turtlebot3_automatic_parking

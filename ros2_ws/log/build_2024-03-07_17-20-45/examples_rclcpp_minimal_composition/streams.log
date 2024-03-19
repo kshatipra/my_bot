@@ -1,0 +1,31 @@
+[0.302s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/labdoo/ros2_ws/build/examples_rclcpp_minimal_composition -- -j4 -l4
+[0.596s] [ 33%] Built target composition_nodes
+[0.818s] [ 55%] Built target composition_publisher
+[0.823s] [ 77%] Built target composition_subscriber
+[0.851s] [100%] Built target composition_composed
+[1.537s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/labdoo/ros2_ws/build/examples_rclcpp_minimal_composition -- -j4 -l4
+[2.555s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/labdoo/ros2_ws/build/examples_rclcpp_minimal_composition
+[2.824s] -- Install configuration: ""
+[2.824s] -- Execute custom install script
+[2.824s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[2.825s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[2.825s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[2.825s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[2.825s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[2.825s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[2.825s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[2.826s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[2.826s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[2.826s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[2.826s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[2.826s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[2.826s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[2.827s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[2.827s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[2.827s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[2.827s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[2.827s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[2.828s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[2.828s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[2.828s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[3.048s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/labdoo/ros2_ws/build/examples_rclcpp_minimal_composition

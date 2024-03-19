@@ -1,0 +1,22 @@
+[0.865s] Invoking command in '/home/labdoo/ros2_ws/build/urdf_tutorial': /usr/bin/cmake /home/labdoo/ros2_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/urdf_tutorial
+[0.886s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.135s] [31mCMake Error at CMakeLists.txt:6 (find_package):
+[1.135s]   By not providing "Findament_cmake_install_files.cmake" in CMAKE_MODULE_PATH
+[1.136s]   this project has asked CMake to find a package configuration file provided
+[1.136s]   by "ament_cmake_install_files", but CMake did not find one.
+[1.136s] 
+[1.136s]   Could not find a package configuration file provided by
+[1.136s]   "ament_cmake_install_files" with any of the following names:
+[1.136s] 
+[1.136s] -- Configuring incomplete, errors occurred!
+[1.137s] See also "/home/labdoo/ros2_ws/build/urdf_tutorial/CMakeFiles/CMakeOutput.log".
+[1.137s]     ament_cmake_install_filesConfig.cmake
+[1.137s]     ament_cmake_install_files-config.cmake
+[1.137s] 
+[1.137s]   Add the installation prefix of "ament_cmake_install_files" to
+[1.138s]   CMAKE_PREFIX_PATH or set "ament_cmake_install_files_DIR" to a directory
+[1.138s]   containing one of the above files.  If "ament_cmake_install_files" provides
+[1.139s]   a separate development package or SDK, be sure it has been installed.
+[1.139s] 
+[1.139s] [0m
+[1.183s] Invoked command in '/home/labdoo/ros2_ws/build/urdf_tutorial' returned '1': /usr/bin/cmake /home/labdoo/ros2_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/urdf_tutorial

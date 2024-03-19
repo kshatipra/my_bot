@@ -1,0 +1,2 @@
+Invoking command in '/home/labdoo/ros2_ws1/build/si_utils': /usr/bin/cmake /home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/si_utils -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws1/install/si_utils
+Invoked command in '/home/labdoo/ros2_ws1/build/si_utils' returned '1': /usr/bin/cmake /home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/si_utils -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws1/install/si_utils

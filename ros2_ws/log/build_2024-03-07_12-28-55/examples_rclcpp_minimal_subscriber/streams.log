@@ -1,0 +1,111 @@
+[0.208s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake /home/labdoo/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber
+[0.318s] -- The C compiler identification is GNU 11.4.0
+[0.442s] -- The CXX compiler identification is GNU 11.4.0
+[0.454s] -- Detecting C compiler ABI info
+[0.585s] -- Detecting C compiler ABI info - done
+[0.606s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.608s] -- Detecting C compile features
+[0.611s] -- Detecting C compile features - done
+[0.622s] -- Detecting CXX compiler ABI info
+[0.858s] -- Detecting CXX compiler ABI info - done
+[0.883s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.885s] -- Detecting CXX compile features
+[0.889s] -- Detecting CXX compile features - done
+[0.891s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.368s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.521s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.587s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[1.695s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.726s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.770s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.822s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.273s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.281s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.535s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.614s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.730s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.230s] -- Found rclcpp_components: 21.0.5 (/opt/ros/iron/share/rclcpp_components/cmake)
+[3.597s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[3.724s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[3.935s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.938s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.942s] -- Configured cppcheck include dirs: 
+[3.942s] -- Configured cppcheck exclude dirs and/or files: 
+[3.947s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.947s] -- Configured cpplint exclude dirs and/or files: 
+[3.952s] -- Added test 'lint_cmake' to check CMake code style
+[3.956s] -- Added test 'uncrustify' to check C / C++ code style
+[3.956s] -- Configured uncrustify additional arguments: 
+[3.960s] -- Added test 'xmllint' to check XML markup files
+[3.976s] -- Configuring done
+[4.210s] -- Generating done
+[4.215s] -- Build files have been written to: /home/labdoo/ros2_ws/build/examples_rclcpp_minimal_subscriber
+[4.255s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake /home/labdoo/ros2_ws/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber
+[4.270s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake --build /home/labdoo/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j4 -l4
+[4.377s] [  4%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[22.563s] [  8%] [32m[1mLinking CXX executable subscriber_lambda[0m
+[23.485s] [  8%] Built target subscriber_lambda
+[23.533s] [ 12%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[44.586s] [ 16%] [32m[1mLinking CXX executable subscriber_member_function_with_type_adapter[0m
+[45.746s] [ 16%] Built target subscriber_member_function_with_type_adapter
+[45.786s] [ 20%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[66.123s] [ 25%] [32m[1mLinking CXX executable subscriber_member_function_with_unique_network_flow_endpoints[0m
+[67.318s] [ 25%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[67.453s] [ 29%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[84.473s] [ 33%] [32m[1mLinking CXX executable subscriber_not_composable[0m
+[85.043s] [ 33%] Built target subscriber_not_composable
+[85.068s] [ 37%] [32mBuilding CXX object CMakeFiles/subscriber_content_filtering.dir/content_filtering.cpp.o[0m
+[96.832s] [ 41%] [32m[1mLinking CXX executable subscriber_content_filtering[0m
+[97.399s] [ 41%] Built target subscriber_content_filtering
+[97.423s] [ 45%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/wait_set_subscriber.cpp.o[0m
+[109.467s] [ 50%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber.dir/rclcpp_components/node_main_wait_set_subscriber.cpp.o[0m
+[110.078s] [ 54%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/static_wait_set_subscriber.cpp.o[0m
+[110.586s] [ 58%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o[0m
+[111.680s] [ 62%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[128.186s] [ 66%] [32m[1mLinking CXX executable wait_set_subscriber[0m
+[128.672s] [ 66%] Built target wait_set_subscriber
+[139.820s] [ 70%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/time_triggered_wait_set_subscriber.cpp.o[0m
+[139.834s] [ 75%] [32m[1mLinking CXX executable subscriber_member_function_with_topic_statistics[0m
+[140.683s] [ 79%] [32m[1mLinking CXX executable subscriber_member_function[0m
+[141.160s] [ 79%] Built target subscriber_member_function_with_topic_statistics
+[141.901s] [ 79%] Built target subscriber_member_function
+[153.105s] [ 83%] [32m[1mLinking CXX shared library libwait_set_subscriber_library.so[0m
+[154.326s] [ 83%] Built target wait_set_subscriber_library
+[154.349s] [ 87%] [32mBuilding CXX object CMakeFiles/time_triggered_wait_set_subscriber.dir/rclcpp_components/node_main_time_triggered_wait_set_subscriber.cpp.o[0m
+[160.184s] [ 91%] [32m[1mLinking CXX executable time_triggered_wait_set_subscriber[0m
+[160.384s] [ 91%] Built target time_triggered_wait_set_subscriber
+[160.408s] [ 95%] [32mBuilding CXX object CMakeFiles/static_wait_set_subscriber.dir/rclcpp_components/node_main_static_wait_set_subscriber.cpp.o[0m
+[166.165s] [100%] [32m[1mLinking CXX executable static_wait_set_subscriber[0m
+[166.364s] [100%] Built target static_wait_set_subscriber
+[166.377s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake --build /home/labdoo/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j4 -l4
+[166.450s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake --install /home/labdoo/ros2_ws/build/examples_rclcpp_minimal_subscriber
+[166.459s] -- Install configuration: ""
+[166.460s] -- Execute custom install script
+[166.460s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber
+[166.470s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber
+[166.480s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber
+[166.490s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so
+[166.500s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[166.511s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[166.521s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics
+[166.531s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter
+[166.542s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints
+[166.552s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[166.563s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering
+[166.573s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[166.583s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[166.593s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[166.604s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+[166.617s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[166.627s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+[166.639s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[166.650s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[166.660s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[166.671s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+[166.686s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[166.697s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[166.711s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_minimal_subscriber
+[166.729s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[166.743s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[166.757s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[166.779s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake --install /home/labdoo/ros2_ws/build/examples_rclcpp_minimal_subscriber

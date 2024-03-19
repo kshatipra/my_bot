@@ -1,0 +1,28 @@
+[1.717s] Invoking command in '/home/labdoo/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/labdoo/ros2_ws/install/launch_testing_examples:/home/labdoo/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_service:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_publisher:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_client:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_server:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_client:/home/labdoo/ros2_ws/install/examples_rclpy_guard_conditions:/home/labdoo/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake --build /home/labdoo/ros2_ws/build/turtlesim -- -j4 -l4
+[1.978s] [  0%] Built target ament_cmake_python_copy_turtlesim
+[1.987s] [  0%] Built target turtlesim__rosidl_generator_type_description
+[2.037s] [  1%] Built target turtlesim__cpp
+[2.162s] [ 24%] Built target turtlesim__rosidl_generator_c
+[2.484s] [ 32%] Built target turtlesim__rosidl_typesupport_cpp
+[2.607s] [ 40%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[2.623s] [ 49%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[2.845s] [ 58%] Built target turtlesim__rosidl_typesupport_introspection_c
+[3.028s] [ 66%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[3.057s] [ 75%] Built target turtlesim__rosidl_typesupport_c
+[3.407s] [ 81%] Built target turtlesim_node
+[3.472s] [ 83%] Built target turtle_teleop_key
+[3.510s] [ 84%] Built target draw_square
+[3.742s] [ 86%] Built target mimic
+[3.768s] [ 86%] Built target turtlesim
+[3.901s] [ 86%] Built target turtlesim__py
+[4.127s] [ 94%] Built target turtlesim__rosidl_generator_py
+[4.362s] [ 96%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[4.452s] [ 98%] Built target turtlesim__rosidl_typesupport_c__pyext
+[4.476s] [100%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[5.019s] running egg_info
+[5.020s] writing turtlesim.egg-info/PKG-INFO
+[5.026s] writing dependency_links to turtlesim.egg-info/dependency_links.txt
+[5.026s] writing top-level names to turtlesim.egg-info/top_level.txt
+[5.103s] reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+[5.104s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[5.362s] [100%] Built target ament_cmake_python_build_turtlesim_egg

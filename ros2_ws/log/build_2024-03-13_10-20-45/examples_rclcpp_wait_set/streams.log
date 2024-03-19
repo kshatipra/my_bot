@@ -1,0 +1,46 @@
+[0.561s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/labdoo/ros2_ws/install/urdf_tutorial:/home/labdoo/ros2_ws/install/py_pubsub:/home/labdoo/ros2_ws/install/launch_testing_examples:/home/labdoo/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_service:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_publisher:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_client:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_server:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_client:/home/labdoo/ros2_ws/install/examples_rclpy_guard_conditions:/home/labdoo/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake --build /home/labdoo/ros2_ws/build/examples_rclcpp_wait_set -- -j4 -l4
+[0.802s] [ 16%] Built target talker
+[0.802s] [ 16%] Built target listener
+[0.803s] [ 25%] Built target wait_set_talker
+[0.803s] [ 33%] Built target wait_set_listener
+[0.803s] [ 41%] Built target wait_set
+[0.803s] [ 50%] Built target static_wait_set
+[0.803s] [ 58%] Built target thread_safe_wait_set
+[0.803s] [ 66%] Built target wait_set_topics_and_timer
+[0.804s] [ 75%] Built target wait_set_random_order
+[0.804s] [ 83%] Built target executor_random_order
+[0.806s] [ 91%] Built target wait_set_topics_with_different_rates
+[0.822s] [100%] Built target wait_set_composed
+[1.968s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/labdoo/ros2_ws/install/urdf_tutorial:/home/labdoo/ros2_ws/install/py_pubsub:/home/labdoo/ros2_ws/install/launch_testing_examples:/home/labdoo/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_service:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_publisher:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_client:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_server:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_client:/home/labdoo/ros2_ws/install/examples_rclpy_guard_conditions:/home/labdoo/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake --build /home/labdoo/ros2_ws/build/examples_rclcpp_wait_set -- -j4 -l4
+[2.191s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/labdoo/ros2_ws/install/urdf_tutorial:/home/labdoo/ros2_ws/install/py_pubsub:/home/labdoo/ros2_ws/install/launch_testing_examples:/home/labdoo/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_service:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_publisher:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_client:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_server:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_client:/home/labdoo/ros2_ws/install/examples_rclpy_guard_conditions:/home/labdoo/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake --install /home/labdoo/ros2_ws/build/examples_rclcpp_wait_set
+[2.206s] -- Install configuration: ""
+[2.207s] -- Execute custom install script
+[2.209s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[2.210s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[2.212s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/lib/libtalker.so
+[2.212s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/lib/liblistener.so
+[2.214s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[2.215s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[2.216s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[2.217s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[2.218s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[2.219s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[2.220s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[2.220s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[2.222s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[2.223s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[2.224s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[2.225s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[2.226s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[2.226s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[2.227s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[2.228s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[2.229s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[2.229s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[2.230s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[2.248s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[2.249s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[2.252s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[2.252s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[2.253s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[2.749s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/labdoo/ros2_ws/install/urdf_tutorial:/home/labdoo/ros2_ws/install/py_pubsub:/home/labdoo/ros2_ws/install/launch_testing_examples:/home/labdoo/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_service:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_publisher:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_client:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_server:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_client:/home/labdoo/ros2_ws/install/examples_rclpy_guard_conditions:/home/labdoo/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake --install /home/labdoo/ros2_ws/build/examples_rclcpp_wait_set

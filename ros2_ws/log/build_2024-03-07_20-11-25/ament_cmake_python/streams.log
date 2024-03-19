@@ -1,0 +1,25 @@
+[0.780s] Invoking command in '/home/labdoo/ros2_ws/build/ament_cmake_python': AMENT_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_core:/opt/ros/iron /usr/bin/cmake --build /home/labdoo/ros2_ws/build/ament_cmake_python -- -j4 -l4
+[0.841s] Invoked command in '/home/labdoo/ros2_ws/build/ament_cmake_python' returned '0': AMENT_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_core:/opt/ros/iron /usr/bin/cmake --build /home/labdoo/ros2_ws/build/ament_cmake_python -- -j4 -l4
+[0.876s] Invoking command in '/home/labdoo/ros2_ws/build/ament_cmake_python': AMENT_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_core:/opt/ros/iron /usr/bin/cmake --install /home/labdoo/ros2_ws/build/ament_cmake_python
+[0.894s] -- Install configuration: ""
+[0.894s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_python/share/ament_index/resource_index/package_run_dependencies/ament_cmake_python
+[0.896s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_python/share/ament_index/resource_index/parent_prefix_path/ament_cmake_python
+[0.898s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_python/share/ament_cmake_python/environment/ament_prefix_path.sh
+[0.898s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_python/share/ament_cmake_python/environment/ament_prefix_path.dsv
+[0.898s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_python/share/ament_cmake_python/environment/path.sh
+[0.898s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_python/share/ament_cmake_python/environment/path.dsv
+[0.899s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_python/share/ament_cmake_python/local_setup.bash
+[0.899s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_python/share/ament_cmake_python/local_setup.sh
+[0.899s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_python/share/ament_cmake_python/local_setup.zsh
+[0.899s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_python/share/ament_cmake_python/local_setup.dsv
+[0.899s] -- Installing: /home/labdoo/ros2_ws/install/ament_cmake_python/share/ament_cmake_python/package.dsv
+[0.899s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_python/share/ament_index/resource_index/packages/ament_cmake_python
+[0.900s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_python/share/ament_cmake_python/cmake/ament_cmake_python-extras.cmake
+[0.900s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_python/share/ament_cmake_python/cmake/ament_cmake_pythonConfig.cmake
+[0.900s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_python/share/ament_cmake_python/cmake/ament_cmake_pythonConfig-version.cmake
+[0.900s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_python/share/ament_cmake_python/package.xml
+[0.900s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_python/share/ament_cmake_python/cmake
+[0.900s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_python/share/ament_cmake_python/cmake/ament_python_install_package.cmake
+[0.901s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_python/share/ament_cmake_python/cmake/ament_python_install_module.cmake
+[0.901s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_python/share/ament_cmake_python/cmake/ament_get_python_install_dir.cmake
+[0.910s] Invoked command in '/home/labdoo/ros2_ws/build/ament_cmake_python' returned '0': AMENT_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_core:/opt/ros/iron /usr/bin/cmake --install /home/labdoo/ros2_ws/build/ament_cmake_python

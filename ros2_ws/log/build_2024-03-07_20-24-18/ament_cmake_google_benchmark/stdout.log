@@ -1,0 +1,8 @@
+Built target ament_cmake_python_copy_ament_cmake_google_benchmark
+running egg_info
+writing ament_cmake_google_benchmark.egg-info/PKG-INFO
+writing dependency_links to ament_cmake_google_benchmark.egg-info/dependency_links.txt
+writing top-level names to ament_cmake_google_benchmark.egg-info/top_level.txt
+reading manifest file 'ament_cmake_google_benchmark.egg-info/SOURCES.txt'
+writing manifest file 'ament_cmake_google_benchmark.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_ament_cmake_google_benchmark_egg

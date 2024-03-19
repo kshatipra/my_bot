@@ -1,0 +1,21 @@
+[0.184s] Invoking command in '/home/labdoo/ros2_ws/build/urdf_tutorial': /usr/bin/cmake /home/labdoo/ros2_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/urdf_tutorial
+[0.259s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.263s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.267s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.271s]   CMake did not find one.
+[0.275s] 
+[0.279s]   Could not find a package configuration file provided by "catkin" with any
+[0.282s]   of the following names:
+[0.286s] 
+[0.287s]     catkinConfig.cmake
+[0.287s]     catkin-config.cmake
+[0.288s] 
+[0.288s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.289s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.289s]   provides a separate development package or SDK, be sure it has been
+[0.290s]   installed.
+[0.292s] 
+[0.292s] [0m
+[0.293s] -- Configuring incomplete, errors occurred!
+[0.293s] See also "/home/labdoo/ros2_ws/build/urdf_tutorial/CMakeFiles/CMakeOutput.log".
+[0.939s] Invoked command in '/home/labdoo/ros2_ws/build/urdf_tutorial' returned '1': /usr/bin/cmake /home/labdoo/ros2_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/urdf_tutorial

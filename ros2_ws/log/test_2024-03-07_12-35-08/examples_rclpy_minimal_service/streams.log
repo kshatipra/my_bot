@@ -1,0 +1,23 @@
+[1.550s] Invoking command in '/home/labdoo/ros2_ws/src/examples/rclpy/services/minimal_service': AMENT_PREFIX_PATH=/home/labdoo/ros2_ws/install/examples_rclpy_minimal_service:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/labdoo/ros2_ws/build/examples_rclpy_minimal_service/pytest.xml --junit-prefix=examples_rclpy_minimal_service -o cache_dir=/home/labdoo/ros2_ws/build/examples_rclpy_minimal_service/.pytest_cache PYTHONPATH=/home/labdoo/ros2_ws/build/examples_rclpy_minimal_service:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[3.081s] [1m============================= test session starts ==============================[0m
+[3.082s] platform linux -- Python 3.10.12, pytest-8.0.1, pluggy-1.4.0
+[3.112s] cachedir: /home/labdoo/ros2_ws/build/examples_rclpy_minimal_service/.pytest_cache
+[3.113s] rootdir: /home/labdoo/ros2_ws/src/examples/rclpy
+[3.113s] configfile: pytest.ini
+[3.113s] plugins: ament-xmllint-0.14.3, launch-testing-ros-0.24.1, ament-pep257-0.14.3, ament-lint-0.14.3, launch-testing-2.0.2, ament-copyright-0.14.3, ament-flake8-0.14.3, repeat-0.9.3, rerunfailures-13.0, remotedata-0.3.3, colcon-core-0.15.2, cov-3.0.0, openfiles-0.5.0, astropy-header-0.2.0, doctestplus-0.11.2, filter-subpackage-0.1.1, hypothesis-6.36.0, timeout-2.1.0, arraydiff-0.5.0, mock-3.6.1
+[3.237s] [1mcollecting ... [0m[1m
+[3.237s] collected 3 items                                                              [0m
+[3.237s] 
+[3.920s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[4.375s] test/test_flake8.py [32m.[0m[33m                                                    [ 66%][0m
+[4.438s] test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+[4.439s] 
+[4.441s] [33m=============================== warnings summary ===============================[0m
+[4.442s] services/minimal_service/test/test_flake8.py::test_flake8
+[4.444s] services/minimal_service/test/test_flake8.py::test_flake8
+[4.446s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[4.447s] 
+[4.448s] -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+[4.450s] - generated xml file: /home/labdoo/ros2_ws/build/examples_rclpy_minimal_service/pytest.xml -
+[4.452s] [33m======================== [32m3 passed[0m, [33m[1m2 warnings[0m[33m in 1.37s[0m[33m =========================[0m
+[4.714s] Invoked command in '/home/labdoo/ros2_ws/src/examples/rclpy/services/minimal_service' returned '0': AMENT_PREFIX_PATH=/home/labdoo/ros2_ws/install/examples_rclpy_minimal_service:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/labdoo/ros2_ws/build/examples_rclpy_minimal_service/pytest.xml --junit-prefix=examples_rclpy_minimal_service -o cache_dir=/home/labdoo/ros2_ws/build/examples_rclpy_minimal_service/.pytest_cache PYTHONPATH=/home/labdoo/ros2_ws/build/examples_rclpy_minimal_service:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

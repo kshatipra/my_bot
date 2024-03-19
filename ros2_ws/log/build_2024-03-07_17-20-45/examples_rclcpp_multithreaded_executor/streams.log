@@ -1,0 +1,23 @@
+[0.616s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/labdoo/ros2_ws/build/examples_rclcpp_multithreaded_executor -- -j4 -l4
+[0.956s] [100%] Built target multithreaded_executor
+[2.175s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/labdoo/ros2_ws/build/examples_rclcpp_multithreaded_executor -- -j4 -l4
+[3.402s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/labdoo/ros2_ws/build/examples_rclcpp_multithreaded_executor
+[3.428s] -- Install configuration: ""
+[3.429s] -- Execute custom install script
+[3.433s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/lib/examples_rclcpp_multithreaded_executor/multithreaded_executor
+[3.434s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_multithreaded_executor
+[3.435s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_multithreaded_executor
+[3.436s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.sh
+[3.437s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.dsv
+[3.438s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.sh
+[3.438s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.dsv
+[3.439s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.bash
+[3.440s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.sh
+[3.441s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.zsh
+[3.442s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.dsv
+[3.443s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.dsv
+[3.485s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/packages/examples_rclcpp_multithreaded_executor
+[3.486s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig.cmake
+[3.487s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig-version.cmake
+[3.488s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.xml
+[4.191s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/labdoo/ros2_ws/build/examples_rclcpp_multithreaded_executor

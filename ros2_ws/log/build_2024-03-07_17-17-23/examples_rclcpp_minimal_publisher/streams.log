@@ -1,0 +1,33 @@
+[0.683s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/labdoo/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j4 -l4
+[0.768s] [ 16%] Built target publisher_lambda
+[0.776s] [ 33%] Built target publisher_member_function_with_type_adapter
+[0.790s] [ 50%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[0.805s] [ 66%] Built target publisher_member_function
+[0.887s] [ 83%] Built target publisher_wait_for_all_acked
+[0.901s] [100%] Built target publisher_not_composable
+[1.589s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/labdoo/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j4 -l4
+[2.342s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/labdoo/ros2_ws/build/examples_rclcpp_minimal_publisher
+[2.355s] -- Install configuration: ""
+[2.356s] -- Execute custom install script
+[2.362s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[2.362s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[2.363s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter
+[2.363s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints
+[2.363s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked
+[2.363s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[2.363s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[2.364s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[2.364s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[2.364s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[2.364s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[2.364s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[2.364s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[2.365s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[2.365s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[2.365s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[2.365s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[2.388s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[2.394s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[2.397s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[2.398s] -- Up-to-date symlink: /home/labdoo/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[2.402s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/labdoo/ros2_ws/build/examples_rclcpp_minimal_publisher

@@ -1,0 +1,10 @@
+-- run_test.py: invoking following command in '/home/labdoo/ros2_ws/src/my_package':
+ - /opt/ros/iron/bin/ament_uncrustify --xunit-file /home/labdoo/ros2_ws/build/my_package/test_results/my_package/uncrustify.xunit.xml
+
+No code style divergence in file 'src/my_node.cpp'
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/labdoo/ros2_ws/build/my_package/test_results/my_package/uncrustify.xunit.xml'

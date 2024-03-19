@@ -1,0 +1,22 @@
+[7.119s] Invoking command in '/home/labdoo/ros2_ws/src/examples/launch_testing/launch_testing_examples': PYTHONPATH=/home/labdoo/ros2_ws/build/launch_testing_examples/prefix_override:/home/labdoo/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/launch_testing_examples build --build-base /home/labdoo/ros2_ws/build/launch_testing_examples/build install --record /home/labdoo/ros2_ws/build/launch_testing_examples/install.log --single-version-externally-managed
+[8.624s] running egg_info
+[8.625s] writing ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/PKG-INFO
+[8.625s] writing dependency_links to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/dependency_links.txt
+[8.626s] writing entry points to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/entry_points.txt
+[8.626s] writing requirements to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/requires.txt
+[8.651s] writing top-level names to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/top_level.txt
+[8.710s] reading manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[8.710s] writing manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[8.740s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.740s]   warnings.warn(
+[8.740s] running build
+[8.740s] running build_py
+[8.741s] running install
+[8.741s] running install_lib
+[8.741s] running install_data
+[8.741s] running install_egg_info
+[8.743s] removing '/home/labdoo/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples-0.18.0-py3.10.egg-info' (and everything under it)
+[8.744s] Copying ../../../../build/launch_testing_examples/launch_testing_examples.egg-info to /home/labdoo/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples-0.18.0-py3.10.egg-info
+[8.744s] running install_scripts
+[8.775s] writing list of installed files to '/home/labdoo/ros2_ws/build/launch_testing_examples/install.log'
+[8.864s] Invoked command in '/home/labdoo/ros2_ws/src/examples/launch_testing/launch_testing_examples' returned '0': PYTHONPATH=/home/labdoo/ros2_ws/build/launch_testing_examples/prefix_override:/home/labdoo/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/launch_testing_examples build --build-base /home/labdoo/ros2_ws/build/launch_testing_examples/build install --record /home/labdoo/ros2_ws/build/launch_testing_examples/install.log --single-version-externally-managed

@@ -1,0 +1,52 @@
+[4.863s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclpy_minimal_client': PYTHONPATH=/home/labdoo/ros2_ws/build/examples_rclpy_minimal_client/prefix_override:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/labdoo/ros2_ws/build/examples_rclpy_minimal_client/build
+[5.758s] running develop
+[5.759s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.759s]   warnings.warn(
+[5.762s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.762s]   warnings.warn(
+[6.745s] Removing /home/labdoo/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples-rclpy-minimal-client.egg-link (link to .)
+[7.072s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclpy_minimal_client' returned '0': PYTHONPATH=/home/labdoo/ros2_ws/build/examples_rclpy_minimal_client/prefix_override:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/labdoo/ros2_ws/build/examples_rclpy_minimal_client/build
+[7.080s] Invoking command in '/home/labdoo/ros2_ws/src/examples/rclpy/services/minimal_client': PYTHONPATH=/home/labdoo/ros2_ws/build/examples_rclpy_minimal_client/prefix_override:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_client build --build-base /home/labdoo/ros2_ws/build/examples_rclpy_minimal_client/build install --record /home/labdoo/ros2_ws/build/examples_rclpy_minimal_client/install.log --single-version-externally-managed
+[7.885s] running egg_info
+[7.887s] writing ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/PKG-INFO
+[7.888s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/dependency_links.txt
+[7.888s] writing entry points to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/entry_points.txt
+[7.889s] writing requirements to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/requires.txt
+[7.889s] writing top-level names to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/top_level.txt
+[7.898s] reading manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[7.900s] writing manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[7.900s] running build
+[7.900s] running build_py
+[7.901s] creating /home/labdoo/ros2_ws/build/examples_rclpy_minimal_client/build
+[7.901s] creating /home/labdoo/ros2_ws/build/examples_rclpy_minimal_client/build/lib
+[7.901s] creating /home/labdoo/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[7.902s] copying examples_rclpy_minimal_client/client_async_callback.py -> /home/labdoo/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[7.902s] copying examples_rclpy_minimal_client/client_async.py -> /home/labdoo/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[7.902s] copying examples_rclpy_minimal_client/__init__.py -> /home/labdoo/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[7.903s] copying examples_rclpy_minimal_client/client_async_member_function.py -> /home/labdoo/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[7.903s] copying examples_rclpy_minimal_client/client.py -> /home/labdoo/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[7.903s] running install
+[7.904s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.904s]   warnings.warn(
+[7.905s] running install_lib
+[7.906s] creating /home/labdoo/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[7.907s] copying /home/labdoo/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async_callback.py -> /home/labdoo/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[7.907s] copying /home/labdoo/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async.py -> /home/labdoo/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[7.907s] copying /home/labdoo/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/__init__.py -> /home/labdoo/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[7.908s] copying /home/labdoo/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async_member_function.py -> /home/labdoo/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[7.908s] copying /home/labdoo/ros2_ws/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client.py -> /home/labdoo/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client
+[7.910s] byte-compiling /home/labdoo/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/client_async_callback.py to client_async_callback.cpython-310.pyc
+[7.911s] byte-compiling /home/labdoo/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/client_async.py to client_async.cpython-310.pyc
+[7.912s] byte-compiling /home/labdoo/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/__init__.py to __init__.cpython-310.pyc
+[7.912s] byte-compiling /home/labdoo/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/client_async_member_function.py to client_async_member_function.cpython-310.pyc
+[7.913s] byte-compiling /home/labdoo/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client/client.py to client.cpython-310.pyc
+[7.914s] running install_data
+[7.918s] running install_egg_info
+[7.923s] Copying ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info to /home/labdoo/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages/examples_rclpy_minimal_client-0.18.0-py3.10.egg-info
+[7.925s] running install_scripts
+[8.001s] Installing client script to /home/labdoo/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[8.002s] Installing client_async script to /home/labdoo/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[8.002s] Installing client_async_callback script to /home/labdoo/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[8.003s] Installing client_async_member_function script to /home/labdoo/ros2_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[8.004s] writing list of installed files to '/home/labdoo/ros2_ws/build/examples_rclpy_minimal_client/install.log'
+[8.086s] Invoked command in '/home/labdoo/ros2_ws/src/examples/rclpy/services/minimal_client' returned '0': PYTHONPATH=/home/labdoo/ros2_ws/build/examples_rclpy_minimal_client/prefix_override:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_client build --build-base /home/labdoo/ros2_ws/build/examples_rclpy_minimal_client/build install --record /home/labdoo/ros2_ws/build/examples_rclpy_minimal_client/install.log --single-version-externally-managed

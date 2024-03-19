@@ -1,0 +1,30 @@
+[3.108s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclpy_minimal_publisher': PYTHONPATH=/home/labdoo/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/labdoo/ros2_ws/build/examples_rclpy_minimal_publisher/build --no-deps install_data
+[4.244s] running develop
+[4.245s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.245s]   warnings.warn(
+[4.249s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.250s]   warnings.warn(
+[5.167s] running egg_info
+[5.169s] creating examples_rclpy_minimal_publisher.egg-info
+[5.172s] writing examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[5.173s] writing dependency_links to examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[5.178s] writing entry points to examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[5.179s] writing requirements to examples_rclpy_minimal_publisher.egg-info/requires.txt
+[5.179s] writing top-level names to examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[5.183s] writing manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[5.199s] reading manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[5.200s] writing manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[5.201s] running build_ext
+[5.203s] Creating /home/labdoo/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples-rclpy-minimal-publisher.egg-link (link to .)
+[5.203s] Installing publisher_local_function script to /home/labdoo/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[5.211s] Installing publisher_member_function script to /home/labdoo/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[5.211s] Installing publisher_old_school script to /home/labdoo/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[5.211s] 
+[5.211s] Installed /home/labdoo/ros2_ws/build/examples_rclpy_minimal_publisher
+[5.211s] running install_data
+[5.211s] creating /home/labdoo/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index
+[5.212s] creating /home/labdoo/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index
+[5.212s] creating /home/labdoo/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[5.212s] copying resource/examples_rclpy_minimal_publisher -> /home/labdoo/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[5.212s] copying package.xml -> /home/labdoo/ros2_ws/install/examples_rclpy_minimal_publisher/share/examples_rclpy_minimal_publisher
+[5.712s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclpy_minimal_publisher' returned '0': PYTHONPATH=/home/labdoo/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/labdoo/ros2_ws/build/examples_rclpy_minimal_publisher/build --no-deps install_data

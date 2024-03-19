@@ -1,0 +1,35 @@
+[1.476s] Invoking command in '/home/labdoo/ros2_ws/src/urdf_tutorial': PYTHONPATH=/home/labdoo/ros2_ws/src/build/urdf_tutorial/prefix_override:/home/labdoo/ros2_ws/src/install/urdf_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/urdf_tutorial build --build-base /home/labdoo/ros2_ws/src/build/urdf_tutorial/build install --record /home/labdoo/ros2_ws/src/build/urdf_tutorial/install.log --single-version-externally-managed
+[1.950s] running egg_info
+[1.951s] creating ../build/urdf_tutorial/urdf_tutorial.egg-info
+[1.952s] writing ../build/urdf_tutorial/urdf_tutorial.egg-info/PKG-INFO
+[1.952s] writing dependency_links to ../build/urdf_tutorial/urdf_tutorial.egg-info/dependency_links.txt
+[1.953s] writing entry points to ../build/urdf_tutorial/urdf_tutorial.egg-info/entry_points.txt
+[1.953s] writing requirements to ../build/urdf_tutorial/urdf_tutorial.egg-info/requires.txt
+[1.953s] writing top-level names to ../build/urdf_tutorial/urdf_tutorial.egg-info/top_level.txt
+[1.956s] writing manifest file '../build/urdf_tutorial/urdf_tutorial.egg-info/SOURCES.txt'
+[1.959s] reading manifest file '../build/urdf_tutorial/urdf_tutorial.egg-info/SOURCES.txt'
+[1.960s] writing manifest file '../build/urdf_tutorial/urdf_tutorial.egg-info/SOURCES.txt'
+[1.960s] running build
+[1.961s] running build_py
+[1.961s] creating /home/labdoo/ros2_ws/src/build/urdf_tutorial/build
+[1.961s] creating /home/labdoo/ros2_ws/src/build/urdf_tutorial/build/lib
+[1.961s] creating /home/labdoo/ros2_ws/src/build/urdf_tutorial/build/lib/urdf_tutorial
+[1.962s] copying urdf_tutorial/__init__.py -> /home/labdoo/ros2_ws/src/build/urdf_tutorial/build/lib/urdf_tutorial
+[1.962s] running install
+[1.962s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.963s]   warnings.warn(
+[1.963s] running install_lib
+[1.964s] creating /home/labdoo/ros2_ws/src/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial
+[1.964s] copying /home/labdoo/ros2_ws/src/build/urdf_tutorial/build/lib/urdf_tutorial/__init__.py -> /home/labdoo/ros2_ws/src/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial
+[1.967s] byte-compiling /home/labdoo/ros2_ws/src/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial/__init__.py to __init__.cpython-310.pyc
+[1.967s] running install_data
+[1.968s] creating /home/labdoo/ros2_ws/src/install/urdf_tutorial/share/ament_index
+[1.969s] creating /home/labdoo/ros2_ws/src/install/urdf_tutorial/share/ament_index/resource_index
+[1.969s] creating /home/labdoo/ros2_ws/src/install/urdf_tutorial/share/ament_index/resource_index/packages
+[1.969s] copying resource/urdf_tutorial -> /home/labdoo/ros2_ws/src/install/urdf_tutorial/share/ament_index/resource_index/packages
+[1.969s] copying package.xml -> /home/labdoo/ros2_ws/src/install/urdf_tutorial/share/urdf_tutorial
+[1.969s] running install_egg_info
+[1.972s] Copying ../build/urdf_tutorial/urdf_tutorial.egg-info to /home/labdoo/ros2_ws/src/install/urdf_tutorial/lib/python3.10/site-packages/urdf_tutorial-0.0.0-py3.10.egg-info
+[1.973s] running install_scripts
+[2.006s] writing list of installed files to '/home/labdoo/ros2_ws/src/build/urdf_tutorial/install.log'
+[2.049s] Invoked command in '/home/labdoo/ros2_ws/src/urdf_tutorial' returned '0': PYTHONPATH=/home/labdoo/ros2_ws/src/build/urdf_tutorial/prefix_override:/home/labdoo/ros2_ws/src/install/urdf_tutorial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/urdf_tutorial build --build-base /home/labdoo/ros2_ws/src/build/urdf_tutorial/build install --record /home/labdoo/ros2_ws/src/build/urdf_tutorial/install.log --single-version-externally-managed

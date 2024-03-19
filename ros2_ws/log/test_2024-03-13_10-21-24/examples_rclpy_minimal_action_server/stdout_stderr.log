@@ -1,0 +1,21 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.10.12, pytest-8.0.1, pluggy-1.4.0
+cachedir: /home/labdoo/ros2_ws/build/examples_rclpy_minimal_action_server/.pytest_cache
+rootdir: /home/labdoo/ros2_ws/src/examples/rclpy
+configfile: pytest.ini
+plugins: ament-xmllint-0.14.3, launch-testing-ros-0.24.1, ament-pep257-0.14.3, ament-lint-0.14.3, launch-testing-2.0.2, ament-copyright-0.14.3, ament-flake8-0.14.3, repeat-0.9.3, rerunfailures-13.0, colcon-core-0.15.2, remotedata-0.3.3, cov-3.0.0, openfiles-0.5.0, astropy-header-0.2.0, doctestplus-0.11.2, filter-subpackage-0.1.1, hypothesis-6.36.0, timeout-2.1.0, arraydiff-0.5.0, mock-3.6.1
+[1mcollecting ... [0m[1m
+collected 3 items                                                              [0m
+
+test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+test/test_flake8.py [32m.[0m[33m                                                    [ 66%][0m
+test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+
+[33m=============================== warnings summary ===============================[0m
+actions/minimal_action_server/test/test_flake8.py::test_flake8
+actions/minimal_action_server/test/test_flake8.py::test_flake8
+  Warning: SelectableGroups dict interface is deprecated. Use select.
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+- generated xml file: /home/labdoo/ros2_ws/build/examples_rclpy_minimal_action_server/pytest.xml -
+[33m======================== [32m3 passed[0m, [33m[1m2 warnings[0m[33m in 2.00s[0m[33m =========================[0m

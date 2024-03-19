@@ -1,0 +1,41 @@
+[0.357s] Invoking command in '/home/labdoo/ros2_ws/build/turtlebot3_applications_msgs': /usr/bin/cmake /home/labdoo/ros2_ws/src/turtlebot3_applications_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/turtlebot3_applications_msgs
+[0.374s] [0mCMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+[0.374s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.374s]   CMake.
+[0.374s] 
+[0.374s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.375s]   CMake that the project does not need compatibility with older versions.
+[0.375s] 
+[0.375s] [0m
+[0.501s] -- The C compiler identification is GNU 11.4.0
+[0.629s] -- The CXX compiler identification is GNU 11.4.0
+[0.647s] -- Detecting C compiler ABI info
+[0.778s] -- Detecting C compiler ABI info - done
+[0.800s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.801s] -- Detecting C compile features
+[0.802s] -- Detecting C compile features - done
+[0.811s] -- Detecting CXX compiler ABI info
+[0.981s] -- Detecting CXX compiler ABI info - done
+[1.006s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.006s] -- Detecting CXX compile features
+[1.008s] -- Detecting CXX compile features - done
+[1.037s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[1.037s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.037s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.037s]   CMake did not find one.
+[1.037s] 
+[1.038s]   Could not find a package configuration file provided by "catkin" with any
+[1.038s]   of the following names:
+[1.038s] 
+[1.038s]     catkinConfig.cmake
+[1.038s]     catkin-config.cmake
+[1.038s] 
+[1.038s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.039s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.039s]   provides a separate development package or SDK, be sure it has been
+[1.039s]   installed.
+[1.039s] 
+[1.040s] [0m
+[1.041s] -- Configuring incomplete, errors occurred!
+[1.042s] See also "/home/labdoo/ros2_ws/build/turtlebot3_applications_msgs/CMakeFiles/CMakeOutput.log".
+[1.049s] Invoked command in '/home/labdoo/ros2_ws/build/turtlebot3_applications_msgs' returned '1': /usr/bin/cmake /home/labdoo/ros2_ws/src/turtlebot3_applications_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/turtlebot3_applications_msgs

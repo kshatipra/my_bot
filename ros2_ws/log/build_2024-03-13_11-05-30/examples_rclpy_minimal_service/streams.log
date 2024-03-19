@@ -1,0 +1,24 @@
+[2.495s] Invoking command in '/home/labdoo/ros2_ws/src/examples/rclpy/services/minimal_service': PYTHONPATH=/home/labdoo/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/labdoo/ros2_ws/build/examples_rclpy_minimal_service/build install --record /home/labdoo/ros2_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed
+[2.920s] running egg_info
+[2.921s] writing ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/PKG-INFO
+[2.921s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[2.922s] writing entry points to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/entry_points.txt
+[2.922s] writing requirements to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/requires.txt
+[2.922s] writing top-level names to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/top_level.txt
+[2.927s] reading manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[2.928s] writing manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[2.929s] running build
+[2.929s] running build_py
+[2.930s] running install
+[2.930s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.931s]   warnings.warn(
+[2.931s] running install_lib
+[2.931s] running install_data
+[2.932s] running install_egg_info
+[2.937s] removing '/home/labdoo/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service-0.18.0-py3.10.egg-info' (and everything under it)
+[2.938s] Copying ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info to /home/labdoo/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service-0.18.0-py3.10.egg-info
+[2.939s] running install_scripts
+[2.969s] Installing service script to /home/labdoo/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[2.969s] Installing service_member_function script to /home/labdoo/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[2.970s] writing list of installed files to '/home/labdoo/ros2_ws/build/examples_rclpy_minimal_service/install.log'
+[3.043s] Invoked command in '/home/labdoo/ros2_ws/src/examples/rclpy/services/minimal_service' returned '0': PYTHONPATH=/home/labdoo/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/labdoo/ros2_ws/build/examples_rclpy_minimal_service/build install --record /home/labdoo/ros2_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed

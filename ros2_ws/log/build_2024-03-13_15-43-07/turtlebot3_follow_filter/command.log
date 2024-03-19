@@ -1,0 +1,2 @@
+Invoking command in '/home/labdoo/ros2_ws/build/turtlebot3_follow_filter': /usr/bin/cmake /home/labdoo/ros2_ws/src/turtlebot3_applications/turtlebot3_follow_filter -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/turtlebot3_follow_filter
+Invoked command in '/home/labdoo/ros2_ws/build/turtlebot3_follow_filter' returned '1': /usr/bin/cmake /home/labdoo/ros2_ws/src/turtlebot3_applications/turtlebot3_follow_filter -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/turtlebot3_follow_filter

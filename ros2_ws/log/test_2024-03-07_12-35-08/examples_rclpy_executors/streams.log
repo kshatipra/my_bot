@@ -1,0 +1,23 @@
+[0.767s] Invoking command in '/home/labdoo/ros2_ws/src/examples/rclpy/executors': AMENT_PREFIX_PATH=/home/labdoo/ros2_ws/install/examples_rclpy_executors:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/labdoo/ros2_ws/build/examples_rclpy_executors/pytest.xml --junit-prefix=examples_rclpy_executors -o cache_dir=/home/labdoo/ros2_ws/build/examples_rclpy_executors/.pytest_cache PYTHONPATH=/home/labdoo/ros2_ws/build/examples_rclpy_executors:/home/labdoo/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[2.197s] [1m============================= test session starts ==============================[0m
+[2.197s] platform linux -- Python 3.10.12, pytest-8.0.1, pluggy-1.4.0
+[2.229s] cachedir: /home/labdoo/ros2_ws/build/examples_rclpy_executors/.pytest_cache
+[2.230s] rootdir: /home/labdoo/ros2_ws/src/examples/rclpy
+[2.231s] configfile: pytest.ini
+[2.233s] plugins: ament-xmllint-0.14.3, launch-testing-ros-0.24.1, ament-pep257-0.14.3, ament-lint-0.14.3, launch-testing-2.0.2, ament-copyright-0.14.3, ament-flake8-0.14.3, repeat-0.9.3, rerunfailures-13.0, remotedata-0.3.3, colcon-core-0.15.2, cov-3.0.0, openfiles-0.5.0, astropy-header-0.2.0, doctestplus-0.11.2, filter-subpackage-0.1.1, hypothesis-6.36.0, timeout-2.1.0, arraydiff-0.5.0, mock-3.6.1
+[2.391s] [1mcollecting ... [0m[1m
+[2.392s] collected 3 items                                                              [0m
+[2.394s] 
+[3.614s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[4.216s] test/test_flake8.py [32m.[0m[33m                                                    [ 66%][0m
+[4.349s] test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+[4.350s] 
+[4.350s] [33m=============================== warnings summary ===============================[0m
+[4.350s] executors/test/test_flake8.py::test_flake8
+[4.350s] executors/test/test_flake8.py::test_flake8
+[4.351s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[4.351s] 
+[4.351s] -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+[4.351s] - generated xml file: /home/labdoo/ros2_ws/build/examples_rclpy_executors/pytest.xml -
+[4.351s] [33m======================== [32m3 passed[0m, [33m[1m2 warnings[0m[33m in 2.15s[0m[33m =========================[0m
+[4.582s] Invoked command in '/home/labdoo/ros2_ws/src/examples/rclpy/executors' returned '0': AMENT_PREFIX_PATH=/home/labdoo/ros2_ws/install/examples_rclpy_executors:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/labdoo/ros2_ws/build/examples_rclpy_executors/pytest.xml --junit-prefix=examples_rclpy_executors -o cache_dir=/home/labdoo/ros2_ws/build/examples_rclpy_executors/.pytest_cache PYTHONPATH=/home/labdoo/ros2_ws/build/examples_rclpy_executors:/home/labdoo/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

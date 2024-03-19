@@ -1,0 +1,25 @@
+[0.403s] Invoking command in '/home/labdoo/ros2_ws/build/ament_cmake_export_include_directories': AMENT_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_core:/opt/ros/iron /usr/bin/cmake --build /home/labdoo/ros2_ws/build/ament_cmake_export_include_directories -- -j4 -l4
+[0.459s] Invoked command in '/home/labdoo/ros2_ws/build/ament_cmake_export_include_directories' returned '0': AMENT_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_core:/opt/ros/iron /usr/bin/cmake --build /home/labdoo/ros2_ws/build/ament_cmake_export_include_directories -- -j4 -l4
+[0.496s] Invoking command in '/home/labdoo/ros2_ws/build/ament_cmake_export_include_directories': AMENT_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_core:/opt/ros/iron /usr/bin/cmake --install /home/labdoo/ros2_ws/build/ament_cmake_export_include_directories
+[0.510s] -- Install configuration: ""
+[0.510s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_export_include_directories/share/ament_index/resource_index/package_run_dependencies/ament_cmake_export_include_directories
+[0.510s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_export_include_directories/share/ament_index/resource_index/parent_prefix_path/ament_cmake_export_include_directories
+[0.511s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/environment/ament_prefix_path.sh
+[0.511s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/environment/ament_prefix_path.dsv
+[0.512s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/environment/path.sh
+[0.512s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/environment/path.dsv
+[0.512s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/local_setup.bash
+[0.512s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/local_setup.sh
+[0.512s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/local_setup.zsh
+[0.513s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/local_setup.dsv
+[0.513s] -- Installing: /home/labdoo/ros2_ws/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/package.dsv
+[0.513s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_export_include_directories/share/ament_index/resource_index/packages/ament_cmake_export_include_directories
+[0.513s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.513s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/cmake/ament_cmake_export_include_directoriesConfig.cmake
+[0.513s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/cmake/ament_cmake_export_include_directoriesConfig-version.cmake
+[0.514s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/package.xml
+[0.514s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/cmake
+[0.514s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake
+[0.514s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/cmake/ament_cmake_export_include_directories_package_hook.cmake
+[0.514s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/cmake/ament_cmake_export_include_directories-extras.cmake.in
+[0.521s] Invoked command in '/home/labdoo/ros2_ws/build/ament_cmake_export_include_directories' returned '0': AMENT_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_core:/opt/ros/iron /usr/bin/cmake --install /home/labdoo/ros2_ws/build/ament_cmake_export_include_directories

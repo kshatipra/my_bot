@@ -1,0 +1,114 @@
+[0.258s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake /home/labdoo/ros2_ws/src/examples/rclcpp/wait_set -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/examples_rclcpp_wait_set
+[0.379s] -- The C compiler identification is GNU 11.4.0
+[0.511s] -- The CXX compiler identification is GNU 11.4.0
+[0.532s] -- Detecting C compiler ABI info
+[0.720s] -- Detecting C compiler ABI info - done
+[0.756s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.757s] -- Detecting C compile features
+[0.758s] -- Detecting C compile features - done
+[0.770s] -- Detecting CXX compiler ABI info
+[1.001s] -- Detecting CXX compiler ABI info - done
+[1.067s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.069s] -- Detecting CXX compile features
+[1.070s] -- Detecting CXX compile features - done
+[1.070s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.459s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.618s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.686s] -- Found example_interfaces: 0.10.2 (/opt/ros/iron/share/example_interfaces/cmake)
+[1.780s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.811s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.856s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.911s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.639s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[2.939s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.946s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[3.210s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.293s] -- Found FastRTPS: /opt/ros/iron/include  
+[3.411s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.910s] -- Found rclcpp_components: 21.0.5 (/opt/ros/iron/share/rclcpp_components/cmake)
+[4.193s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[4.318s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[4.535s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.540s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.543s] -- Configured cppcheck include dirs: /home/labdoo/ros2_ws/src/examples/rclcpp/wait_set/include
+[4.543s] -- Configured cppcheck exclude dirs and/or files: 
+[4.549s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.549s] -- Configured cpplint exclude dirs and/or files: 
+[4.553s] -- Added test 'lint_cmake' to check CMake code style
+[4.558s] -- Added test 'uncrustify' to check C / C++ code style
+[4.558s] -- Configured uncrustify additional arguments: 
+[4.562s] -- Added test 'xmllint' to check XML markup files
+[4.581s] -- Configuring done
+[4.879s] -- Generating done
+[4.909s] -- Build files have been written to: /home/labdoo/ros2_ws/build/examples_rclcpp_wait_set
+[4.936s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake /home/labdoo/ros2_ws/src/examples/rclcpp/wait_set -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/examples_rclcpp_wait_set
+[4.941s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake --build /home/labdoo/ros2_ws/build/examples_rclcpp_wait_set -- -j4 -l4
+[5.051s] [  4%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[16.929s] [  8%] [32m[1mLinking CXX shared library libtalker.so[0m
+[17.386s] [  8%] Built target talker
+[17.424s] [ 12%] [32mBuilding CXX object CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o[0m
+[29.837s] [ 16%] [32m[1mLinking CXX executable wait_set_listener[0m
+[30.439s] [ 16%] Built target wait_set_listener
+[30.535s] [ 20%] [32mBuilding CXX object CMakeFiles/wait_set.dir/src/wait_set.cpp.o[0m
+[48.567s] [ 25%] [32m[1mLinking CXX executable wait_set[0m
+[49.277s] [ 25%] Built target wait_set
+[49.300s] [ 29%] [32mBuilding CXX object CMakeFiles/static_wait_set.dir/src/static_wait_set.cpp.o[0m
+[61.499s] [ 33%] [32m[1mLinking CXX executable static_wait_set[0m
+[62.126s] [ 33%] Built target static_wait_set
+[62.151s] [ 37%] [32mBuilding CXX object CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o[0m
+[70.182s] [ 41%] [32mBuilding CXX object CMakeFiles/wait_set_topics_and_timer.dir/src/wait_set_topics_and_timer.cpp.o[0m
+[71.305s] [ 45%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[71.364s] [ 50%] [32mBuilding CXX object CMakeFiles/wait_set_talker.dir/rclcpp_components/node_main_wait_set_talker.cpp.o[0m
+[84.441s] [ 54%] [32m[1mLinking CXX executable thread_safe_wait_set[0m
+[86.761s] [ 54%] Built target thread_safe_wait_set
+[90.557s] [ 58%] [32m[1mLinking CXX executable wait_set_talker[0m
+[91.153s] [ 58%] Built target wait_set_talker
+[101.589s] [ 62%] [32m[1mLinking CXX executable wait_set_topics_and_timer[0m
+[102.728s] [ 62%] Built target wait_set_topics_and_timer
+[103.056s] [ 66%] [32m[1mLinking CXX shared library liblistener.so[0m
+[103.742s] [ 66%] Built target listener
+[103.765s] [ 70%] [32mBuilding CXX object CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o[0m
+[115.942s] [ 75%] [32m[1mLinking CXX executable wait_set_topics_with_different_rates[0m
+[116.600s] [ 75%] Built target wait_set_topics_with_different_rates
+[116.623s] [ 79%] [32mBuilding CXX object CMakeFiles/wait_set_composed.dir/src/wait_set_composed.cpp.o[0m
+[122.042s] [ 83%] [32m[1mLinking CXX executable wait_set_composed[0m
+[122.413s] [ 83%] Built target wait_set_composed
+[122.437s] [ 87%] [32mBuilding CXX object CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o[0m
+[133.789s] [ 91%] [32m[1mLinking CXX executable executor_random_order[0m
+[134.330s] [ 91%] Built target executor_random_order
+[134.353s] [ 95%] [32mBuilding CXX object CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o[0m
+[146.254s] [100%] [32m[1mLinking CXX executable wait_set_random_order[0m
+[146.906s] [100%] Built target wait_set_random_order
+[146.919s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake --build /home/labdoo/ros2_ws/build/examples_rclcpp_wait_set -- -j4 -l4
+[146.981s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake --install /home/labdoo/ros2_ws/build/examples_rclcpp_wait_set
+[146.989s] -- Install configuration: ""
+[146.989s] -- Execute custom install script
+[146.989s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[146.999s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[147.009s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/lib/libtalker.so
+[147.018s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/lib/liblistener.so
+[147.028s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[147.037s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[147.047s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[147.056s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[147.066s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[147.076s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[147.085s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[147.095s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[147.104s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[147.114s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[147.124s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[147.135s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[147.145s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[147.159s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[147.174s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[147.184s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[147.193s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[147.203s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[147.212s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[147.222s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[147.232s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[147.241s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[147.251s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[147.260s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[147.273s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake --install /home/labdoo/ros2_ws/build/examples_rclcpp_wait_set

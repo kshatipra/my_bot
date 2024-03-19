@@ -1,0 +1,13 @@
+[0.533s] Invoking command in '/home/labdoo/ros2_ws/build/urdf_tutorial': /usr/bin/cmake /home/labdoo/ros2_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/urdf_tutorial
+[0.628s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.103s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.104s] [31mCMake Error at /opt/ros/iron/share/ament_lint_auto/cmake/ament_lint_auto-extras.cmake:18 (message):
+[1.104s]   find_package(ament_lint_auto) must be called before ament_package()
+[1.104s] Call Stack (most recent call first):
+[1.104s]   /opt/ros/iron/share/ament_lint_auto/cmake/ament_lint_autoConfig.cmake:41 (include)
+[1.104s]   CMakeLists.txt:12 (find_package)
+[1.104s] 
+[1.104s] [0m
+[1.105s] -- Configuring incomplete, errors occurred!
+[1.105s] See also "/home/labdoo/ros2_ws/build/urdf_tutorial/CMakeFiles/CMakeOutput.log".
+[1.107s] Invoked command in '/home/labdoo/ros2_ws/build/urdf_tutorial' returned '1': /usr/bin/cmake /home/labdoo/ros2_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/urdf_tutorial

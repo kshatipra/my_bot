@@ -1,0 +1,25 @@
+[0.214s] Invoking command in '/home/labdoo/ros2_ws/build/ament_cmake_libraries': AMENT_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_core:/opt/ros/iron /usr/bin/cmake --build /home/labdoo/ros2_ws/build/ament_cmake_libraries -- -j4 -l4
+[0.280s] Invoked command in '/home/labdoo/ros2_ws/build/ament_cmake_libraries' returned '0': AMENT_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_core:/opt/ros/iron /usr/bin/cmake --build /home/labdoo/ros2_ws/build/ament_cmake_libraries -- -j4 -l4
+[0.350s] Invoking command in '/home/labdoo/ros2_ws/build/ament_cmake_libraries': AMENT_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_core:/opt/ros/iron /usr/bin/cmake --install /home/labdoo/ros2_ws/build/ament_cmake_libraries
+[0.364s] -- Install configuration: ""
+[0.365s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_libraries/share/ament_index/resource_index/package_run_dependencies/ament_cmake_libraries
+[0.365s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_libraries/share/ament_index/resource_index/parent_prefix_path/ament_cmake_libraries
+[0.365s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/environment/ament_prefix_path.sh
+[0.365s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/environment/ament_prefix_path.dsv
+[0.366s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/environment/path.sh
+[0.366s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/environment/path.dsv
+[0.366s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/local_setup.bash
+[0.366s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/local_setup.sh
+[0.366s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/local_setup.zsh
+[0.366s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/local_setup.dsv
+[0.367s] -- Installing: /home/labdoo/ros2_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/package.dsv
+[0.367s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_libraries/share/ament_index/resource_index/packages/ament_cmake_libraries
+[0.367s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/cmake/ament_cmake_libraries-extras.cmake
+[0.367s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/cmake/ament_cmake_librariesConfig.cmake
+[0.367s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/cmake/ament_cmake_librariesConfig-version.cmake
+[0.368s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/package.xml
+[0.368s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/cmake
+[0.368s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/cmake/ament_libraries_pack_build_configuration.cmake
+[0.368s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/cmake/ament_libraries_deduplicate.cmake
+[0.368s] -- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_libraries/share/ament_cmake_libraries/cmake/ament_libraries_unpack_build_configuration.cmake
+[0.370s] Invoked command in '/home/labdoo/ros2_ws/build/ament_cmake_libraries' returned '0': AMENT_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/labdoo/ros2_ws/install/ament_cmake_core:/opt/ros/iron /usr/bin/cmake --install /home/labdoo/ros2_ws/build/ament_cmake_libraries

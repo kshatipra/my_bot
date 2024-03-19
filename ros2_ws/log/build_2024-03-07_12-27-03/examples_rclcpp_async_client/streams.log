@@ -1,0 +1,67 @@
+[0.699s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake /home/labdoo/ros2_ws/src/examples/rclcpp/services/async_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/examples_rclcpp_async_client
+[0.872s] -- The C compiler identification is GNU 11.4.0
+[1.073s] -- The CXX compiler identification is GNU 11.4.0
+[1.127s] -- Detecting C compiler ABI info
+[1.349s] -- Detecting C compiler ABI info - done
+[1.412s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.413s] -- Detecting C compile features
+[1.414s] -- Detecting C compile features - done
+[1.445s] -- Detecting CXX compiler ABI info
+[1.735s] -- Detecting CXX compiler ABI info - done
+[1.788s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.788s] -- Detecting CXX compile features
+[1.788s] -- Detecting CXX compile features - done
+[1.790s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[2.484s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.665s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.731s] -- Found example_interfaces: 0.10.2 (/opt/ros/iron/share/example_interfaces/cmake)
+[2.893s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[2.949s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[3.020s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.076s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.034s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[4.445s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[4.454s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[4.755s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.950s] -- Found FastRTPS: /opt/ros/iron/include  
+[5.121s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.864s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[6.356s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.369s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.370s] -- Configured cppcheck include dirs: 
+[6.370s] -- Configured cppcheck exclude dirs and/or files: 
+[6.377s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.379s] -- Configured cpplint exclude dirs and/or files: 
+[6.387s] -- Added test 'lint_cmake' to check CMake code style
+[6.398s] -- Added test 'uncrustify' to check C / C++ code style
+[6.399s] -- Configured uncrustify additional arguments: 
+[6.404s] -- Added test 'xmllint' to check XML markup files
+[6.430s] -- Configuring done
+[6.511s] -- Generating done
+[6.528s] -- Build files have been written to: /home/labdoo/ros2_ws/build/examples_rclcpp_async_client
+[6.610s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake /home/labdoo/ros2_ws/src/examples/rclcpp/services/async_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/examples_rclcpp_async_client
+[6.628s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake --build /home/labdoo/ros2_ws/build/examples_rclcpp_async_client -- -j4 -l4
+[7.002s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[61.448s] [100%] [32m[1mLinking CXX executable client_main[0m
+[63.980s] [100%] Built target client_main
+[64.273s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake --build /home/labdoo/ros2_ws/build/examples_rclcpp_async_client -- -j4 -l4
+[64.974s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake --install /home/labdoo/ros2_ws/build/examples_rclcpp_async_client
+[65.060s] -- Install configuration: ""
+[65.076s] -- Execute custom install script
+[65.081s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_async_client/lib/examples_rclcpp_async_client/client_main
+[65.123s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_async_client
+[65.142s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_async_client
+[65.160s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/ament_prefix_path.sh
+[65.179s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/ament_prefix_path.dsv
+[65.196s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/path.sh
+[65.214s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/path.dsv
+[65.232s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.bash
+[65.251s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.sh
+[65.294s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.zsh
+[65.337s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.dsv
+[65.396s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.dsv
+[65.479s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/packages/examples_rclcpp_async_client
+[65.564s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig.cmake
+[65.638s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig-version.cmake
+[65.719s] -- Symlinking: /home/labdoo/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.xml
+[65.820s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/labdoo/turtlebot3_ws/install/turtlebot3_teleop:/home/labdoo/turtlebot3_ws/install/turtlebot3_example:/home/labdoo/turtlebot3_ws/install/newpackage /usr/bin/cmake --install /home/labdoo/ros2_ws/build/examples_rclcpp_async_client

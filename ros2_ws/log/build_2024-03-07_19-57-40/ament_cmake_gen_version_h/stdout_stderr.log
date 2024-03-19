@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[ 16%] Built target gtest_main
+[ 33%] Built target gtest
+[ 41%] Built target ament_generate_version_header__some_lib
+[35m[1mConsolidate compiler generated dependencies of target test_ament_cmake_gen_version_h[0m
+[35m[1mConsolidate compiler generated dependencies of target test_ament_generate_version_header[0m
+[ 83%] Built target test_ament_cmake_gen_version_h
+[100%] Built target test_ament_generate_version_header
+-- Install configuration: ""
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_gen_version_h/share/ament_index/resource_index/package_run_dependencies/ament_cmake_gen_version_h
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_gen_version_h/share/ament_index/resource_index/parent_prefix_path/ament_cmake_gen_version_h
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/environment/ament_prefix_path.sh
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/environment/ament_prefix_path.dsv
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/environment/path.sh
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/environment/path.dsv
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/local_setup.bash
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/local_setup.sh
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/local_setup.zsh
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/local_setup.dsv
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/package.dsv
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_gen_version_h/share/ament_index/resource_index/packages/ament_cmake_gen_version_h
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/ament_cmake_gen_version_h-extras.cmake
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/ament_cmake_gen_version_hConfig.cmake
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/ament_cmake_gen_version_hConfig-version.cmake
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/package.xml
+-- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/ament_cmake_gen_version_h.cmake
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/version.h.in
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/ament_generate_version_header.cmake
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_gen_version_h/share/ament_cmake_gen_version_h/cmake/generate_version_header.cmake.in

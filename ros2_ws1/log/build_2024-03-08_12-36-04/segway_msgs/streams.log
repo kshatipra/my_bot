@@ -1,0 +1,41 @@
+[0.281s] Invoking command in '/home/labdoo/ros2_ws1/build/segway_msgs': /usr/bin/cmake /home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/segway_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws1/install/segway_msgs
+[0.305s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.305s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.305s]   CMake.
+[0.306s] 
+[0.306s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.306s]   CMake that the project does not need compatibility with older versions.
+[0.306s] 
+[0.306s] [0m
+[0.457s] -- The C compiler identification is GNU 11.4.0
+[0.629s] -- The CXX compiler identification is GNU 11.4.0
+[0.650s] -- Detecting C compiler ABI info
+[0.787s] -- Detecting C compiler ABI info - done
+[0.810s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.812s] -- Detecting C compile features
+[0.813s] -- Detecting C compile features - done
+[0.822s] -- Detecting CXX compiler ABI info
+[0.983s] -- Detecting CXX compiler ABI info - done
+[1.010s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.011s] -- Detecting CXX compile features
+[1.012s] -- Detecting CXX compile features - done
+[1.050s] -- Configuring incomplete, errors occurred!
+[1.050s] See also "/home/labdoo/ros2_ws1/build/segway_msgs/CMakeFiles/CMakeOutput.log".
+[1.053s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[1.054s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.054s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.055s]   CMake did not find one.
+[1.055s] 
+[1.055s]   Could not find a package configuration file provided by "catkin" with any
+[1.055s]   of the following names:
+[1.055s] 
+[1.055s]     catkinConfig.cmake
+[1.055s]     catkin-config.cmake
+[1.055s] 
+[1.055s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.055s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.056s]   provides a separate development package or SDK, be sure it has been
+[1.056s]   installed.
+[1.056s] 
+[1.056s] [0m
+[1.059s] Invoked command in '/home/labdoo/ros2_ws1/build/segway_msgs' returned '1': /usr/bin/cmake /home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/segway_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws1/install/segway_msgs

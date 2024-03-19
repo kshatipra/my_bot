@@ -1,0 +1,22 @@
+[0.387s] Invoking command in '/home/labdoo/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/labdoo/ros2_ws/build/my_package -- -j4 -l4
+[0.512s] [100%] Built target my_node
+[1.093s] Invoked command in '/home/labdoo/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/labdoo/ros2_ws/build/my_package -- -j4 -l4
+[1.195s] Invoking command in '/home/labdoo/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/labdoo/ros2_ws/build/my_package
+[1.207s] -- Install configuration: ""
+[1.208s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/lib/my_package/my_node
+[1.208s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[1.208s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[1.209s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[1.209s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[1.209s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/share/my_package/environment/path.sh
+[1.209s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[1.209s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[1.210s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[1.210s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[1.210s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[1.210s] -- Installing: /home/labdoo/ros2_ws/install/my_package/share/my_package/package.dsv
+[1.210s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[1.210s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[1.211s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[1.211s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/share/my_package/package.xml
+[1.212s] Invoked command in '/home/labdoo/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/labdoo/ros2_ws/build/my_package

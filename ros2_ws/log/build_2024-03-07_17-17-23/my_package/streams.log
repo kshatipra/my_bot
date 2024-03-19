@@ -1,0 +1,35 @@
+[1.187s] Invoking command in '/home/labdoo/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/labdoo/ros2_ws/build/my_package -- -j4 -l4
+[1.687s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[3.047s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[3.223s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.223s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/labdoo/ros2_ws/src/my_package/include>
+[3.223s] -- Configured cppcheck exclude dirs and/or files: 
+[3.224s] -- Added test 'lint_cmake' to check CMake code style
+[3.226s] -- Added test 'uncrustify' to check C / C++ code style
+[3.227s] -- Configured uncrustify additional arguments: 
+[3.227s] -- Added test 'xmllint' to check XML markup files
+[3.229s] -- Configuring done
+[3.240s] -- Generating done
+[3.242s] -- Build files have been written to: /home/labdoo/ros2_ws/build/my_package
+[3.283s] [35m[1mConsolidate compiler generated dependencies of target my_node[0m
+[3.327s] [100%] Built target my_node
+[4.584s] Invoked command in '/home/labdoo/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/labdoo/ros2_ws/build/my_package -- -j4 -l4
+[4.858s] Invoking command in '/home/labdoo/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/labdoo/ros2_ws/build/my_package
+[4.877s] -- Install configuration: ""
+[4.878s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/lib/my_package/my_node
+[4.879s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[4.880s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[4.883s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[4.885s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[4.886s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/share/my_package/environment/path.sh
+[4.895s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[4.897s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[4.898s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[4.899s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[4.900s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[4.901s] -- Installing: /home/labdoo/ros2_ws/install/my_package/share/my_package/package.dsv
+[4.903s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[4.903s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[4.904s] -- Up-to-date: /home/labdoo/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[4.904s] -- Installing: /home/labdoo/ros2_ws/install/my_package/share/my_package/package.xml
+[4.904s] Invoked command in '/home/labdoo/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/labdoo/ros2_ws/build/my_package

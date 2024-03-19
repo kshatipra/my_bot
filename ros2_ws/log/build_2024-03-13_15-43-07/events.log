@@ -1,0 +1,256 @@
+[0.000000] (-) TimerEvent: {}
+[0.000280] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000341] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.000557] (examples_rclcpp_async_client) JobQueued: {'identifier': 'examples_rclcpp_async_client', 'dependencies': OrderedDict()}
+[0.000603] (examples_rclcpp_cbg_executor) JobQueued: {'identifier': 'examples_rclcpp_cbg_executor', 'dependencies': OrderedDict()}
+[0.000632] (examples_rclcpp_minimal_action_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_client', 'dependencies': OrderedDict()}
+[0.000663] (examples_rclcpp_minimal_action_server) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_server', 'dependencies': OrderedDict()}
+[0.000890] (examples_rclcpp_minimal_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_client', 'dependencies': OrderedDict()}
+[0.000992] (examples_rclcpp_minimal_composition) JobQueued: {'identifier': 'examples_rclcpp_minimal_composition', 'dependencies': OrderedDict()}
+[0.001056] (examples_rclcpp_minimal_publisher) JobQueued: {'identifier': 'examples_rclcpp_minimal_publisher', 'dependencies': OrderedDict()}
+[0.001085] (examples_rclcpp_minimal_service) JobQueued: {'identifier': 'examples_rclcpp_minimal_service', 'dependencies': OrderedDict()}
+[0.001112] (examples_rclcpp_minimal_subscriber) JobQueued: {'identifier': 'examples_rclcpp_minimal_subscriber', 'dependencies': OrderedDict()}
+[0.001138] (examples_rclcpp_minimal_timer) JobQueued: {'identifier': 'examples_rclcpp_minimal_timer', 'dependencies': OrderedDict()}
+[0.001276] (examples_rclcpp_multithreaded_executor) JobQueued: {'identifier': 'examples_rclcpp_multithreaded_executor', 'dependencies': OrderedDict()}
+[0.001368] (examples_rclcpp_wait_set) JobQueued: {'identifier': 'examples_rclcpp_wait_set', 'dependencies': OrderedDict()}
+[0.001394] (examples_rclpy_executors) JobQueued: {'identifier': 'examples_rclpy_executors', 'dependencies': OrderedDict()}
+[0.001421] (examples_rclpy_guard_conditions) JobQueued: {'identifier': 'examples_rclpy_guard_conditions', 'dependencies': OrderedDict()}
+[0.001475] (examples_rclpy_minimal_action_client) JobQueued: {'identifier': 'examples_rclpy_minimal_action_client', 'dependencies': OrderedDict()}
+[0.001502] (examples_rclpy_minimal_action_server) JobQueued: {'identifier': 'examples_rclpy_minimal_action_server', 'dependencies': OrderedDict()}
+[0.001601] (examples_rclpy_minimal_client) JobQueued: {'identifier': 'examples_rclpy_minimal_client', 'dependencies': OrderedDict()}
+[0.001636] (examples_rclpy_minimal_publisher) JobQueued: {'identifier': 'examples_rclpy_minimal_publisher', 'dependencies': OrderedDict()}
+[0.001662] (examples_rclpy_minimal_service) JobQueued: {'identifier': 'examples_rclpy_minimal_service', 'dependencies': OrderedDict()}
+[0.001697] (examples_rclpy_minimal_subscriber) JobQueued: {'identifier': 'examples_rclpy_minimal_subscriber', 'dependencies': OrderedDict()}
+[0.001741] (examples_rclpy_pointcloud_publisher) JobQueued: {'identifier': 'examples_rclpy_pointcloud_publisher', 'dependencies': OrderedDict()}
+[0.001767] (launch_testing_examples) JobQueued: {'identifier': 'launch_testing_examples', 'dependencies': OrderedDict()}
+[0.001864] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.001976] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.002006] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.002102] (turtlebot3_applications_msgs) JobQueued: {'identifier': 'turtlebot3_applications_msgs', 'dependencies': OrderedDict()}
+[0.002188] (turtlebot3_automatic_parking) JobQueued: {'identifier': 'turtlebot3_automatic_parking', 'dependencies': OrderedDict()}
+[0.002218] (turtlebot3_automatic_parking_vision) JobQueued: {'identifier': 'turtlebot3_automatic_parking_vision', 'dependencies': OrderedDict()}
+[0.002251] (turtlebot3_follow_filter) JobQueued: {'identifier': 'turtlebot3_follow_filter', 'dependencies': OrderedDict()}
+[0.002294] (turtlebot3_follower) JobQueued: {'identifier': 'turtlebot3_follower', 'dependencies': OrderedDict()}
+[0.002330] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.002424] (turtlebot3_panorama) JobQueued: {'identifier': 'turtlebot3_panorama', 'dependencies': OrderedDict([('turtlebot3_applications_msgs', '/home/labdoo/ros2_ws/install/turtlebot3_applications_msgs')])}
+[0.002514] (turtlebot3_applications) JobQueued: {'identifier': 'turtlebot3_applications', 'dependencies': OrderedDict([('turtlebot3_applications_msgs', '/home/labdoo/ros2_ws/install/turtlebot3_applications_msgs'), ('turtlebot3_automatic_parking', '/home/labdoo/ros2_ws/install/turtlebot3_automatic_parking'), ('turtlebot3_automatic_parking_vision', '/home/labdoo/ros2_ws/install/turtlebot3_automatic_parking_vision'), ('turtlebot3_follow_filter', '/home/labdoo/ros2_ws/install/turtlebot3_follow_filter'), ('turtlebot3_follower', '/home/labdoo/ros2_ws/install/turtlebot3_follower'), ('turtlebot3_panorama', '/home/labdoo/ros2_ws/install/turtlebot3_panorama')])}
+[0.002616] (turtlebot3_applications_msgs) JobStarted: {'identifier': 'turtlebot3_applications_msgs'}
+[0.091174] (turtlebot3_automatic_parking) JobStarted: {'identifier': 'turtlebot3_automatic_parking'}
+[0.098454] (-) TimerEvent: {}
+[0.177564] (turtlebot3_automatic_parking_vision) JobStarted: {'identifier': 'turtlebot3_automatic_parking_vision'}
+[0.198806] (-) TimerEvent: {}
+[0.267242] (turtlebot3_follow_filter) JobStarted: {'identifier': 'turtlebot3_follow_filter'}
+[0.298985] (-) TimerEvent: {}
+[0.358268] (turtlebot3_applications_msgs) JobProgress: {'identifier': 'turtlebot3_applications_msgs', 'progress': 'cmake'}
+[0.358578] (turtlebot3_applications_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/labdoo/ros2_ws/src/turtlebot3_applications_msgs', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/turtlebot3_applications_msgs'], 'cwd': '/home/labdoo/ros2_ws/build/turtlebot3_applications_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en'), ('USER', 'labdoo'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/labdoo'), ('OLDPWD', '/home/labdoo/ros2_ws/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '3931'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3954'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'labdoo'), ('WINDOWID', '48235191'), ('JOURNAL_STREAM', '8:29434'), ('_', '/home/labdoo/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('SAL_USE_VCLPLUGIN', 'kf5'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/iron/bin:/home/labdoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labdoo-00046524:@/tmp/.ICE-unix/3955,unix/labdoo-00046524:/tmp/.ICE-unix/3955'), ('GDM_LANG', 'en'), ('INVOCATION_ID', 'f2d776884a804eaca16eb1c24a621e77'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/labdoo/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/labdoo'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/labdoo/ros2_ws/build/turtlebot3_applications_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d23713b00475ae33eae8f0e065f15504'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/share/gnome:/home/labdoo/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[0.364346] (turtlebot3_automatic_parking) JobProgress: {'identifier': 'turtlebot3_automatic_parking', 'progress': 'cmake'}
+[0.364584] (turtlebot3_automatic_parking) Command: {'cmd': ['/usr/bin/cmake', '/home/labdoo/ros2_ws/src/turtlebot3_applications/turtlebot3_automatic_parking', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/turtlebot3_automatic_parking'], 'cwd': '/home/labdoo/ros2_ws/build/turtlebot3_automatic_parking', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en'), ('USER', 'labdoo'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/labdoo'), ('OLDPWD', '/home/labdoo/ros2_ws/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '3931'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3954'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'labdoo'), ('WINDOWID', '48235191'), ('JOURNAL_STREAM', '8:29434'), ('_', '/home/labdoo/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('SAL_USE_VCLPLUGIN', 'kf5'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/iron/bin:/home/labdoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labdoo-00046524:@/tmp/.ICE-unix/3955,unix/labdoo-00046524:/tmp/.ICE-unix/3955'), ('GDM_LANG', 'en'), ('INVOCATION_ID', 'f2d776884a804eaca16eb1c24a621e77'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/labdoo/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/labdoo'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/labdoo/ros2_ws/build/turtlebot3_automatic_parking'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d23713b00475ae33eae8f0e065f15504'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/share/gnome:/home/labdoo/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[0.368126] (turtlebot3_automatic_parking_vision) JobProgress: {'identifier': 'turtlebot3_automatic_parking_vision', 'progress': 'cmake'}
+[0.368780] (turtlebot3_automatic_parking_vision) Command: {'cmd': ['/usr/bin/cmake', '/home/labdoo/ros2_ws/src/turtlebot3_applications/turtlebot3_automatic_parking_vision', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/turtlebot3_automatic_parking_vision'], 'cwd': '/home/labdoo/ros2_ws/build/turtlebot3_automatic_parking_vision', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en'), ('USER', 'labdoo'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/labdoo'), ('OLDPWD', '/home/labdoo/ros2_ws/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '3931'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3954'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'labdoo'), ('WINDOWID', '48235191'), ('JOURNAL_STREAM', '8:29434'), ('_', '/home/labdoo/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('SAL_USE_VCLPLUGIN', 'kf5'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/iron/bin:/home/labdoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labdoo-00046524:@/tmp/.ICE-unix/3955,unix/labdoo-00046524:/tmp/.ICE-unix/3955'), ('GDM_LANG', 'en'), ('INVOCATION_ID', 'f2d776884a804eaca16eb1c24a621e77'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/labdoo/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/labdoo'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/labdoo/ros2_ws/build/turtlebot3_automatic_parking_vision'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d23713b00475ae33eae8f0e065f15504'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/share/gnome:/home/labdoo/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[0.375831] (turtlebot3_applications_msgs) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):\n'}
+[0.376496] (turtlebot3_applications_msgs) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.376686] (turtlebot3_applications_msgs) StderrLine: {'line': b'  CMake.\n'}
+[0.376847] (turtlebot3_applications_msgs) StderrLine: {'line': b'\n'}
+[0.377005] (turtlebot3_applications_msgs) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.377175] (turtlebot3_applications_msgs) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.377392] (turtlebot3_applications_msgs) StderrLine: {'line': b'\n'}
+[0.377558] (turtlebot3_applications_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.385403] (turtlebot3_automatic_parking) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):\n'}
+[0.385711] (turtlebot3_automatic_parking) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.385918] (turtlebot3_automatic_parking) StderrLine: {'line': b'  CMake.\n'}
+[0.386075] (turtlebot3_automatic_parking) StderrLine: {'line': b'\n'}
+[0.386233] (turtlebot3_automatic_parking) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.386392] (turtlebot3_automatic_parking) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.386547] (turtlebot3_automatic_parking) StderrLine: {'line': b'\n'}
+[0.392031] (turtlebot3_automatic_parking) StderrLine: {'line': b'\x1b[0m\n'}
+[0.392255] (turtlebot3_follow_filter) JobProgress: {'identifier': 'turtlebot3_follow_filter', 'progress': 'cmake'}
+[0.392321] (turtlebot3_follow_filter) Command: {'cmd': ['/usr/bin/cmake', '/home/labdoo/ros2_ws/src/turtlebot3_applications/turtlebot3_follow_filter', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/turtlebot3_follow_filter'], 'cwd': '/home/labdoo/ros2_ws/build/turtlebot3_follow_filter', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en'), ('USER', 'labdoo'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/labdoo'), ('OLDPWD', '/home/labdoo/ros2_ws/src'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '3931'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3954'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'labdoo'), ('WINDOWID', '48235191'), ('JOURNAL_STREAM', '8:29434'), ('_', '/home/labdoo/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c2'), ('SAL_USE_VCLPLUGIN', 'kf5'), ('INSIDE_CAJA_PYTHON', ''), ('PATH', '/opt/ros/iron/bin:/home/labdoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labdoo-00046524:@/tmp/.ICE-unix/3955,unix/labdoo-00046524:/tmp/.ICE-unix/3955'), ('GDM_LANG', 'en'), ('INVOCATION_ID', 'f2d776884a804eaca16eb1c24a621e77'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/labdoo/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/labdoo'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/labdoo/ros2_ws/build/turtlebot3_follow_filter'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d23713b00475ae33eae8f0e065f15504'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/share/gnome:/home/labdoo/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[0.393901] (turtlebot3_automatic_parking_vision) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):\n'}
+[0.394154] (turtlebot3_automatic_parking_vision) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.394335] (turtlebot3_automatic_parking_vision) StderrLine: {'line': b'  CMake.\n'}
+[0.394497] (turtlebot3_automatic_parking_vision) StderrLine: {'line': b'\n'}
+[0.394666] (turtlebot3_automatic_parking_vision) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.394829] (turtlebot3_automatic_parking_vision) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.394998] (turtlebot3_automatic_parking_vision) StderrLine: {'line': b'\n'}
+[0.395163] (turtlebot3_automatic_parking_vision) StderrLine: {'line': b'\x1b[0m\n'}
+[0.398285] (turtlebot3_follow_filter) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):\n'}
+[0.398597] (turtlebot3_follow_filter) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.398773] (turtlebot3_follow_filter) StderrLine: {'line': b'  CMake.\n'}
+[0.398930] (turtlebot3_follow_filter) StderrLine: {'line': b'\n'}
+[0.399080] (-) TimerEvent: {}
+[0.399323] (turtlebot3_follow_filter) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.399519] (turtlebot3_follow_filter) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.399692] (turtlebot3_follow_filter) StderrLine: {'line': b'\n'}
+[0.399867] (turtlebot3_follow_filter) StderrLine: {'line': b'\x1b[0m\n'}
+[0.492017] (turtlebot3_automatic_parking) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.494649] (turtlebot3_follow_filter) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.497090] (turtlebot3_automatic_parking_vision) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.500069] (-) TimerEvent: {}
+[0.503752] (turtlebot3_applications_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.600203] (-) TimerEvent: {}
+[0.629481] (turtlebot3_automatic_parking_vision) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.630177] (turtlebot3_automatic_parking) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.631873] (turtlebot3_applications_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.634082] (turtlebot3_follow_filter) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.647672] (turtlebot3_automatic_parking_vision) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.649748] (turtlebot3_applications_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.650004] (turtlebot3_automatic_parking) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.652052] (turtlebot3_follow_filter) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.700315] (-) TimerEvent: {}
+[0.780928] (turtlebot3_applications_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.783454] (turtlebot3_automatic_parking_vision) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.783755] (turtlebot3_follow_filter) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.792217] (turtlebot3_automatic_parking) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.800408] (-) TimerEvent: {}
+[0.802046] (turtlebot3_applications_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.803822] (turtlebot3_applications_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.804861] (turtlebot3_applications_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.808109] (turtlebot3_automatic_parking_vision) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.808630] (turtlebot3_automatic_parking_vision) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.809689] (turtlebot3_automatic_parking_vision) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.810205] (turtlebot3_follow_filter) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.810750] (turtlebot3_follow_filter) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.811807] (turtlebot3_follow_filter) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.813901] (turtlebot3_applications_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.817955] (turtlebot3_automatic_parking_vision) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.819689] (turtlebot3_automatic_parking) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.820054] (turtlebot3_follow_filter) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.820909] (turtlebot3_automatic_parking) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.822352] (turtlebot3_automatic_parking) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.831065] (turtlebot3_automatic_parking) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.900535] (-) TimerEvent: {}
+[0.979878] (turtlebot3_automatic_parking_vision) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.983894] (turtlebot3_applications_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.989499] (turtlebot3_automatic_parking) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.992120] (turtlebot3_follow_filter) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.000620] (-) TimerEvent: {}
+[1.005293] (turtlebot3_automatic_parking_vision) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.005871] (turtlebot3_automatic_parking_vision) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.007136] (turtlebot3_automatic_parking_vision) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.008207] (turtlebot3_applications_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.008832] (turtlebot3_applications_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.010172] (turtlebot3_applications_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.014783] (turtlebot3_follow_filter) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.015461] (turtlebot3_follow_filter) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.016782] (turtlebot3_follow_filter) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.018111] (turtlebot3_automatic_parking) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.019087] (turtlebot3_automatic_parking) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.020681] (turtlebot3_automatic_parking) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.036257] (turtlebot3_automatic_parking_vision) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:10 (find_package):\n'}
+[1.036668] (turtlebot3_automatic_parking_vision) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.037023] (turtlebot3_automatic_parking_vision) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[1.037184] (turtlebot3_automatic_parking_vision) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.037339] (turtlebot3_automatic_parking_vision) StderrLine: {'line': b'\n'}
+[1.037505] (turtlebot3_automatic_parking_vision) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[1.037648] (turtlebot3_automatic_parking_vision) StderrLine: {'line': b'  of the following names:\n'}
+[1.037796] (turtlebot3_automatic_parking_vision) StderrLine: {'line': b'\n'}
+[1.037930] (turtlebot3_automatic_parking_vision) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[1.038065] (turtlebot3_automatic_parking_vision) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[1.038191] (turtlebot3_automatic_parking_vision) StderrLine: {'line': b'\n'}
+[1.038326] (turtlebot3_automatic_parking_vision) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[1.038454] (turtlebot3_automatic_parking_vision) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[1.038581] (turtlebot3_automatic_parking_vision) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[1.038706] (turtlebot3_automatic_parking_vision) StderrLine: {'line': b'  installed.\n'}
+[1.038838] (turtlebot3_automatic_parking_vision) StderrLine: {'line': b'\n'}
+[1.038980] (turtlebot3_automatic_parking_vision) StderrLine: {'line': b'\x1b[0m\n'}
+[1.039124] (turtlebot3_automatic_parking_vision) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.039270] (turtlebot3_automatic_parking_vision) StdoutLine: {'line': b'See also "/home/labdoo/ros2_ws/build/turtlebot3_automatic_parking_vision/CMakeFiles/CMakeOutput.log".\n'}
+[1.039412] (turtlebot3_applications_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:10 (find_package):\n'}
+[1.039568] (turtlebot3_applications_msgs) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.039712] (turtlebot3_applications_msgs) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[1.039847] (turtlebot3_applications_msgs) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.040010] (turtlebot3_applications_msgs) StderrLine: {'line': b'\n'}
+[1.040166] (turtlebot3_applications_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[1.040322] (turtlebot3_applications_msgs) StderrLine: {'line': b'  of the following names:\n'}
+[1.040469] (turtlebot3_applications_msgs) StderrLine: {'line': b'\n'}
+[1.040615] (turtlebot3_applications_msgs) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[1.040748] (turtlebot3_applications_msgs) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[1.040876] (turtlebot3_applications_msgs) StderrLine: {'line': b'\n'}
+[1.041004] (turtlebot3_applications_msgs) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[1.041134] (turtlebot3_applications_msgs) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[1.041264] (turtlebot3_applications_msgs) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[1.041397] (turtlebot3_applications_msgs) StderrLine: {'line': b'  installed.\n'}
+[1.041772] (turtlebot3_applications_msgs) StderrLine: {'line': b'\n'}
+[1.041940] (turtlebot3_applications_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[1.042811] (turtlebot3_applications_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.043421] (turtlebot3_applications_msgs) StdoutLine: {'line': b'See also "/home/labdoo/ros2_ws/build/turtlebot3_applications_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[1.044386] (turtlebot3_automatic_parking_vision) CommandEnded: {'returncode': 1}
+[1.045226] (turtlebot3_follow_filter) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.046445] (turtlebot3_follow_filter) StdoutLine: {'line': b'See also "/home/labdoo/ros2_ws/build/turtlebot3_follow_filter/CMakeFiles/CMakeOutput.log".\n'}
+[1.046656] (turtlebot3_follow_filter) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:10 (find_package):\n'}
+[1.046806] (turtlebot3_follow_filter) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.046944] (turtlebot3_follow_filter) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[1.047095] (turtlebot3_follow_filter) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.047229] (turtlebot3_follow_filter) StderrLine: {'line': b'\n'}
+[1.047364] (turtlebot3_follow_filter) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[1.047495] (turtlebot3_follow_filter) StderrLine: {'line': b'  of the following names:\n'}
+[1.047626] (turtlebot3_follow_filter) StderrLine: {'line': b'\n'}
+[1.047755] (turtlebot3_follow_filter) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[1.047889] (turtlebot3_follow_filter) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[1.048033] (turtlebot3_follow_filter) StderrLine: {'line': b'\n'}
+[1.048527] (turtlebot3_follow_filter) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[1.049013] (turtlebot3_follow_filter) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[1.049439] (turtlebot3_follow_filter) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[1.049643] (turtlebot3_follow_filter) StderrLine: {'line': b'  installed.\n'}
+[1.050593] (turtlebot3_follow_filter) StderrLine: {'line': b'\n'}
+[1.050842] (turtlebot3_follow_filter) StderrLine: {'line': b'\x1b[0m\n'}
+[1.051040] (turtlebot3_applications_msgs) CommandEnded: {'returncode': 1}
+[1.052143] (turtlebot3_automatic_parking) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:10 (find_package):\n'}
+[1.052414] (turtlebot3_automatic_parking) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.052607] (turtlebot3_automatic_parking) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[1.052791] (turtlebot3_automatic_parking) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.052968] (turtlebot3_automatic_parking) StderrLine: {'line': b'\n'}
+[1.053149] (turtlebot3_automatic_parking) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[1.053320] (turtlebot3_automatic_parking) StderrLine: {'line': b'  of the following names:\n'}
+[1.053484] (turtlebot3_automatic_parking) StderrLine: {'line': b'\n'}
+[1.053663] (turtlebot3_automatic_parking) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[1.053859] (turtlebot3_automatic_parking) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[1.054027] (turtlebot3_automatic_parking) StderrLine: {'line': b'\n'}
+[1.054193] (turtlebot3_automatic_parking) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[1.054342] (turtlebot3_automatic_parking) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[1.054497] (turtlebot3_automatic_parking) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[1.054657] (turtlebot3_automatic_parking) StderrLine: {'line': b'  installed.\n'}
+[1.054807] (turtlebot3_automatic_parking) StderrLine: {'line': b'\n'}
+[1.054959] (turtlebot3_automatic_parking) StderrLine: {'line': b'\x1b[0m\n'}
+[1.058234] (turtlebot3_automatic_parking) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.058506] (turtlebot3_automatic_parking) StdoutLine: {'line': b'See also "/home/labdoo/ros2_ws/build/turtlebot3_automatic_parking/CMakeFiles/CMakeOutput.log".\n'}
+[1.058674] (turtlebot3_follow_filter) CommandEnded: {'returncode': 1}
+[1.063380] (turtlebot3_automatic_parking) CommandEnded: {'returncode': 1}
+[1.100735] (-) TimerEvent: {}
+[1.139414] (turtlebot3_automatic_parking_vision) JobEnded: {'identifier': 'turtlebot3_automatic_parking_vision', 'rc': 1}
+[1.198992] (turtlebot3_applications_msgs) JobEnded: {'identifier': 'turtlebot3_applications_msgs', 'rc': 1}
+[1.200230] (turtlebot3_follow_filter) JobEnded: {'identifier': 'turtlebot3_follow_filter', 'rc': 'SIGINT'}
+[1.200550] (turtlebot3_automatic_parking) JobEnded: {'identifier': 'turtlebot3_automatic_parking', 'rc': 'SIGINT'}
+[1.200845] (-) TimerEvent: {}
+[1.210910] (cpp_pubsub) JobSkipped: {'identifier': 'cpp_pubsub'}
+[1.211064] (cpp_srvcli) JobSkipped: {'identifier': 'cpp_srvcli'}
+[1.211129] (examples_rclcpp_async_client) JobSkipped: {'identifier': 'examples_rclcpp_async_client'}
+[1.211180] (examples_rclcpp_cbg_executor) JobSkipped: {'identifier': 'examples_rclcpp_cbg_executor'}
+[1.211239] (examples_rclcpp_minimal_action_client) JobSkipped: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[1.211565] (examples_rclcpp_minimal_action_server) JobSkipped: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[1.211754] (examples_rclcpp_minimal_client) JobSkipped: {'identifier': 'examples_rclcpp_minimal_client'}
+[1.211817] (examples_rclcpp_minimal_composition) JobSkipped: {'identifier': 'examples_rclcpp_minimal_composition'}
+[1.211869] (examples_rclcpp_minimal_publisher) JobSkipped: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[1.211917] (examples_rclcpp_minimal_service) JobSkipped: {'identifier': 'examples_rclcpp_minimal_service'}
+[1.211962] (examples_rclcpp_minimal_subscriber) JobSkipped: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[1.212026] (examples_rclcpp_minimal_timer) JobSkipped: {'identifier': 'examples_rclcpp_minimal_timer'}
+[1.212076] (examples_rclcpp_multithreaded_executor) JobSkipped: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[1.212122] (examples_rclcpp_wait_set) JobSkipped: {'identifier': 'examples_rclcpp_wait_set'}
+[1.212166] (examples_rclpy_executors) JobSkipped: {'identifier': 'examples_rclpy_executors'}
+[1.212208] (examples_rclpy_guard_conditions) JobSkipped: {'identifier': 'examples_rclpy_guard_conditions'}
+[1.212253] (examples_rclpy_minimal_action_client) JobSkipped: {'identifier': 'examples_rclpy_minimal_action_client'}
+[1.212301] (examples_rclpy_minimal_action_server) JobSkipped: {'identifier': 'examples_rclpy_minimal_action_server'}
+[1.212348] (examples_rclpy_minimal_client) JobSkipped: {'identifier': 'examples_rclpy_minimal_client'}
+[1.212395] (examples_rclpy_minimal_publisher) JobSkipped: {'identifier': 'examples_rclpy_minimal_publisher'}
+[1.212440] (examples_rclpy_minimal_service) JobSkipped: {'identifier': 'examples_rclpy_minimal_service'}
+[1.212486] (examples_rclpy_minimal_subscriber) JobSkipped: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[1.212530] (examples_rclpy_pointcloud_publisher) JobSkipped: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[1.212571] (launch_testing_examples) JobSkipped: {'identifier': 'launch_testing_examples'}
+[1.212596] (my_bot) JobSkipped: {'identifier': 'my_bot'}
+[1.212620] (my_package) JobSkipped: {'identifier': 'my_package'}
+[1.212643] (py_pubsub) JobSkipped: {'identifier': 'py_pubsub'}
+[1.212665] (turtlebot3_follower) JobSkipped: {'identifier': 'turtlebot3_follower'}
+[1.212688] (turtlesim) JobSkipped: {'identifier': 'turtlesim'}
+[1.212710] (turtlebot3_panorama) JobSkipped: {'identifier': 'turtlebot3_panorama'}
+[1.212732] (turtlebot3_applications) JobSkipped: {'identifier': 'turtlebot3_applications'}
+[1.212755] (-) EventReactorShutdown: {}

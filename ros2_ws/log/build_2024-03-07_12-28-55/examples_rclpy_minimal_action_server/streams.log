@@ -1,0 +1,32 @@
+[3.459s] Invoking command in '/home/labdoo/ros2_ws/build/examples_rclpy_minimal_action_server': PYTHONPATH=/home/labdoo/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/labdoo/ros2_ws/build/examples_rclpy_minimal_action_server/build --no-deps install_data
+[4.334s] running develop
+[4.334s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.334s]   warnings.warn(
+[4.339s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.340s]   warnings.warn(
+[4.981s] running egg_info
+[4.983s] creating examples_rclpy_minimal_action_server.egg-info
+[4.984s] writing examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[4.984s] writing dependency_links to examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[4.985s] writing entry points to examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[4.985s] writing requirements to examples_rclpy_minimal_action_server.egg-info/requires.txt
+[4.985s] writing top-level names to examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[4.985s] writing manifest file 'examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[4.986s] reading manifest file 'examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[4.988s] writing manifest file 'examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[4.991s] running build_ext
+[4.992s] Creating /home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples-rclpy-minimal-action-server.egg-link (link to .)
+[4.994s] Installing server script to /home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[4.994s] Installing server_defer script to /home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[4.994s] Installing server_not_composable script to /home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[4.995s] Installing server_queue_goals script to /home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[4.995s] Installing server_single_goal script to /home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[4.996s] 
+[4.996s] Installed /home/labdoo/ros2_ws/build/examples_rclpy_minimal_action_server
+[4.996s] running install_data
+[4.996s] creating /home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_server/share/ament_index
+[4.997s] creating /home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index
+[4.997s] creating /home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index/packages
+[4.997s] copying resource/examples_rclpy_minimal_action_server -> /home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_server/share/ament_index/resource_index/packages
+[4.997s] copying package.xml -> /home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_server/share/examples_rclpy_minimal_action_server
+[5.362s] Invoked command in '/home/labdoo/ros2_ws/build/examples_rclpy_minimal_action_server' returned '0': PYTHONPATH=/home/labdoo/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/home/labdoo/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/labdoo/ros2_ws/build/examples_rclpy_minimal_action_server/build --no-deps install_data

@@ -1,0 +1,262 @@
+[0.000000] (-) TimerEvent: {}
+[0.000245] (CollisionActorPlugin) JobQueued: {'identifier': 'CollisionActorPlugin', 'dependencies': OrderedDict()}
+[0.000317] (actor_move) JobQueued: {'identifier': 'actor_move', 'dependencies': OrderedDict()}
+[0.000355] (actor_pos_publish) JobQueued: {'identifier': 'actor_pos_publish', 'dependencies': OrderedDict()}
+[0.000384] (gazebo_world) JobQueued: {'identifier': 'gazebo_world', 'dependencies': OrderedDict()}
+[0.000410] (ira_laser_tools) JobQueued: {'identifier': 'ira_laser_tools', 'dependencies': OrderedDict()}
+[0.000437] (leg_tracker) JobQueued: {'identifier': 'leg_tracker', 'dependencies': OrderedDict()}
+[0.000463] (move_base_benchmark) JobQueued: {'identifier': 'move_base_benchmark', 'dependencies': OrderedDict()}
+[0.000505] (nmea_msgs) JobQueued: {'identifier': 'nmea_msgs', 'dependencies': OrderedDict()}
+[0.000554] (obj_detection) JobQueued: {'identifier': 'obj_detection', 'dependencies': OrderedDict()}
+[0.000583] (p3dx_description) JobQueued: {'identifier': 'p3dx_description', 'dependencies': OrderedDict()}
+[0.000610] (point_cloud_converter) JobQueued: {'identifier': 'point_cloud_converter', 'dependencies': OrderedDict()}
+[0.000758] (robot) JobQueued: {'identifier': 'robot', 'dependencies': OrderedDict()}
+[0.000784] (segway_description) JobQueued: {'identifier': 'segway_description', 'dependencies': OrderedDict()}
+[0.000810] (segway_msgs) JobQueued: {'identifier': 'segway_msgs', 'dependencies': OrderedDict()}
+[0.000861] (segway_sensor_filters) JobQueued: {'identifier': 'segway_sensor_filters', 'dependencies': OrderedDict()}
+[0.000890] (segway_sim_control) JobQueued: {'identifier': 'segway_sim_control', 'dependencies': OrderedDict()}
+[0.000999] (segway_upstart) JobQueued: {'identifier': 'segway_upstart', 'dependencies': OrderedDict()}
+[0.001089] (segway_v3_config) JobQueued: {'identifier': 'segway_v3_config', 'dependencies': OrderedDict()}
+[0.001170] (si_utils) JobQueued: {'identifier': 'si_utils', 'dependencies': OrderedDict()}
+[0.001202] (third_party_sensors) JobQueued: {'identifier': 'third_party_sensors', 'dependencies': OrderedDict()}
+[0.001228] (widowx_turret_controller) JobQueued: {'identifier': 'widowx_turret_controller', 'dependencies': OrderedDict()}
+[0.001469] (widowx_turret_description) JobQueued: {'identifier': 'widowx_turret_description', 'dependencies': OrderedDict()}
+[0.001564] (widowx_turret_gazebo) JobQueued: {'identifier': 'widowx_turret_gazebo', 'dependencies': OrderedDict()}
+[0.001590] (yolo_pp) JobQueued: {'identifier': 'yolo_pp', 'dependencies': OrderedDict()}
+[0.001616] (zed_description) JobQueued: {'identifier': 'zed_description', 'dependencies': OrderedDict()}
+[0.001648] (nmea_navsat_driver) JobQueued: {'identifier': 'nmea_navsat_driver', 'dependencies': OrderedDict([('nmea_msgs', '/home/labdoo/ros2_ws1/install/nmea_msgs')])}
+[0.001691] (p3dx_control) JobQueued: {'identifier': 'p3dx_control', 'dependencies': OrderedDict([('p3dx_description', '/home/labdoo/ros2_ws1/install/p3dx_description')])}
+[0.001722] (segway_gazebo) JobQueued: {'identifier': 'segway_gazebo', 'dependencies': OrderedDict([('segway_description', '/home/labdoo/ros2_ws1/install/segway_description'), ('segway_sim_control', '/home/labdoo/ros2_ws1/install/segway_sim_control')])}
+[0.001821] (segway_ros) JobQueued: {'identifier': 'segway_ros', 'dependencies': OrderedDict([('segway_description', '/home/labdoo/ros2_ws1/install/segway_description'), ('segway_msgs', '/home/labdoo/ros2_ws1/install/segway_msgs')])}
+[0.001906] (target_generation) JobQueued: {'identifier': 'target_generation', 'dependencies': OrderedDict([('leg_tracker', '/home/labdoo/ros2_ws1/install/leg_tracker')])}
+[0.001936] (widowx_turret) JobQueued: {'identifier': 'widowx_turret', 'dependencies': OrderedDict([('widowx_turret_controller', '/home/labdoo/ros2_ws1/install/widowx_turret_controller'), ('widowx_turret_description', '/home/labdoo/ros2_ws1/install/widowx_turret_description')])}
+[0.001976] (p3dx_gazebo) JobQueued: {'identifier': 'p3dx_gazebo', 'dependencies': OrderedDict([('p3dx_description', '/home/labdoo/ros2_ws1/install/p3dx_description'), ('p3dx_control', '/home/labdoo/ros2_ws1/install/p3dx_control')])}
+[0.002016] (segway_bringup) JobQueued: {'identifier': 'segway_bringup', 'dependencies': OrderedDict([('ira_laser_tools', '/home/labdoo/ros2_ws1/install/ira_laser_tools'), ('segway_description', '/home/labdoo/ros2_ws1/install/segway_description'), ('segway_msgs', '/home/labdoo/ros2_ws1/install/segway_msgs'), ('segway_upstart', '/home/labdoo/ros2_ws1/install/segway_upstart'), ('segway_v3_config', '/home/labdoo/ros2_ws1/install/segway_v3_config'), ('si_utils', '/home/labdoo/ros2_ws1/install/si_utils'), ('segway_ros', '/home/labdoo/ros2_ws1/install/segway_ros')])}
+[0.002059] (segway_navigation_apps) JobQueued: {'identifier': 'segway_navigation_apps', 'dependencies': OrderedDict([('segway_description', '/home/labdoo/ros2_ws1/install/segway_description'), ('segway_msgs', '/home/labdoo/ros2_ws1/install/segway_msgs'), ('segway_ros', '/home/labdoo/ros2_ws1/install/segway_ros')])}
+[0.002091] (segway_v3_simulator) JobQueued: {'identifier': 'segway_v3_simulator', 'dependencies': OrderedDict([('segway_description', '/home/labdoo/ros2_ws1/install/segway_description'), ('segway_sim_control', '/home/labdoo/ros2_ws1/install/segway_sim_control'), ('segway_gazebo', '/home/labdoo/ros2_ws1/install/segway_gazebo')])}
+[0.002188] (segway_navigation) JobQueued: {'identifier': 'segway_navigation', 'dependencies': OrderedDict([('segway_description', '/home/labdoo/ros2_ws1/install/segway_description'), ('segway_msgs', '/home/labdoo/ros2_ws1/install/segway_msgs'), ('segway_ros', '/home/labdoo/ros2_ws1/install/segway_ros'), ('segway_navigation_apps', '/home/labdoo/ros2_ws1/install/segway_navigation_apps')])}
+[0.002274] (segway_v3) JobQueued: {'identifier': 'segway_v3', 'dependencies': OrderedDict([('segway_description', '/home/labdoo/ros2_ws1/install/segway_description'), ('segway_msgs', '/home/labdoo/ros2_ws1/install/segway_msgs'), ('segway_v3_config', '/home/labdoo/ros2_ws1/install/segway_v3_config'), ('si_utils', '/home/labdoo/ros2_ws1/install/si_utils'), ('segway_ros', '/home/labdoo/ros2_ws1/install/segway_ros'), ('segway_navigation_apps', '/home/labdoo/ros2_ws1/install/segway_navigation_apps'), ('segway_navigation', '/home/labdoo/ros2_ws1/install/segway_navigation')])}
+[0.002320] (segway_v3_robot) JobQueued: {'identifier': 'segway_v3_robot', 'dependencies': OrderedDict([('ira_laser_tools', '/home/labdoo/ros2_ws1/install/ira_laser_tools'), ('segway_description', '/home/labdoo/ros2_ws1/install/segway_description'), ('segway_msgs', '/home/labdoo/ros2_ws1/install/segway_msgs'), ('segway_sensor_filters', '/home/labdoo/ros2_ws1/install/segway_sensor_filters'), ('segway_upstart', '/home/labdoo/ros2_ws1/install/segway_upstart'), ('segway_v3_config', '/home/labdoo/ros2_ws1/install/segway_v3_config'), ('si_utils', '/home/labdoo/ros2_ws1/install/si_utils'), ('third_party_sensors', '/home/labdoo/ros2_ws1/install/third_party_sensors'), ('segway_ros', '/home/labdoo/ros2_ws1/install/segway_ros'), ('segway_bringup', '/home/labdoo/ros2_ws1/install/segway_bringup'), ('segway_navigation_apps', '/home/labdoo/ros2_ws1/install/segway_navigation_apps'), ('segway_navigation', '/home/labdoo/ros2_ws1/install/segway_navigation'), ('segway_v3', '/home/labdoo/ros2_ws1/install/segway_v3')])}
+[0.002383] (segway_description) JobStarted: {'identifier': 'segway_description'}
+[0.098706] (-) TimerEvent: {}
+[0.119799] (segway_msgs) JobStarted: {'identifier': 'segway_msgs'}
+[0.198954] (-) TimerEvent: {}
+[0.209149] (segway_v3_config) JobStarted: {'identifier': 'segway_v3_config'}
+[0.299094] (-) TimerEvent: {}
+[0.299924] (si_utils) JobStarted: {'identifier': 'si_utils'}
+[0.393638] (segway_description) JobProgress: {'identifier': 'segway_description', 'progress': 'cmake'}
+[0.393938] (segway_description) Command: {'cmd': ['/usr/bin/cmake', '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/segway_description', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws1/install/segway_description'], 'cwd': '/home/labdoo/ros2_ws1/build/segway_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en'), ('USER', 'labdoo'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/labdoo'), ('OLDPWD', '/home/labdoo'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '3562'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3590'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1b1404e49fef99436e5fd7f365eaed15'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'labdoo'), ('WINDOWID', '62914566'), ('JOURNAL_STREAM', '8:29616'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('SAL_USE_VCLPLUGIN', 'kf5'), ('PATH', '/opt/ros/iron/bin:/home/labdoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labdoo-00046524:@/tmp/.ICE-unix/3591,unix/labdoo-00046524:/tmp/.ICE-unix/3591'), ('GDM_LANG', 'en'), ('INVOCATION_ID', 'c0735745d7424f27ab3008e329bf5887'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/labdoo/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/labdoo'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/labdoo/ros2_ws1/build/segway_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1b1404e49fef99436e5fd7f365eaed15'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/share/gnome:/home/labdoo/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[0.397459] (segway_msgs) JobProgress: {'identifier': 'segway_msgs', 'progress': 'cmake'}
+[0.397902] (segway_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/segway_msgs', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws1/install/segway_msgs'], 'cwd': '/home/labdoo/ros2_ws1/build/segway_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en'), ('USER', 'labdoo'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/labdoo'), ('OLDPWD', '/home/labdoo'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '3562'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3590'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1b1404e49fef99436e5fd7f365eaed15'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'labdoo'), ('WINDOWID', '62914566'), ('JOURNAL_STREAM', '8:29616'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('SAL_USE_VCLPLUGIN', 'kf5'), ('PATH', '/opt/ros/iron/bin:/home/labdoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labdoo-00046524:@/tmp/.ICE-unix/3591,unix/labdoo-00046524:/tmp/.ICE-unix/3591'), ('GDM_LANG', 'en'), ('INVOCATION_ID', 'c0735745d7424f27ab3008e329bf5887'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/labdoo/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/labdoo'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/labdoo/ros2_ws1/build/segway_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1b1404e49fef99436e5fd7f365eaed15'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/share/gnome:/home/labdoo/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[0.401995] (-) TimerEvent: {}
+[0.402371] (segway_v3_config) JobProgress: {'identifier': 'segway_v3_config', 'progress': 'cmake'}
+[0.402456] (segway_v3_config) Command: {'cmd': ['/usr/bin/cmake', '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/segway_v3_config', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws1/install/segway_v3_config'], 'cwd': '/home/labdoo/ros2_ws1/build/segway_v3_config', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en'), ('USER', 'labdoo'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/labdoo'), ('OLDPWD', '/home/labdoo'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '3562'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3590'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1b1404e49fef99436e5fd7f365eaed15'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'labdoo'), ('WINDOWID', '62914566'), ('JOURNAL_STREAM', '8:29616'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('SAL_USE_VCLPLUGIN', 'kf5'), ('PATH', '/opt/ros/iron/bin:/home/labdoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labdoo-00046524:@/tmp/.ICE-unix/3591,unix/labdoo-00046524:/tmp/.ICE-unix/3591'), ('GDM_LANG', 'en'), ('INVOCATION_ID', 'c0735745d7424f27ab3008e329bf5887'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/labdoo/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/labdoo'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/labdoo/ros2_ws1/build/segway_v3_config'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1b1404e49fef99436e5fd7f365eaed15'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/share/gnome:/home/labdoo/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[0.411013] (si_utils) JobProgress: {'identifier': 'si_utils', 'progress': 'cmake'}
+[0.411537] (si_utils) Command: {'cmd': ['/usr/bin/cmake', '/home/labdoo/ros2_ws1/Person-following-robot/src/segway/segway_v3/si_utils', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws1/install/si_utils'], 'cwd': '/home/labdoo/ros2_ws1/build/si_utils', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('QT_SCALE_FACTOR', '1'), ('LANGUAGE', 'en'), ('USER', 'labdoo'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'mate'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/labdoo'), ('OLDPWD', '/home/labdoo'), ('DESKTOP_SESSION', 'mate'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '3562'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3590'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1b1404e49fef99436e5fd7f365eaed15'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('UBUNTU_MENUPROXY', '1'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'labdoo'), ('WINDOWID', '62914566'), ('JOURNAL_STREAM', '8:29616'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('SAL_USE_VCLPLUGIN', 'kf5'), ('PATH', '/opt/ros/iron/bin:/home/labdoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labdoo-00046524:@/tmp/.ICE-unix/3591,unix/labdoo-00046524:/tmp/.ICE-unix/3591'), ('GDM_LANG', 'en'), ('INVOCATION_ID', 'c0735745d7424f27ab3008e329bf5887'), ('PAPERSIZE', 'a4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'mate'), ('XAUTHORITY', '/home/labdoo/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/labdoo'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'mate'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/labdoo/ros2_ws1/build/si_utils'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-mate:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1b1404e49fef99436e5fd7f365eaed15'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/mate:/usr/share/gnome:/home/labdoo/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('QT_FONT_DPI', '96')]), 'shell': False}
+[0.424922] (segway_msgs) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.425395] (segway_msgs) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.425506] (segway_msgs) StderrLine: {'line': b'  CMake.\n'}
+[0.425601] (segway_msgs) StderrLine: {'line': b'\n'}
+[0.425682] (segway_msgs) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.425762] (segway_msgs) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.425839] (segway_msgs) StderrLine: {'line': b'\n'}
+[0.425930] (segway_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.426029] (si_utils) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.426169] (si_utils) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.426312] (si_utils) StderrLine: {'line': b'  CMake.\n'}
+[0.426459] (si_utils) StderrLine: {'line': b'\n'}
+[0.426568] (si_utils) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.426651] (si_utils) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.426732] (si_utils) StderrLine: {'line': b'\n'}
+[0.426840] (si_utils) StderrLine: {'line': b'\x1b[0m\n'}
+[0.426993] (segway_description) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.427106] (segway_description) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.427189] (segway_description) StderrLine: {'line': b'  CMake.\n'}
+[0.427268] (segway_description) StderrLine: {'line': b'\n'}
+[0.427354] (segway_description) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.427465] (segway_description) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.427546] (segway_description) StderrLine: {'line': b'\n'}
+[0.427691] (segway_description) StderrLine: {'line': b'\x1b[0m\n'}
+[0.427832] (segway_v3_config) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.427997] (segway_v3_config) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.428128] (segway_v3_config) StderrLine: {'line': b'  CMake.\n'}
+[0.428287] (segway_v3_config) StderrLine: {'line': b'\n'}
+[0.428427] (segway_v3_config) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.428568] (segway_v3_config) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.428712] (segway_v3_config) StderrLine: {'line': b'\n'}
+[0.428851] (segway_v3_config) StderrLine: {'line': b'\x1b[0m\n'}
+[0.502106] (-) TimerEvent: {}
+[0.571068] (segway_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.574811] (si_utils) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.577132] (segway_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.580914] (segway_v3_config) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.602234] (-) TimerEvent: {}
+[0.702855] (-) TimerEvent: {}
+[0.748720] (segway_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.749115] (segway_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.750558] (si_utils) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.750924] (segway_v3_config) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.769521] (si_utils) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.769813] (segway_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.770007] (segway_v3_config) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.770189] (segway_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.802978] (-) TimerEvent: {}
+[0.904471] (-) TimerEvent: {}
+[0.906757] (segway_v3_config) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.907390] (segway_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.907653] (si_utils) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.912179] (segway_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.927343] (segway_v3_config) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.930149] (segway_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.931343] (segway_v3_config) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.931650] (segway_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.931917] (segway_v3_config) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.932781] (segway_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.933330] (si_utils) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.933907] (si_utils) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.934842] (si_utils) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.935322] (segway_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.935970] (segway_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.937135] (segway_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.941788] (segway_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.942504] (segway_v3_config) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.942790] (si_utils) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.945178] (segway_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.004592] (-) TimerEvent: {}
+[1.102267] (segway_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.102667] (segway_v3_config) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.102868] (segway_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.116208] (si_utils) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.116482] (-) TimerEvent: {}
+[1.127526] (segway_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.128239] (segway_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.129608] (segway_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.129952] (segway_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.130194] (segway_v3_config) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.130579] (segway_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.130826] (segway_v3_config) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.131975] (segway_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.132259] (segway_v3_config) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.132864] (si_utils) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.133725] (si_utils) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.135097] (si_utils) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.158292] (segway_v3_config) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[1.158765] (segway_v3_config) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.159035] (segway_v3_config) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[1.159222] (segway_v3_config) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.159393] (segway_v3_config) StderrLine: {'line': b'\n'}
+[1.159641] (segway_v3_config) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[1.160009] (segway_v3_config) StderrLine: {'line': b'  of the following names:\n'}
+[1.160180] (segway_v3_config) StderrLine: {'line': b'\n'}
+[1.160343] (segway_v3_config) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[1.160503] (segway_v3_config) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[1.160643] (segway_v3_config) StderrLine: {'line': b'\n'}
+[1.160780] (segway_v3_config) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[1.160913] (segway_v3_config) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[1.161040] (segway_v3_config) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[1.161166] (segway_v3_config) StderrLine: {'line': b'  installed.\n'}
+[1.161301] (segway_v3_config) StderrLine: {'line': b'\n'}
+[1.161428] (segway_v3_config) StderrLine: {'line': b'\x1b[0m\n'}
+[1.161554] (segway_v3_config) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.161694] (segway_v3_config) StdoutLine: {'line': b'See also "/home/labdoo/ros2_ws1/build/segway_v3_config/CMakeFiles/CMakeOutput.log".\n'}
+[1.161841] (segway_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[1.161995] (segway_description) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.162130] (segway_description) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[1.162264] (segway_description) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.162398] (segway_description) StderrLine: {'line': b'\n'}
+[1.162538] (segway_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[1.162673] (segway_description) StderrLine: {'line': b'  of the following names:\n'}
+[1.162805] (segway_description) StderrLine: {'line': b'\n'}
+[1.162951] (segway_description) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[1.163092] (segway_description) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[1.163243] (segway_description) StderrLine: {'line': b'\n'}
+[1.163386] (segway_description) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[1.163529] (segway_description) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[1.163662] (segway_description) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[1.163790] (segway_description) StderrLine: {'line': b'  installed.\n'}
+[1.163918] (segway_description) StderrLine: {'line': b'\n'}
+[1.164044] (segway_description) StderrLine: {'line': b'\x1b[0m\n'}
+[1.164211] (segway_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.164364] (segway_description) StdoutLine: {'line': b'See also "/home/labdoo/ros2_ws1/build/segway_description/CMakeFiles/CMakeOutput.log".\n'}
+[1.169189] (segway_description) CommandEnded: {'returncode': 1}
+[1.170031] (segway_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.170247] (segway_msgs) StdoutLine: {'line': b'See also "/home/labdoo/ros2_ws1/build/segway_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[1.170409] (si_utils) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:7 (find_package):\n'}
+[1.170568] (si_utils) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.170706] (si_utils) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[1.170839] (si_utils) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.170973] (si_utils) StderrLine: {'line': b'\n'}
+[1.171104] (si_utils) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[1.171239] (si_utils) StderrLine: {'line': b'  of the following names:\n'}
+[1.171379] (si_utils) StderrLine: {'line': b'\n'}
+[1.171543] (si_utils) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[1.171686] (si_utils) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[1.171876] (si_utils) StderrLine: {'line': b'\n'}
+[1.171984] (si_utils) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[1.172081] (si_utils) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[1.172429] (si_utils) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[1.172741] (si_utils) StderrLine: {'line': b'  installed.\n'}
+[1.172853] (si_utils) StderrLine: {'line': b'\n'}
+[1.172954] (si_utils) StderrLine: {'line': b'\x1b[0m\n'}
+[1.173053] (segway_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[1.173403] (segway_msgs) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.174062] (segway_msgs) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[1.174650] (segway_msgs) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.174775] (segway_msgs) StderrLine: {'line': b'\n'}
+[1.174870] (segway_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[1.174961] (segway_msgs) StderrLine: {'line': b'  of the following names:\n'}
+[1.175048] (segway_msgs) StderrLine: {'line': b'\n'}
+[1.175133] (segway_msgs) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[1.175219] (segway_msgs) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[1.175304] (segway_msgs) StderrLine: {'line': b'\n'}
+[1.175389] (segway_msgs) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[1.175475] (segway_msgs) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[1.175560] (segway_msgs) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[1.175645] (segway_msgs) StderrLine: {'line': b'  installed.\n'}
+[1.175729] (segway_msgs) StderrLine: {'line': b'\n'}
+[1.175812] (segway_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[1.175897] (si_utils) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.176325] (si_utils) StdoutLine: {'line': b'See also "/home/labdoo/ros2_ws1/build/si_utils/CMakeFiles/CMakeOutput.log".\n'}
+[1.176466] (segway_v3_config) CommandEnded: {'returncode': 1}
+[1.178501] (segway_msgs) CommandEnded: {'returncode': 1}
+[1.180669] (si_utils) CommandEnded: {'returncode': 1}
+[1.216958] (-) TimerEvent: {}
+[1.261391] (segway_description) JobEnded: {'identifier': 'segway_description', 'rc': 1}
+[1.262806] (segway_v3_config) JobEnded: {'identifier': 'segway_v3_config', 'rc': 'SIGINT'}
+[1.263118] (si_utils) JobEnded: {'identifier': 'si_utils', 'rc': 'SIGINT'}
+[1.263407] (segway_msgs) JobEnded: {'identifier': 'segway_msgs', 'rc': 'SIGINT'}
+[1.273280] (CollisionActorPlugin) JobSkipped: {'identifier': 'CollisionActorPlugin'}
+[1.273351] (actor_move) JobSkipped: {'identifier': 'actor_move'}
+[1.273386] (actor_pos_publish) JobSkipped: {'identifier': 'actor_pos_publish'}
+[1.273412] (gazebo_world) JobSkipped: {'identifier': 'gazebo_world'}
+[1.273437] (ira_laser_tools) JobSkipped: {'identifier': 'ira_laser_tools'}
+[1.273501] (leg_tracker) JobSkipped: {'identifier': 'leg_tracker'}
+[1.273529] (move_base_benchmark) JobSkipped: {'identifier': 'move_base_benchmark'}
+[1.273553] (nmea_msgs) JobSkipped: {'identifier': 'nmea_msgs'}
+[1.273575] (obj_detection) JobSkipped: {'identifier': 'obj_detection'}
+[1.273598] (p3dx_description) JobSkipped: {'identifier': 'p3dx_description'}
+[1.273624] (point_cloud_converter) JobSkipped: {'identifier': 'point_cloud_converter'}
+[1.273667] (robot) JobSkipped: {'identifier': 'robot'}
+[1.273709] (segway_sensor_filters) JobSkipped: {'identifier': 'segway_sensor_filters'}
+[1.273748] (segway_sim_control) JobSkipped: {'identifier': 'segway_sim_control'}
+[1.273832] (segway_upstart) JobSkipped: {'identifier': 'segway_upstart'}
+[1.273916] (third_party_sensors) JobSkipped: {'identifier': 'third_party_sensors'}
+[1.273994] (widowx_turret_controller) JobSkipped: {'identifier': 'widowx_turret_controller'}
+[1.274075] (widowx_turret_description) JobSkipped: {'identifier': 'widowx_turret_description'}
+[1.274149] (widowx_turret_gazebo) JobSkipped: {'identifier': 'widowx_turret_gazebo'}
+[1.274219] (yolo_pp) JobSkipped: {'identifier': 'yolo_pp'}
+[1.274262] (zed_description) JobSkipped: {'identifier': 'zed_description'}
+[1.274300] (nmea_navsat_driver) JobSkipped: {'identifier': 'nmea_navsat_driver'}
+[1.274338] (p3dx_control) JobSkipped: {'identifier': 'p3dx_control'}
+[1.274376] (segway_gazebo) JobSkipped: {'identifier': 'segway_gazebo'}
+[1.274417] (segway_ros) JobSkipped: {'identifier': 'segway_ros'}
+[1.274456] (target_generation) JobSkipped: {'identifier': 'target_generation'}
+[1.274481] (widowx_turret) JobSkipped: {'identifier': 'widowx_turret'}
+[1.274515] (p3dx_gazebo) JobSkipped: {'identifier': 'p3dx_gazebo'}
+[1.274556] (segway_bringup) JobSkipped: {'identifier': 'segway_bringup'}
+[1.274597] (segway_navigation_apps) JobSkipped: {'identifier': 'segway_navigation_apps'}
+[1.274638] (segway_v3_simulator) JobSkipped: {'identifier': 'segway_v3_simulator'}
+[1.274679] (segway_navigation) JobSkipped: {'identifier': 'segway_navigation'}
+[1.274722] (segway_v3) JobSkipped: {'identifier': 'segway_v3'}
+[1.274766] (segway_v3_robot) JobSkipped: {'identifier': 'segway_v3_robot'}
+[1.274805] (-) EventReactorShutdown: {}

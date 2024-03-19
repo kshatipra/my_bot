@@ -1,0 +1,41 @@
+[0.126s] Invoking command in '/home/labdoo/ros2_ws/build/turtlebot3_follow_filter': /usr/bin/cmake /home/labdoo/ros2_ws/src/turtlebot3_applications/turtlebot3_follow_filter -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/turtlebot3_follow_filter
+[0.131s] [0mCMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+[0.131s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.131s]   CMake.
+[0.132s] 
+[0.132s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.132s]   CMake that the project does not need compatibility with older versions.
+[0.132s] 
+[0.133s] [0m
+[0.227s] -- The C compiler identification is GNU 11.4.0
+[0.367s] -- The CXX compiler identification is GNU 11.4.0
+[0.385s] -- Detecting C compiler ABI info
+[0.516s] -- Detecting C compiler ABI info - done
+[0.543s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.543s] -- Detecting C compile features
+[0.544s] -- Detecting C compile features - done
+[0.553s] -- Detecting CXX compiler ABI info
+[0.725s] -- Detecting CXX compiler ABI info - done
+[0.747s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.748s] -- Detecting CXX compile features
+[0.749s] -- Detecting CXX compile features - done
+[0.778s] -- Configuring incomplete, errors occurred!
+[0.779s] See also "/home/labdoo/ros2_ws/build/turtlebot3_follow_filter/CMakeFiles/CMakeOutput.log".
+[0.779s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.779s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.780s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.780s]   CMake did not find one.
+[0.780s] 
+[0.780s]   Could not find a package configuration file provided by "catkin" with any
+[0.780s]   of the following names:
+[0.780s] 
+[0.780s]     catkinConfig.cmake
+[0.781s]     catkin-config.cmake
+[0.781s] 
+[0.781s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.782s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.782s]   provides a separate development package or SDK, be sure it has been
+[0.783s]   installed.
+[0.783s] 
+[0.784s] [0m
+[0.792s] Invoked command in '/home/labdoo/ros2_ws/build/turtlebot3_follow_filter' returned '1': /usr/bin/cmake /home/labdoo/ros2_ws/src/turtlebot3_applications/turtlebot3_follow_filter -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/turtlebot3_follow_filter

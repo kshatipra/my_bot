@@ -1,0 +1,21 @@
+-- Install configuration: ""
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_pytest/share/ament_index/resource_index/package_run_dependencies/ament_cmake_pytest
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_pytest/share/ament_index/resource_index/parent_prefix_path/ament_cmake_pytest
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_pytest/share/ament_cmake_pytest/environment/ament_prefix_path.sh
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_pytest/share/ament_cmake_pytest/environment/ament_prefix_path.dsv
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_pytest/share/ament_cmake_pytest/environment/path.sh
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_pytest/share/ament_cmake_pytest/environment/path.dsv
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_pytest/share/ament_cmake_pytest/local_setup.bash
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_pytest/share/ament_cmake_pytest/local_setup.sh
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_pytest/share/ament_cmake_pytest/local_setup.zsh
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_pytest/share/ament_cmake_pytest/local_setup.dsv
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_pytest/share/ament_cmake_pytest/package.dsv
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_pytest/share/ament_index/resource_index/packages/ament_cmake_pytest
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_pytest/share/ament_cmake_pytest/cmake/ament_cmake_pytest-extras.cmake
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_pytest/share/ament_cmake_pytest/cmake/ament_cmake_pytestConfig.cmake
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_pytest/share/ament_cmake_pytest/cmake/ament_cmake_pytestConfig-version.cmake
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_pytest/share/ament_cmake_pytest/package.xml
+-- Up-to-date: /home/labdoo/ros2_ws/install/ament_cmake_pytest/share/ament_cmake_pytest/cmake
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_pytest/share/ament_cmake_pytest/cmake/ament_get_pytest_cov_version.cmake
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_pytest/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake
+-- Installing: /home/labdoo/ros2_ws/install/ament_cmake_pytest/share/ament_cmake_pytest/cmake/ament_has_pytest.cmake

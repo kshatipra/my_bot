@@ -1,0 +1,33 @@
+[0.283s] Invoking command in '/home/labdoo/ros2_ws/build/urdf_tutorial': /usr/bin/cmake /home/labdoo/ros2_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/urdf_tutorial
+[0.472s] -- The C compiler identification is GNU 11.4.0
+[1.173s] -- The CXX compiler identification is GNU 11.4.0
+[1.313s] -- Detecting C compiler ABI info
+[2.618s] -- Detecting C compiler ABI info - done
+[2.797s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.798s] -- Detecting C compile features
+[2.803s] -- Detecting C compile features - done
+[2.839s] -- Detecting CXX compiler ABI info
+[3.952s] -- Detecting CXX compiler ABI info - done
+[3.996s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.997s] -- Detecting CXX compile features
+[4.002s] -- Detecting CXX compile features - done
+[4.045s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[4.045s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[4.045s]   asked CMake to find a package configuration file provided by "catkin", but
+[4.045s]   CMake did not find one.
+[4.046s] 
+[4.046s]   Could not find a package configuration file provided by "catkin" with any
+[4.046s]   of the following names:
+[4.046s] 
+[4.047s]     catkinConfig.cmake
+[4.047s]     catkin-config.cmake
+[4.047s] 
+[4.047s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[4.048s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[4.048s]   provides a separate development package or SDK, be sure it has been
+[4.048s]   installed.
+[4.048s] 
+[4.048s] [0m
+[4.049s] -- Configuring incomplete, errors occurred!
+[4.049s] See also "/home/labdoo/ros2_ws/build/urdf_tutorial/CMakeFiles/CMakeOutput.log".
+[4.089s] Invoked command in '/home/labdoo/ros2_ws/build/urdf_tutorial' returned '1': /usr/bin/cmake /home/labdoo/ros2_ws/src/urdf_tutorial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/install/urdf_tutorial

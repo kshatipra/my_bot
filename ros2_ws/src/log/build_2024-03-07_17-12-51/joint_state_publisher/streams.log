@@ -1,0 +1,21 @@
+[0.397s] Invoking command in '/home/labdoo/ros2_ws/src/build/joint_state_publisher': /usr/bin/cmake /home/labdoo/ros2_ws/src/joint_state_publisher/joint_state_publisher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/src/install/joint_state_publisher
+[0.440s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.441s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.441s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.441s]   CMake did not find one.
+[0.441s] 
+[0.441s]   Could not find a package configuration file provided by "catkin" with any
+[0.441s]   of the following names:
+[0.442s] 
+[0.442s]     catkinConfig.cmake
+[0.442s]     catkin-config.cmake
+[0.442s] 
+[0.442s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.442s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.443s]   provides a separate development package or SDK, be sure it has been
+[0.443s]   installed.
+[0.444s] 
+[0.444s] [0m
+[0.445s] -- Configuring incomplete, errors occurred!
+[0.445s] See also "/home/labdoo/ros2_ws/src/build/joint_state_publisher/CMakeFiles/CMakeOutput.log".
+[0.446s] Invoked command in '/home/labdoo/ros2_ws/src/build/joint_state_publisher' returned '1': /usr/bin/cmake /home/labdoo/ros2_ws/src/joint_state_publisher/joint_state_publisher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/labdoo/ros2_ws/src/install/joint_state_publisher
