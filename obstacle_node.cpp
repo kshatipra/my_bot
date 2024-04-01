@@ -25,33 +25,35 @@ private:
 
     // If an obstacle is detected, take avoiding action
     if (obstacle_detected) {
-      // Implement obstacle avoidance logic here
+      // Stop the robot
+      geometry_msgs::msg::Twist stop_twist;
+      robot_publisher_->publish(stop_twist);
+    } else {
+      // If no obstacle detected, continue forward
+      geometry_msgs::msg::Twist cmd_vel;
+      cmd_vel.linear.x = 0.2; // Adjust the linear velocity
+      cmd_vel.angular.z = 0.0;
+      robot_publisher_->publish(cmd_vel);
+    }
+  }
 
-      // Check if there are any legs in front of the robot
-      leg_detector::LegArray::SharedPtr leg_array = leg_detector_->detect(msg);
-      if (!leg_array->legs.empty()) {
-        // Calculate the angle to the closest leg
-        float closest_leg_angle = atan2(leg_array->legs.front().y, leg_array->legs.front().x);
-
-        // Calculate the desired robot movement based on the leg angle
-        float angular_velocity = closest_leg_angle * 0.1; // Adjust the scaling factor
-
-        // Publish the Twist message to control the robot's movement
-        geometry_msgs::msg::Twist cmd_vel;
-        cmd_vel.linear.x = 0.2; // Adjust the linear velocity
-        cmd_vel.angular.z = angular_velocity;
-        robot_publisher_->publish(cmd_vel);
-      } else {
-        // If there are no legs in front of the robot, stop the robot
-        geometry_msgs::msg::Twist stop_twist;
-        robot_publisher_->publish(stop_twist);
+  bool checkObstacles(const sensor_msgs::msg::LaserScan::SharedPtr msg) {
+    // Iterate through the laser scan data to check for obstacles
+    for (float range : msg->ranges) {
+      // Check if the range is less than a threshold value
+      if (range < obstacle_threshold_) {
+        // Obstacle detected
+        return true;
       }
     }
+    // No obstacles detected
+    return false;
   }
 
   std::shared_ptr<leg_detector::LegDetector> leg_detector_;
   rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr lidar_subscription_;
   rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr robot_publisher_;
+  float obstacle_threshold_ = 0.5; // Threshold distance for detecting obstacles
 };
 
 int main(int argc, char * argv[]) {
