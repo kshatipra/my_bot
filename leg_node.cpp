@@ -1,5 +1,6 @@
 #include <rclcpp/rclcpp.hpp>
 #include <geometry_msgs/msg/twist.hpp>
+#include <sensor_msgs/msg/laser_scan.hpp>
 #include <leg_detector/leg_detector.h>
 
 class LegDetectionNode : public rclcpp::Node {
