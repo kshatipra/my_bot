@@ -1,3 +1,6 @@
+//Assuming that the direction comes from an external algorithm
+
+
 #include <rclcpp/rclcpp.hpp>
 #include <geometry_msgs/msg/twist.hpp>
 
